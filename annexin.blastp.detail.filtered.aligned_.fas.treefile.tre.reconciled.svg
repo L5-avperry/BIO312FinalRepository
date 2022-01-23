@@ -1,0 +1,37 @@
+<svg height="142.5" viewBox="-15 52.5 502.25 262.5" width="347.5" xmlns="http://www.w3.org/2000/svg">
+<style>
+.species { font: italic 12px serif; fill: orange; }
+</style>
+<style>
+.gene_0 { font: 10px serif; fill:rgb(41, 9, 158); }
+</style>
+<g transform="translate(  -15 195) rotate(-90 0 0 ) ">
+<path d="M-15,123 L-15,52.5 L27,52.5 M15,123 L15,67.5 L30,67.5" fill="none" opacity="0.9" stroke="pink" stroke-width="6"/>
+<path d="M-15,120 L-15,150 L15,150 L15,120" fill="none" opacity="0.9" stroke="pink" stroke-width="6"/>
+<text class="species" transform="rotate(90 0,135)" x="-15" y="110">
+Nvectensis
+</text>
+<path d="M67.5,130.5 L67.5,52.5 L33,52.5 M52.5,130.5 L52.5,67.5 L30,67.5" fill="none" opacity="0.9" stroke="pink" stroke-width="6"/>
+<path d="M52.5,127.5 L52.5,142.5 L67.5,142.5 L67.5,127.5" fill="none" opacity="0.9" stroke="pink" stroke-width="6"/>
+<text class="species" transform="rotate(90 60,135)" x="45" y="117.5">
+Dgigantea
+</text>
+<path d="M7.5,54 l-6,-6 l12,0 z" fill="rgb(41, 9, 158)" opacity="0.9" stroke="rgb(41, 9, 158)" stroke-width="1"/>
+<path d="M4.5,57 l0,6 l6,0 l0,-6 z" fill="rgb(41, 9, 158)" opacity="0.9" stroke="rgb(41, 9, 158)" stroke-width="3"/>
+<path d="M-7.5,150 L-7.5,60 L7.5,60" fill="none" opacity="0.9" stroke="rgb(41, 9, 158)" stroke-width="3"/>
+<path d="M-8,149.5 l0,1 l1,0 l0,-1 z" fill="red" opacity="0.9" stroke="red" stroke-width="3"/>
+<text class="gene_0" transform="rotate(90 -12.5,165)" x="-12.5" y="165">
+Nvectensis.XP_032233579.1
+</text>
+<path d="M7.5,150 L7.5,60 L7.5,60" fill="none" opacity="0.9" stroke="rgb(41, 9, 158)" stroke-width="3"/>
+<path d="M7,149.5 l0,1 l1,0 l0,-1 z" fill="red" opacity="0.9" stroke="red" stroke-width="3"/>
+<text class="gene_0" transform="rotate(90 2.5,165)" x="2.5" y="165">
+Nvectensis.XP_032232391.1
+</text>
+<path d="M60,142.5 L60,60 L7.5,60" fill="none" opacity="0.9" stroke="rgb(41, 9, 158)" stroke-width="3"/>
+<path d="M59.5,142 l0,1 l1,0 l0,-1 z" fill="red" opacity="0.9" stroke="red" stroke-width="3"/>
+<text class="gene_0" transform="rotate(90 55,157.5)" x="55" y="157.5">
+Dgigantea.XP_028402658.1
+</text>
+</g>
+</svg>

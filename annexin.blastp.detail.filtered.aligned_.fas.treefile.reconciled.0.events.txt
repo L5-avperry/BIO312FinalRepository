@@ -1,0 +1,29 @@
+COST: 1.5
+
+
+Duplications
+Gene                L. Bound            U. Bound            
+=================== =================== =================== 
+n31                 Nvectensis          Anthozoa
+Duplications: 1 
+
+
+Losses
+Species             No. of Losses  
+=================== ============== 
+Dgigantea           0
+Nvectensis          0
+Anthozoa            0
+
+Losses: 0
+
+
+Species             Duplications   cD_Nodes       Transfers_from Transfers_to   Losses         
+=================== ============== ============== ============== ============== ============== 
+Dgigantea           0              0              0              0              0              
+Nvectensis          1              0              0              0              0              
+Anthozoa            0              0              0              0              0              
+
+Duplications: 1
+Losses: 0
+

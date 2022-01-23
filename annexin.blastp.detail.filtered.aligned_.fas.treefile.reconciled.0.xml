@@ -1,0 +1,51 @@
+<recPhylo>
+  <spTree>
+    <phylogeny>
+      <clade>
+        <name>Anthozoa</name>
+        <clade>
+          <name>Nvectensis</name>
+        </clade>
+        <clade>
+          <name>Dgigantea</name>
+        </clade>
+      </clade>
+    </phylogeny>
+  </spTree>
+  <recGeneTree>
+    <phylogeny rooted="true">
+      <clade>
+        <name>n31</name>
+        <confidence>1.0</confidence>
+        <branch_length>1.0</branch_length>
+        <eventsRec>
+          <duplication speciesLocation="Anthozoa"></duplication>
+        </eventsRec>
+        <clade>
+          <name>Nvectensis.XP_032233579.1</name>
+          <confidence>1.0</confidence>
+          <branch_length>0.1622547758</branch_length>
+          <eventsRec>
+            <leaf speciesLocation="Nvectensis" geneName="Nvectensis.XP_032233579.1"></leaf>
+          </eventsRec>
+        </clade>
+        <clade>
+          <name>Nvectensis.XP_032232391.1</name>
+          <confidence>1.0</confidence>
+          <branch_length>2.688e-06</branch_length>
+          <eventsRec>
+            <leaf speciesLocation="Nvectensis" geneName="Nvectensis.XP_032232391.1"></leaf>
+          </eventsRec>
+        </clade>
+        <clade>
+          <name>Dgigantea.XP_028402658.1</name>
+          <confidence>1.0</confidence>
+          <branch_length>0.9850321574</branch_length>
+          <eventsRec>
+            <leaf speciesLocation="Dgigantea" geneName="Dgigantea.XP_028402658.1"></leaf>
+          </eventsRec>
+        </clade>
+      </clade>
+    </phylogeny>
+  </recGeneTree>
+</recPhylo>
