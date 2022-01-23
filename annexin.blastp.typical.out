@@ -1,0 +1,1977 @@
+BLASTP 2.10.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: allprotein.fas
+           150,063 sequences; 81,927,641 total letters
+
+
+
+Query= XP_032232391.1 annexin A7 [Nematostella vectensis]
+
+Length=250
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Nvectensis.XP_032232391.1 unnamed protein product                     477     1e-172
+Nvectensis.XP_032233579.1 unnamed protein product                     280     2e-95 
+Dgigantea.XP_028402658.1 unnamed protein product                      93.2    2e-22 
+Hvulgaris.XP_002164587.2 unnamed protein product                      69.7    4e-14 
+Dgigantea.XP_028402621.1 unnamed protein product                      70.1    6e-14 
+Myessoensis.XP_021340406.1 unnamed protein product                    69.7    7e-14 
+Nvectensis.XP_032242907.1 unnamed protein product                     68.2    2e-13 
+Myessoensis.XP_021364517.1 unnamed protein product                    68.2    2e-13 
+Aplanci.XP_022088516.1 unnamed protein product                        68.2    2e-12 
+Hvulgaris.XP_004207566.1 unnamed protein product                      65.1    9e-12 
+Hvulgaris.XP_002161431.1 unnamed protein product                      63.5    1e-11 
+Bbelcheri.XP_019620882.1 unnamed protein product                      62.8    2e-11 
+Aplanci.XP_022088518.1 unnamed protein product                        64.7    4e-11 
+Dgigantea.XP_028402654.1 unnamed protein product                      61.6    1e-10 
+Hvulgaris.XP_012558794.1 unnamed protein product                      59.7    3e-10 
+Bbelcheri.XP_019620799.1 unnamed protein product                      59.7    3e-10 
+Hvulgaris.XP_002158862.1 unnamed protein product                      58.9    4e-10 
+Bbelcheri.XP_019630083.1 unnamed protein product                      58.9    5e-10 
+Aplanci.XP_022086956.1 unnamed protein product                        59.3    7e-10 
+Bbelcheri.XP_019620800.1 unnamed protein product                      58.9    8e-10 
+Hsapiens.NP_001382572.1 proline rich transmembrane protein 1B iso...  59.3    1e-09 
+Aplanci.XP_022096373.1 unnamed protein product                        57.8    1e-09 
+Myessoensis.XP_021379280.1 unnamed protein product                    58.2    1e-09 
+Nvectensis.XP_032225600.1 unnamed protein product                     57.8    3e-09 
+Myessoensis.XP_021379279.1 unnamed protein product                    56.6    6e-09 
+Hvulgaris.XP_002161283.2 unnamed protein product                      56.2    7e-09 
+Nvectensis.XP_001634609.2 unnamed protein product                     58.2    7e-09 
+Dgigantea.XP_028402661.1 unnamed protein product                      54.3    1e-08 
+Hvulgaris.XP_012565030.1 unnamed protein product                      52.4    5e-08 
+Bbelcheri.XP_019620884.1 unnamed protein product                      52.4    7e-08 
+Hsapiens.NP_660282.2 proline-rich transmembrane protein 2 isoform 1   54.3    1e-07 
+Myessoensis.XP_021379300.1 unnamed protein product                    52.0    1e-07 
+Hsapiens.NP_001099049.1 synapse differentiation-inducing gene pro...  53.5    1e-07 
+Myessoensis.XP_021379299.1 unnamed protein product                    53.1    1e-07 
+Myessoensis.XP_021347056.1 unnamed protein product                    50.8    4e-07 
+Aplanci.XP_022111498.1 unnamed protein product                        49.7    7e-07 
+Hvulgaris.XP_012560140.1 unnamed protein product                      50.1    1e-06 
+Aplanci.XP_022084882.1 unnamed protein product                        50.4    2e-06 
+Bbelcheri.XP_019647924.1 unnamed protein product                      48.5    2e-06 
+Bbelcheri.XP_019638223.1 unnamed protein product                      48.9    2e-06 
+Nvectensis.XP_032237469.1 unnamed protein product                     48.9    2e-06 
+Hsapiens.NP_079169.1 synapse differentiation-inducing gene protein 1  49.3    3e-06 
+Nvectensis.XP_032229879.1 unnamed protein product                     48.9    5e-06 
+Bbelcheri.XP_019626264.1 unnamed protein product                      49.7    6e-06 
+Hvulgaris.XP_012565782.1 unnamed protein product                      48.1    6e-06 
+Bbelcheri.XP_019638176.1 unnamed protein product                      46.6    8e-06 
+Bbelcheri.XP_019645750.1 unnamed protein product                      47.8    2e-05 
+Aplanci.XP_022086921.1 unnamed protein product                        46.2    3e-05 
+Nvectensis.XP_001641580.2 unnamed protein product                     47.0    4e-05 
+Aplanci.XP_022099592.1 unnamed protein product                        45.8    6e-05 
+Nvectensis.XP_032226152.1 unnamed protein product                     46.2    6e-05 
+Bbelcheri.XP_019644437.1 unnamed protein product                      43.9    7e-05 
+Aplanci.XP_022096361.1 unnamed protein product                        43.9    1e-04 
+Nvectensis.XP_032223038.1 unnamed protein product                     44.3    1e-04 
+Aplanci.XP_022112108.1 unnamed protein product                        45.1    1e-04 
+Hvulgaris.XP_002158914.1 unnamed protein product                      43.1    1e-04 
+Myessoensis.XP_021341652.1 unnamed protein product                    44.3    3e-04 
+Bbelcheri.XP_019619908.1 unnamed protein product                      42.7    6e-04 
+Myessoensis.XP_021351760.1 unnamed protein product                    43.1    6e-04 
+Bbelcheri.XP_019643728.1 unnamed protein product                      42.7    7e-04 
+Aplanci.XP_022092587.1 unnamed protein product                        41.2    8e-04 
+Aplanci.XP_022079833.1 unnamed protein product                        42.0    0.001 
+Bbelcheri.XP_019634395.1 unnamed protein product                      42.0    0.001 
+Bbelcheri.XP_019627363.1 unnamed protein product                      42.0    0.002 
+Aplanci.XP_022086922.1 unnamed protein product                        40.4    0.002 
+Myessoensis.XP_021340407.1 unnamed protein product                    40.0    0.002 
+Myessoensis.XP_021350528.1 unnamed protein product                    41.6    0.002 
+Hvulgaris.XP_012561248.1 unnamed protein product                      41.6    0.002 
+Myessoensis.XP_021368841.1 unnamed protein product                    41.6    0.002 
+Bbelcheri.XP_019620149.1 unnamed protein product                      41.6    0.002 
+Dgigantea.XP_028402653.1 unnamed protein product                      40.0    0.004 
+Aplanci.XP_022101487.1 unnamed protein product                        38.9    0.011 
+Myessoensis.XP_021351218.1 unnamed protein product                    39.3    0.012 
+Aplanci.XP_022086923.1 unnamed protein product                        37.4    0.017 
+Myessoensis.XP_021368839.1 unnamed protein product                    38.5    0.021 
+Aplanci.XP_022106114.1 unnamed protein product                        37.7    0.026 
+Hsapiens.NP_001254479.2 titin isoform IC                              38.1    0.028 
+Aplanci.XP_022099047.1 unnamed protein product                        37.0    0.029 
+Nvectensis.XP_032220297.1 unnamed protein product                     38.1    0.030 
+Bbelcheri.XP_019639705.1 unnamed protein product                      37.4    0.035 
+Myessoensis.XP_021367980.1 unnamed protein product                    37.7    0.038 
+Hvulgaris.XP_012562865.1 unnamed protein product                      36.2    0.042 
+Bbelcheri.XP_019634330.1 unnamed protein product                      37.7    0.043 
+Aplanci.XP_022097439.1 unnamed protein product                        37.0    0.054 
+Aplanci.XP_022089336.1 unnamed protein product                        36.6    0.090 
+Nvectensis.XP_032217897.1 unnamed protein product                     35.8    0.17  
+Dgigantea.XP_028405366.1 unnamed protein product                      35.4    0.17  
+Bbelcheri.XP_019621758.1 unnamed protein product                      35.0    0.19  
+Hvulgaris.XP_002161982.2 unnamed protein product                      35.4    0.19  
+Hsapiens.NP_055853.1 uncharacterized protein KIAA0754                 35.4    0.20  
+Bbelcheri.XP_019636910.1 unnamed protein product                      35.0    0.25  
+Bbelcheri.XP_019619105.1 unnamed protein product                      35.0    0.27  
+Nvectensis.XP_032228508.1 unnamed protein product                     34.7    0.31  
+Nvectensis.XP_001623291.1 unnamed protein product                     34.7    0.37  
+Aplanci.XP_022082962.1 unnamed protein product                        33.9    0.65  
+Nvectensis.XP_032240216.1 unnamed protein product                     33.9    0.70  
+Aplanci.XP_022092303.1 unnamed protein product                        33.5    0.81  
+Myessoensis.XP_021355735.1 unnamed protein product                    33.5    0.83  
+Myessoensis.XP_021359454.1 unnamed protein product                    33.1    1.2   
+Aplanci.XP_022099594.1 unnamed protein product                        32.3    1.3   
+Nvectensis.XP_032221684.1 unnamed protein product                     32.7    1.4   
+Bbelcheri.XP_019620292.1 unnamed protein product                      32.3    1.6   
+Bbelcheri.XP_019636994.1 unnamed protein product                      32.3    1.9   
+Aplanci.XP_022080539.1 unnamed protein product                        32.0    2.0   
+Dgigantea.XP_028412343.1 unnamed protein product                      32.0    2.1   
+Myessoensis.XP_021354329.1 unnamed protein product                    32.0    2.6   
+Myessoensis.XP_021347272.1 unnamed protein product                    32.0    2.9   
+Myessoensis.XP_021351393.1 unnamed protein product                    31.6    3.6   
+Nvectensis.XP_032242091.1 unnamed protein product                     30.8    3.7   
+Nvectensis.XP_001635026.2 unnamed protein product                     30.0    3.9   
+Myessoensis.XP_021360115.1 unnamed protein product                    30.4    6.3   
+Dgigantea.XP_028401165.1 unnamed protein product                      30.4    6.4   
+Myessoensis.XP_021367487.1 unnamed protein product                    30.8    6.9   
+Hsapiens.NP_001369477.1 transcription elongation regulator 1 isof...  30.4    8.0   
+
+
+>Nvectensis.XP_032232391.1 unnamed protein product
+Length=250
+
+ Score = 477 bits (1228),  Expect = 1e-172, Method: Compositional matrix adjust.
+ Identities = 250/250 (100%), Positives = 250/250 (100%), Gaps = 0/250 (0%)
+
+Query  1    MAEKQGFPGSEPPPPYPETHQPYPNAPYPPEANPSPTTTQPSPYPAQNPPPYNPNDPSVP  60
+            MAEKQGFPGSEPPPPYPETHQPYPNAPYPPEANPSPTTTQPSPYPAQNPPPYNPNDPSVP
+Sbjct  1    MAEKQGFPGSEPPPPYPETHQPYPNAPYPPEANPSPTTTQPSPYPAQNPPPYNPNDPSVP  60
+
+Query  61   VVNMPYQQTVGFPASQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPP  120
+            VVNMPYQQTVGFPASQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPP
+Sbjct  61   VVNMPYQQTVGFPASQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPP  120
+
+Query  121  QQGYPAQQQGYPPAQQGYPAPQQGYQTTGGYPYTTQHNVTIVTGGPAVVVGGVPAPDYCG  180
+            QQGYPAQQQGYPPAQQGYPAPQQGYQTTGGYPYTTQHNVTIVTGGPAVVVGGVPAPDYCG
+Sbjct  121  QQGYPAQQQGYPPAQQGYPAPQQGYQTTGGYPYTTQHNVTIVTGGPAVVVGGVPAPDYCG  180
+
+Query  181  LSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITAGIILIIC  240
+            LSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITAGIILIIC
+Sbjct  181  LSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITAGIILIIC  240
+
+Query  241  IVVFRIFAFN  250
+            IVVFRIFAFN
+Sbjct  241  IVVFRIFAFN  250
+
+
+>Nvectensis.XP_032233579.1 unnamed protein product
+Length=192
+
+ Score = 280 bits (715),  Expect = 2e-95, Method: Compositional matrix adjust.
+ Identities = 163/220 (74%), Positives = 175/220 (80%), Gaps = 31/220 (14%)
+
+Query  1    MAEKQGFPGSEPPPPYPETHQPYPNAPYPPEANPSPTTTQPSPYPAQNPPPYNPNDPSVP  60
+            MAEKQGFPGSEPPPPYPETHQPYPNAPYPPEANPSPTTTQPSPYPAQNPPPYNPNDPSVP
+Sbjct  1    MAEKQGFPGSEPPPPYPETHQPYPNAPYPPEANPSPTTTQPSPYPAQNPPPYNPNDPSVP  60
+
+Query  61   VVNMPYQQTVGFPASQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPP  120
+            VVNMPYQQTVGFPASQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPP
+Sbjct  61   VVNMPYQQTVGFPASQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPP  120
+
+Query  121  QQGYPAQQQGYPPAQQGYPAPQQGYQTTGGYPYTTQHNVTIVTGGPAVVVGGVPAPDYCG  180
+            QQGYPAQQQGYPPA       QQGYQTTGGYPYTTQHNVTIV                  
+Sbjct  121  QQGYPAQQQGYPPA-------QQGYQTTGGYPYTTQHNVTIV------------------  155
+
+Query  181  LSLFSCL--FCCWPIGLVAVINAKHAREANQRGDYARAST  218
+            +S++ CL  F C    ++ ++   H R   Q+  +++  +
+Sbjct  156  VSVWFCLVSFMC----ILLLLLNYHRRGTEQKKSFSKIRS  191
+
+
+>Dgigantea.XP_028402658.1 unnamed protein product
+Length=189
+
+ Score = 93.2 bits (230),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 68/175 (39%), Positives = 89/175 (51%), Gaps = 26/175 (15%)
+
+Query  80   HPAPPPQQ-----GYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYPPA  134
+            HP  PPQ+     GYPP  QGYPP  QGYPP  QGYPP  QGYPP  QG+  Q  G+   
+Sbjct  25   HPGYPPQKDHGGSGYPP--QGYPPQGQGYPPQGQGYPPQGQGYPP--QGHFQQPAGF---  77
+
+Query  135  QQGYPAPQQGYQTTGGYPYTTQHNVTIVTGGPAVVVGGVPAPDYCGLSLFSCLFCCWPIG  194
+                 + Q    TT       Q   + V   P V        D  GL++F+CL CC  IG
+Sbjct  78   -----SSQTNNTTTVVVQNQPQVVTSTVI--PVV-------NDQMGLAIFACLCCCPLIG  123
+
+Query  195  LVAVINAKHAREANQRGDYARASTYSQMARRYANIAITAGIILIICIVVFRIFAF  249
+            L+A++ +  +R     GDY  A + +Q +R  +  AI  G+I+I  I+V R+  F
+Sbjct  124  LIAIVKSSESRSRYVSGDYVGAVSSAQSSRNLSYAAIVCGLIMIPLIIVLRVVVF  178
+
+
+>Hvulgaris.XP_002164587.2 unnamed protein product
+Length=137
+
+ Score = 69.7 bits (169),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 34/90 (38%), Positives = 52/90 (58%), Gaps = 1/90 (1%)
+
+Query  157  HNVTIVTGGPAVVVGGVPAPDYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARA  216
+            H + IVT  P V +  +P  +Y   + F+CLFCCWP+GL+++  +     A   GD  RA
+Sbjct  47   HAIGIVTQQPEVNMAQLP-NNYRATAWFTCLFCCWPLGLMSIKKSNEVETAISLGDIDRA  105
+
+Query  217  STYSQMARRYANIAITAGIILIICIVVFRI  246
+             + S+ AR YA  A+  G+ +I  IV++ I
+Sbjct  106  QSASKSARNYAVAAVFGGLFVIALIVIYAI  135
+
+
+>Dgigantea.XP_028402621.1 unnamed protein product
+Length=184
+
+ Score = 70.1 bits (170),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 55/152 (36%), Positives = 78/152 (51%), Gaps = 25/152 (16%)
+
+Query  98   PPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYPPAQQGYPAPQQGYQTTGGYPYTTQH  157
+            P Q   P PQQG PP   GYPP         QG  P   GY    QG   TG +    QH
+Sbjct  47   PMQTAAPYPQQGVPP---GYPP---------QGAAP---GYTT--QGVGVTGYH----QH  85
+
+Query  158  N-VTIVTGGPA--VVVGGVPAPDYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYA  214
+            N  TI+T  P   V++     PD+  +S+ S +FCC+ IG+ AV+ +  +R+  ++GDYA
+Sbjct  86   NQTTIITQQPTSGVIIHTTQPPDFMVVSIIS-MFCCFFIGIFAVLKSMRSRDLFRQGDYA  144
+
+Query  215  RASTYSQMARRYANIAITAGIILIICIVVFRI  246
+             A      A++ A ++I   + L + IV+ RI
+Sbjct  145  GAQEVGMQAKKLAYVSIFVAVCLYVFIVILRI  176
+
+
+>Myessoensis.XP_021340406.1 unnamed protein product
+Length=163
+
+ Score = 69.7 bits (169),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 28/71 (39%), Positives = 44/71 (62%), Gaps = 0/71 (0%)
+
+Query  174  PAPDYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITA  233
+            P PDY   ++F+ + C WP+G+ A++ A  A+ A  RGD+  A + S  ARR +NIAI A
+Sbjct  78   PPPDYMNRAIFTTICCFWPVGIFAIMKASEAKNAYARGDFLGAKSNSDSARRLSNIAIFA  137
+
+Query  234  GIILIICIVVF  244
+            G+  I+  ++ 
+Sbjct  138  GVASIVVSMII  148
+
+
+>Nvectensis.XP_032242907.1 unnamed protein product
+Length=170
+
+ Score = 68.2 bits (165),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 31/78 (40%), Positives = 47/78 (60%), Gaps = 0/78 (0%)
+
+Query  170  VGGVPAPDYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANI  229
+            +G V  PDY  L+ F+CL CCWP+G+VA+I +   R A  RGDYA A+  S  AR  + +
+Sbjct  80   IGVVSPPDYQALAWFACLCCCWPVGIVAIIKSNEVRNAMARGDYAAANAASSSARTLSMV  139
+
+Query  230  AITAGIILIICIVVFRIF  247
+            +I  G+  ++  ++  I 
+Sbjct  140  SIGMGVAFMVLYLILLIV  157
+
+
+>Myessoensis.XP_021364517.1 unnamed protein product
+Length=173
+
+ Score = 68.2 bits (165),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 58/172 (34%), Positives = 80/172 (47%), Gaps = 26/172 (15%)
+
+Query  100  QQGYPPP---QQGYPPP-----QQGYPPP----QQGYPAQQQGYPP----AQQGYPAPQQ  143
+            + G PPP    QG+ PP      QGY  P      GY AQ QGY P       G+  PQ 
+Sbjct  4    KSGAPPPPYTNQGFVPPPPAGGNQGYGQPPISGNAGY-AQPQGYAPPPPGTSSGWAQPQY  62
+
+Query  144  GYQTTGGYPY---TTQHNVTIVTGGPAV--VVGGVPAPDYCGLSLFSCLFCCWPIGLVAV  198
+              Q     P+   T Q N  I+T  P +  VV  VP  D    ++ +  FC WPIG+ A+
+Sbjct  63   QMQA----PFQQQTMQTNNVIITQQPGIQHVVMTVPPEDNMVRAIIATFFCFWPIGMFAI  118
+
+Query  199  INAKHAREANQRGDYARASTYSQMARRYANIAITAGIILIICIVVFRIFAFN  250
+              A  ++ A  RGD A A  ++  +R+ AN AI  G   II   ++ +  ++
+Sbjct  119  WKAMESKSAYNRGDVAMAHAHANSSRQLANFAIGFGTCSIIAAFIYVVVLYS  170
+
+
+>Aplanci.XP_022088516.1 unnamed protein product
+Length=508
+
+ Score = 68.2 bits (165),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 54/74 (73%), Positives = 55/74 (74%), Gaps = 15/74 (20%)
+
+Query  77   QQGHPAPPPQQGY--PPPQQGY--PPPQQGY--PPPQQGY--PPPQQGY--PPPQQGYPA  126
+            QQG+ APPPQQGY  PPPQQGY  PPPQQGY  PPPQQGY  PPPQQGY  PPPQQGY  
+Sbjct  32   QQGYGAPPPQQGYGAPPPQQGYGAPPPQQGYGAPPPQQGYGAPPPQQGYGAPPPQQGY--  89
+
+Query  127  QQQGYPPAQQGYPA  140
+               G PP QQGY A
+Sbjct  90   ---GAPPPQQGYGA  100
+
+
+>Hvulgaris.XP_004207566.1 unnamed protein product
+Length=232
+
+ Score = 65.1 bits (157),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 30/73 (41%), Positives = 41/73 (56%), Gaps = 1/73 (1%)
+
+Query  176  PDYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITAGI  235
+            P +  L++ SCL C WPIGL A++ +     A   GDY+RA   S  AR+YA IAI  G 
+Sbjct  157  PSHMRLAICSCLCCFWPIGLFAIMKSYEVDSAFAAGDYSRAQQASISARKYARIAIAVG-  215
+
+Query  236  ILIICIVVFRIFA  248
+              +IC+    +F 
+Sbjct  216  CFVICVFAIIMFT  228
+
+
+>Hvulgaris.XP_002161431.1 unnamed protein product
+Length=166
+
+ Score = 63.5 bits (153),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 27/89 (30%), Positives = 46/89 (52%), Gaps = 4/89 (4%)
+
+Query  153  YTTQHNVTIVTGGPAVVVGGV----PAPDYCGLSLFSCLFCCWPIGLVAVINAKHAREAN  208
+            Y       ++T  P ++ G +    P  ++  L+  +CLFCCWP+G+V++I +     A 
+Sbjct  48   YNPNQTTILMTQQPGIMTGAIYVGPPPDNHSALAWLTCLFCCWPLGIVSIIKSMEVNTAI  107
+
+Query  209  QRGDYARASTYSQMARRYANIAITAGIIL  237
+              GD  RA   S+ AR++   ++  GI L
+Sbjct  108  GLGDTMRARIASESARKFGYASLGCGIFL  136
+
+
+>Bbelcheri.XP_019620882.1 unnamed protein product
+Length=171
+
+ Score = 62.8 bits (151),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 43/120 (36%), Positives = 63/120 (53%), Gaps = 14/120 (12%)
+
+Query  134  AQQGYPAPQQGYQTTGGYPYTTQHNVTIVTGGPAVVVGGVPAPDYCGLSLFSCLFCCWPI  193
+            AQ GYPA Q GY   G            VTG P +++    A DY GLS+F+ L CC P+
+Sbjct  56   AQAGYPA-QGGYVHMG--------TTVAVTGQPTMMMVQSRANDYMGLSIFTLLCCCLPL  106
+
+Query  194  GLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITAGII-----LIICIVVFRIFA  248
+            G+ A++++   ++AN  GD  RA + S  A+     A+  GI      +I+ I+ F +FA
+Sbjct  107  GIAAIVSSCETQDANNAGDINRAQSASNRAKLLNYWALGLGIFFWVIGVILIILYFVLFA  166
+
+
+>Aplanci.XP_022088518.1 unnamed protein product
+Length=527
+
+ Score = 64.7 bits (156),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 52/71 (73%), Positives = 53/71 (75%), Gaps = 15/71 (21%)
+
+Query  78   QGHPAPPPQQGY--PPPQQGY--PPPQQGY--PPPQQGY--PPPQQGY--PPPQQGYPAQ  127
+            QG+ APPPQQGY  PPPQQGY  PPPQQGY  PPPQQGY  PPPQQGY  PPPQQGY   
+Sbjct  15   QGYGAPPPQQGYGAPPPQQGYGAPPPQQGYGAPPPQQGYGAPPPQQGYGAPPPQQGY---  71
+
+Query  128  QQGYPPAQQGY  138
+              G PP QQGY
+Sbjct  72   --GGPPPQQGY  80
+
+
+>Dgigantea.XP_028402654.1 unnamed protein product
+Length=208
+
+ Score = 61.6 bits (148),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 57/189 (30%), Positives = 83/189 (44%), Gaps = 24/189 (13%)
+
+Query  79   GHPAPPPQQGYPPPQQGYPPPQQ-------------GYPPPQQGYPPPQQGYPPPQQGYP  125
+            G+ APP     PP   GYP   Q             GY   +Q +PP    Y P  Q +P
+Sbjct  20   GNVAPPYTSHQPPENPGYPSANQEAGNQAQRDYEATGYTHHEQDHPPQDPRYYPQGQRHP  79
+
+Query  126  AQQQGYPPAQQGYPAPQQGYQTTGGYPYTTQHNVTIVTGGPAVVVGGVPAP-------DY  178
+             Q  GY P  Q Y  PQ+  Q + G   T+  +V+     P + +    +P        Y
+Sbjct  80   LQDPGYQPRGQEY-LPQRNIQQSVGCTNTS--SVSYSPSTPLIPMHAQLSPGIGRVMETY  136
+
+Query  179  CGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITAGIILI  238
+              LS+ SCLF   PIG+ A++ +  A+     GDYA A   +++A+  A   I  G+ + 
+Sbjct  137  MALSVVSCLFFL-PIGIFAIVKSSEAQNRYMAGDYAGAMASAKLAKNLAISVIVLGLSIF  195
+
+Query  239  ICIVVFRIF  247
+            I  ++F I 
+Sbjct  196  ISGMIFTII  204
+
+
+>Hvulgaris.XP_012558794.1 unnamed protein product
+Length=166
+
+ Score = 59.7 bits (143),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 25/71 (35%), Positives = 41/71 (58%), Gaps = 5/71 (7%)
+
+Query  181  LSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITAGI-----  235
+            L+  +CLFCCWPI +V++I +     A  RGD  RA   S+ A+++   ++  GI     
+Sbjct  84   LAWLTCLFCCWPISIVSIIKSNEVTHALGRGDILRARIASESAKKFGYASLGCGIFVQLT  143
+
+Query  236  ILIICIVVFRI  246
+            I I+ I++F +
+Sbjct  144  IFIVAIILFTV  154
+
+
+>Bbelcheri.XP_019620799.1 unnamed protein product
+Length=170
+
+ Score = 59.7 bits (143),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 46/153 (30%), Positives = 63/153 (41%), Gaps = 21/153 (14%)
+
+Query  98   PPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYPPAQQGYPAPQQGYQTTGGYPYTTQH  157
+            PP  G  PP     P Q  Y P         QG  P + GY   +     T     T Q 
+Sbjct  38   PPSTGTQPPSTEAVPSQVKYTP---------QGQSPGKGGYVQME-----TTTVAMTEQA  83
+
+Query  158  NVTIVTGGPAVVVGGVPAPDYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARAS  217
+             +  V     V        DY  LS+F+ L CC P+G+ A   +   ++AN  GD  RA 
+Sbjct  84   TMREVQSRTRV-------DDYMCLSIFTLLCCCLPLGIAAFAKSCDTQDANNAGDINRAQ  136
+
+Query  218  TYSQMARRYANIAITAGIILIICIVVFRIFAFN  250
+              S  A+R    A+  GI+  +  VV+ + AF+
+Sbjct  137  AASNSAKRLNYCALGLGIVFWVIGVVWEVQAFS  169
+
+
+>Hvulgaris.XP_002158862.1 unnamed protein product
+Length=152
+
+ Score = 58.9 bits (141),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 36/90 (40%), Positives = 48/90 (53%), Gaps = 11/90 (12%)
+
+Query  145  YQTTGGYPYTTQHNVTIVTGGPAVVVGGVPAPDYCGLSLFSCLFCCWPIGLVAVINAKHA  204
+            YQTTG     TQ +V       AV +  VP+  Y   +  +CLFCC P+GL++VI +   
+Sbjct  60   YQTTG---IVTQQSV-------AVNIKQVPS-SYSAAAWLTCLFCCCPLGLLSVIYSNEV  108
+
+Query  205  REANQRGDYARASTYSQMARRYANIAITAG  234
+              A   GD  RA   SQ AR +A  A+T+G
+Sbjct  109  TTAILLGDMTRAQVASQSARNFAIAALTSG  138
+
+
+>Bbelcheri.XP_019630083.1 unnamed protein product
+Length=166
+
+ Score = 58.9 bits (141),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 26/87 (30%), Positives = 47/87 (54%), Gaps = 1/87 (1%)
+
+Query  165  GPAVVVGGVPAP-DYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMA  223
+            GP  V+   P P DY   ++ + + C WP G+ A++ A   R+   RGD   A+  S+ A
+Sbjct  69   GPGQVLHTGPVPNDYLVFAIITTICCFWPTGICAILKAVETRDLIARGDITHANETSRKA  128
+
+Query  224  RRYANIAITAGIILIICIVVFRIFAFN  250
+            R ++ + +  G+ L++ ++V+ I  F 
+Sbjct  129  RMFSILTLCIGLFLVLGVIVYMIVLFT  155
+
+
+>Aplanci.XP_022086956.1 unnamed protein product
+Length=211
+
+ Score = 59.3 bits (142),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 85/191 (45%), Positives = 99/191 (52%), Gaps = 27/191 (14%)
+
+Query  77   QQGHPAPPPQQGYP--PPQQGYPPPQQGYPPP-----QQGYPPPQQGYPPPQQGYPAQQQ  129
+            +Q  PA PP Q YP  P   GY   QQGY  P     QQGY   QQGYP  QQGYPAQQ 
+Sbjct  3    EQKDPAYPPDQPYPTQPSAPGYSQ-QQGYSSPPAYPAQQGYV--QQGYPA-QQGYPAQQG  58
+
+Query  130  GYPPAQQGYPAPQQGYQTTGGYP---YTTQHNVTIVTGGP---AVVVGGVPA--PDYCGL  181
+                 QQGYP  QQGY T    P   YT Q  VTI TG P   A+V   V     DY  L
+Sbjct  59   YPQQQQQGYPQQQQGYTTQTYVPQAVYTPQGQVTIKTGVPQHQAMVRTEVLTQPNDYMCL  118
+
+Query  182  SLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRY--------ANIAITA  233
+            S+F  LFCC P G++A+I +   R      DYA A+  S+ A+ +          I + A
+Sbjct  119  SIFVMLFCCLPFGIIALIKSMDVRSLVAANDYAAAARASKSAKNWNVAGLVTGLIIEVVA  178
+
+Query  234  GIILIICIVVF  244
+             IILI+ +VVF
+Sbjct  179  LIILIVWVVVF  189
+
+
+>Bbelcheri.XP_019620800.1 unnamed protein product
+Length=182
+
+ Score = 58.9 bits (141),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 50/163 (31%), Positives = 68/163 (42%), Gaps = 29/163 (18%)
+
+Query  91   PPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYPPAQQGYPAPQQGYQTTGG  150
+            PP  G  PP     PP  G  P Q  Y P         QG  P + GY            
+Sbjct  38   PPSTGTVPPSTEAVPPSTGAVPSQVKYTP---------QGQSPGKGGY------------  76
+
+Query  151  YPYTTQHNVTIV--TGGPAVVVGGVPAPDYCGLSLFSCLFCCW-PIGLVAVINAKHAREA  207
+                 Q   T V  T  P  +V    A DY  LSLF+ L C + P+G+ A + +   ++A
+Sbjct  77   ----VQMETTTVAMTEQPTTMVVHTRANDYMCLSLFT-LLCFFPPLGIAACVRSCQTQDA  131
+
+Query  208  NQRGDYARASTYSQMARRYANIAITAGIILIICIVVFRIFAFN  250
+            N  GD  RA   S  A+     A+  GI+L +  V++ I +F+
+Sbjct  132  NNAGDINRAQAASYSAKHLNYWALRVGIVLWVYAVLWTILSFS  174
+
+
+>Hsapiens.NP_001382572.1 proline rich transmembrane protein 1B isoform 2
+Length=263
+
+ Score = 59.3 bits (142),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 43/139 (31%), Positives = 61/139 (44%), Gaps = 9/139 (6%)
+
+Query  111  PPPQQGYPPPQQGYPAQQQGYPPAQQGYPAPQQGYQTTGGYPYTTQHNVTIVTGGPAVVV  170
+            P P   +PPP Q YPA     PPA    PA          +P+   +       GPA V 
+Sbjct  131  PAPSALFPPPAQLYPAAPT--PPALFSPPA-------GAAFPFPVYNGPMAGVPGPATVE  181
+
+Query  171  GGVPAPDYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIA  230
+                  DY   S+   LFCC   GL+A++ +  AR A  RGD A+A   S+ AR     +
+Sbjct  182  HRPLPKDYMMESVLVTLFCCLLTGLIAIVYSHEARAALGRGDLAQAEEASRKARSLVLFS  241
+
+Query  231  ITAGIILIICIVVFRIFAF  249
+            +  G+ +    V++ + A 
+Sbjct  242  LLFGVFVSTSWVIYVVVAL  260
+
+
+>Aplanci.XP_022096373.1 unnamed protein product
+Length=176
+
+ Score = 57.8 bits (138),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 44/121 (36%), Positives = 59/121 (49%), Gaps = 7/121 (6%)
+
+Query  116  GYPPPQQGYPAQQQGYPPAQQGY-PAPQQGYQTTGGYPYTTQHNVTIVTGGPAVVVGGVP  174
+            GY PP  G P+  QGY P+     PA  QGY    G P  T   V +      ++   V 
+Sbjct  39   GYGPPM-GAPSMGQGYDPSMGALSPAMGQGY----GPPMGTTTTVAVAPQPQTIMSTTVC  93
+
+Query  175  APD-YCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITA  233
+             PD Y GL+LF  + CC P+G+V +I A   R   Q GD A A   S+ A+ Y+ + +  
+Sbjct  94   QPDDYFGLALFVTICCCLPLGIVGLIKANDVRNRFQVGDIAGAEQASREAKTYSFLGLGF  153
+
+Query  234  G  234
+            G
+Sbjct  154  G  154
+
+
+>Myessoensis.XP_021379280.1 unnamed protein product
+Length=189
+
+ Score = 58.2 bits (139),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 26/71 (37%), Positives = 40/71 (56%), Gaps = 1/71 (1%)
+
+Query  177  DYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITAGII  236
+            DY G S+  CL C W IG+ A+I++  +R A  +GD   A T S  A R   I +  G++
+Sbjct  117  DYLGWSICGCLCCVWSIGICAIISSYDSRRAAFQGDMVNAKTSSLCALRLNFINMVLGVV  176
+
+Query  237  LII-CIVVFRI  246
+            L+  C++ F +
+Sbjct  177  LMTYCLLRFGL  187
+
+
+>Nvectensis.XP_032225600.1 unnamed protein product
+Length=232
+
+ Score = 57.8 bits (138),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 53/102 (52%), Positives = 56/102 (55%), Gaps = 17/102 (17%)
+
+Query  83   PPPQQGYPPPQ-QGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYPPAQQGYPAP  141
+            PPPQQGYP PQ Q Y PPQQGY P QQGY P Q GY  PQ GYP QQQGY P  QG   P
+Sbjct  20   PPPQQGYPLPQHQAYAPPQQGYLPQQQGYGPAQPGYALPQTGYPLQQQGYYP--QG--TP  75
+
+Query  142  QQGYQTTGGYPYTTQHNVTIVTGGPAVV----VGGVPAPDYC  179
+            Q G        Y  Q    ++   PAV     +G VP P  C
+Sbjct  76   QIG--------YVQQQGHVVIQQAPAVTQPVSLGPVPVPVRC  109
+
+
+>Myessoensis.XP_021379279.1 unnamed protein product
+Length=190
+
+ Score = 56.6 bits (135),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 25/71 (35%), Positives = 38/71 (54%), Gaps = 1/71 (1%)
+
+Query  177  DYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITAGII  236
+            DY G S+  CL C W IG+ A+ ++  +R A   GD   A T S  A R   I +  G++
+Sbjct  118  DYLGWSICGCLCCVWSIGICAIFSSYDSRRAAYEGDMVNAKTSSLCALRLNVINMVLGVV  177
+
+Query  237  LII-CIVVFRI  246
+            L+  C++ F +
+Sbjct  178  LMTYCLLRFGL  188
+
+
+>Hvulgaris.XP_002161283.2 unnamed protein product
+Length=183
+
+ Score = 56.2 bits (134),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 25/90 (28%), Positives = 46/90 (51%), Gaps = 4/90 (4%)
+
+Query  152  PYTTQHNVTIVTGGPAVVVGGV----PAPDYCGLSLFSCLFCCWPIGLVAVINAKHAREA  207
+            PY   +   ++   PAV+ G V    P   +  L+  +CLFCCWP+G+ ++I +     A
+Sbjct  69   PYYNPYQANVIIHQPAVMAGVVYTGPPPNSHRALAWLTCLFCCWPLGVASIIKSMEVDTA  128
+
+Query  208  NQRGDYARASTYSQMARRYANIAITAGIIL  237
+              + +  RA   S+ A+++   ++  GI +
+Sbjct  129  IAQNNLTRAQMASESAKKFGFASLGCGIFM  158
+
+
+>Nvectensis.XP_001634609.2 unnamed protein product
+Length=520
+
+ Score = 58.2 bits (139),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 67/124 (54%), Positives = 72/124 (58%), Gaps = 25/124 (20%)
+
+Query  77   QQGHPAPPPQQGY--PPPQQGYPPP--QQGY--PPPQQGY--PPPQQGY--PPPQQGY--  124
+            QQG+  PP QQGY  PP QQGY PP  QQGY  PP QQGY  PP QQGY  PP QQGY  
+Sbjct  35   QQGYGPPPGQQGYGAPPGQQGYGPPLGQQGYGPPPGQQGYGPPPGQQGYGPPPGQQGYGS  94
+
+Query  125  PAQQQGY--PPAQQGY--PAPQQGYQTTGGYPYTTQHNVTIVTGGPAVVVGG-VPAPDYC  179
+            P  QQGY  PP QQGY  PA QQGY    G P   Q   +    GP++ VGG    P Y 
+Sbjct  95   PPGQQGYGPPPGQQGYGPPAGQQGY----GPPQGQQQGFS----GPSLAVGGDTDTPSYQ  146
+
+Query  180  GLSL  183
+            G  +
+Sbjct  147  GADV  150
+
+
+>Dgigantea.XP_028402661.1 unnamed protein product
+Length=141
+
+ Score = 54.3 bits (129),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 23/58 (40%), Positives = 35/58 (60%), Gaps = 0/58 (0%)
+
+Query  177  DYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITAG  234
+            DY GLS+ SCLFC WP+GL+A++ +     +   GD+  A  YS+ A+  +  +I  G
+Sbjct  61   DYMGLSICSCLFCFWPLGLIAIVMSCLVGPSRNEGDFHSAKQYSKWAKYLSIASIIVG  118
+
+
+>Hvulgaris.XP_012565030.1 unnamed protein product
+Length=118
+
+ Score = 52.4 bits (124),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 21/44 (48%), Positives = 27/44 (61%), Gaps = 0/44 (0%)
+
+Query  184  FSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYA  227
+             +CLFCCWP+GLV++I +     A   GD  RA   SQ AR +A
+Sbjct  54   LTCLFCCWPLGLVSIIKSNEVNTAISLGDLPRAQLASQSARMFA  97
+
+
+>Bbelcheri.XP_019620884.1 unnamed protein product
+Length=131
+
+ Score = 52.4 bits (124),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 28/79 (35%), Positives = 41/79 (52%), Gaps = 1/79 (1%)
+
+Query  164  GGPAVVVGGVPAP-DYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQM  222
+            G P  VV  +  P DY GLS+F+ L CC P+G+ A+I +   + AN  GD  RA   S  
+Sbjct  50   GQPTTVVEILVMPKDYFGLSIFTLLCCCLPVGVAALIFSYEVQSANAIGDVTRALKASNR  109
+
+Query  223  ARRYANIAITAGIILIICI  241
+            A+    +A+  G    + +
+Sbjct  110  AKVLNYVALGLGAFCWLLL  128
+
+
+>Hsapiens.NP_660282.2 proline-rich transmembrane protein 2 isoform 1
+Length=340
+
+ Score = 54.3 bits (129),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 56/214 (26%), Positives = 96/214 (45%), Gaps = 23/214 (11%)
+
+Query  39   TQPSPYPAQNPPPYNPNDPSVPVVNMPYQQTVGFPASQQQGHPAPPPQQGYPPPQQGYPP  98
+            +QP+P PA  P      DP+  +++    ++VG    +Q+     P Q G    ++G P 
+Sbjct  148  SQPTPKPALQPELPTQEDPTPEILS----ESVG---EKQENGAVVPLQAGDG--EEG-PA  197
+
+Query  99   PQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYPPAQQGYPAPQQGYQTTGGYPYTTQHN  158
+            P+   PP ++   PP  G PP       ++     A  G+P   +G  +   +P +    
+Sbjct  198  PEPHSPPSKKS--PPANGAPPRVLQQLVEEDRMRRAHSGHPGSPRGSLSR--HPSSQ---  250
+
+Query  159  VTIVTGGPAVVVG-GVPAP-DYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARA  216
+                  GP V  G G   P DY  L++ SC    WP+ +VA   A  +R + Q+GD   A
+Sbjct  251  ----LAGPGVEGGEGTQKPRDYIILAILSCFCPMWPVNIVAFAYAVMSRNSLQQGDVDGA  306
+
+Query  217  STYSQMARRYANIAITAGIILIICIVVFRIFAFN  250
+                ++A+  + +A+  G+++II   V  +  + 
+Sbjct  307  QRLGRVAKLLSIVALVGGVLIIIASCVINLGVYK  340
+
+
+>Myessoensis.XP_021379300.1 unnamed protein product
+Length=142
+
+ Score = 52.0 bits (123),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 29/48 (60%), Gaps = 0/48 (0%)
+
+Query  176  PDYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMA  223
+             DY G S+  CL C WPIG+ A++ + +AR A  RGD   A T S +A
+Sbjct  71   SDYLGWSICGCLCCLWPIGICAIVASMNARSAVDRGDLEDAKTNSNVA  118
+
+
+>Hsapiens.NP_001099049.1 synapse differentiation-inducing gene protein 1-like
+Length=238
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 25/62 (40%), Positives = 37/62 (60%), Gaps = 0/62 (0%)
+
+Query  173  VPAPDYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAIT  232
+            +P  D+ GL+LFS L C WP+G+ A   ++   +A  +GD+  AST S+ A   A +AI 
+Sbjct  156  LPPRDHLGLTLFSMLCCFWPLGIAAFYFSQGTSKAISKGDFRLASTTSRRALFLATLAIA  215
+
+Query  233  AG  234
+             G
+Sbjct  216  VG  217
+
+
+>Myessoensis.XP_021379299.1 unnamed protein product
+Length=215
+
+ Score = 53.1 bits (126),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 38/113 (34%), Positives = 56/113 (50%), Gaps = 13/113 (12%)
+
+Query  137  GYPAPQQ-GYQTTGGYPYTTQHNVTIVTGGPAVVVGGVPA----PDYCGLSLFSCLFCCW  191
+            G PAPQQ G Q   GYP T      +V   P V+   VP       +  +S+F CL C W
+Sbjct  99   GQPAPQQPGVQY--GYPATA-----VVVSQPGVMTR-VPTQSQPKSHMVISVFGCLCCLW  150
+
+Query  192  PIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITAGIILIICIVVF  244
+            P+G+ A+I + + + A  RGD   A + S+ A+    I    G I+I+ + + 
+Sbjct  151  PLGIGAIIASFNVQSAIARGDIPSAKSSSKTAKVVNIINFLLGFIIILIVSIL  203
+
+
+>Myessoensis.XP_021347056.1 unnamed protein product
+Length=170
+
+ Score = 50.8 bits (120),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 22/72 (31%), Positives = 35/72 (49%), Gaps = 0/72 (0%)
+
+Query  177  DYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITAGII  236
+            DY   S+  CLFC WP+GL A+  ++ +R     G+   A   S+ A +   +    G +
+Sbjct  88   DYMVWSVIGCLFCLWPVGLCAIAASQDSRSKADNGNIEGAKASSRWALQLNALNAFLGAV  147
+
+Query  237  LIICIVVFRIFA  248
+            LI  ++V    A
+Sbjct  148  LITVLIVLYTMA  159
+
+
+>Aplanci.XP_022111498.1 unnamed protein product
+Length=149
+
+ Score = 49.7 bits (117),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 20/59 (34%), Positives = 33/59 (56%), Gaps = 0/59 (0%)
+
+Query  176  PDYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITAG  234
+             DY   ++   +FC WP G++A+I +  +R A Q GD   A   S+ AR+ + I++  G
+Sbjct  69   DDYLIQAILVTVFCFWPTGIIAIIKSLDSRRAAQMGDVQGAQLSSKAARKLSIISLIVG  127
+
+
+>Hvulgaris.XP_012560140.1 unnamed protein product
+Length=185
+
+ Score = 50.1 bits (118),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 23/65 (35%), Positives = 35/65 (54%), Gaps = 0/65 (0%)
+
+Query  177  DYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITAGII  236
+             Y  ++  SCL C WP GL+AV  +     A   GD  +A + S+ A+ ++ I+I  G+ 
+Sbjct  97   SYAAIAWISCLCCFWPFGLIAVYYSNKVNSALSIGDRDKAISASKKAKVFSIISIVIGVN  156
+
+Query  237  LIICI  241
+            LI  I
+Sbjct  157  LIWII  161
+
+
+>Aplanci.XP_022084882.1 unnamed protein product
+Length=319
+
+ Score = 50.4 bits (119),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 33/67 (49%), Positives = 34/67 (51%), Gaps = 2/67 (3%)
+
+Query  79   GHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYPPAQQGY  138
+            G+PA P   GYP    GYP    GYP    GYP    GYP    GYPA   GYP A  GY
+Sbjct  224  GYPAAP--TGYPAAPTGYPAAPTGYPAATTGYPSAPTGYPAATTGYPAAPTGYPAATTGY  281
+
+Query  139  PAPQQGY  145
+            PA   GY
+Sbjct  282  PAAPTGY  288
+
+
+>Bbelcheri.XP_019647924.1 unnamed protein product
+Length=139
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 28/83 (34%), Positives = 44/83 (53%), Gaps = 3/83 (4%)
+
+Query  156  QHNVTIVTGGP--AVVVGGVPAPD-YCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGD  212
+            Q   T+V GG    +V+     PD + G+++F+CL C WP+GLV++I A       + GD
+Sbjct  15   QQQSTVVVGGAPQTMVIVQESKPDSHVGMAIFTCLCCFWPLGLVSLIFACMVDSRWESGD  74
+
+Query  213  YARASTYSQMARRYANIAITAGI  235
+               A + S+ A     IA+  G+
+Sbjct  75   REGAKSASRTASILWKIALGIGL  97
+
+
+>Bbelcheri.XP_019638223.1 unnamed protein product
+Length=166
+
+ Score = 48.9 bits (115),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 42/133 (32%), Positives = 56/133 (42%), Gaps = 6/133 (5%)
+
+Query  105  PPQQGYPPPQQGYPPPQQGYPAQQQGYPPAQQGYPAPQQGYQTTGGYPYTTQHNVTIVTG  164
+            P   G    QQGYPPP  G    Q   P         QQ  Q     P       T+V  
+Sbjct  8    PKMAGMEMQQQGYPPP--GEAQYQPPPPGYAAPPGYAQQPVQPGYPQPLQPGQQQTVVVA  65
+
+Query  165  G---PAVVVGGVPAPDYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQ  221
+            G     V+V   PA D+ G +LF+C+ C WP G+VA+I +         GD   A + S 
+Sbjct  66   GMQPTMVIVDSKPA-DHFGFALFTCMCCFWPTGIVALIFSCQVDSKWNSGDREGAKSSSS  124
+
+Query  222  MARRYANIAITAG  234
+             A  ++ I++  G
+Sbjct  125  NANLFSKISLGIG  137
+
+
+>Nvectensis.XP_032237469.1 unnamed protein product
+Length=174
+
+ Score = 48.9 bits (115),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 26/73 (36%), Positives = 42/73 (58%), Gaps = 1/73 (1%)
+
+Query  176  PDYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITAGI  235
+             DY G ++ S + CC  +G+VAV  +     + +R DY RA+ +S+ A+ +   AI AG 
+Sbjct  101  DDYFGPAILSTMICCPVLGVVAVTFSIKVILSCKRRDYERATAFSKCAKIWTLAAIVAGF  160
+
+Query  236  ILII-CIVVFRIF  247
+            I II C+V  ++ 
+Sbjct  161  ITIIFCVVYLKLL  173
+
+
+>Hsapiens.NP_079169.1 synapse differentiation-inducing gene protein 1
+Length=258
+
+ Score = 49.3 bits (116),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 24/58 (41%), Positives = 35/58 (60%), Gaps = 0/58 (0%)
+
+Query  177  DYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITAG  234
+            D+ GLS+FS L C WP+G+ A   +    +A  +GD  +AST S+ A   A ++IT G
+Sbjct  180  DHLGLSVFSMLCCFWPLGIAAFYLSHETNKAVAKGDLHQASTSSRRALFLAVLSITIG  237
+
+
+>Nvectensis.XP_032229879.1 unnamed protein product
+Length=335
+
+ Score = 48.9 bits (115),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 26/78 (33%), Positives = 42/78 (54%), Gaps = 1/78 (1%)
+
+Query  173  VPAPD-YCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAI  231
+            +P PD +  LSLFSCL CC  IG+VAV  +       + G   ++   SQ A+ +A  A+
+Sbjct  253  IPKPDNHLVLSLFSCLCCCPIIGIVAVFLSYQVDLKYEDGQKEKSVDKSQKAKCWAMTAV  312
+
+Query  232  TAGIILIICIVVFRIFAF  249
+              G+++    V++ +  F
+Sbjct  313  MLGMMIFAAAVMYAVVKF  330
+
+
+>Bbelcheri.XP_019626264.1 unnamed protein product
+Length=3159
+
+ Score = 49.7 bits (117),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 39/102 (38%), Positives = 50/102 (49%), Gaps = 4/102 (4%)
+
+Query  46    AQNPPPYNPNDPSVPVVNMPYQQTVGFPASQ--QQGHPAPPPQQGYPPPQQGYPPPQQGY  103
+             ++  P    N P V    +  + T   PA++  Q GH   PPQ G+ PPQ G  P Q G+
+Sbjct  1161  SRKSPRVRQNSPRVRKKTLRVKWTAPQPANKPPQLGHD--PPQLGHDPPQLGDDPLQLGH  1218
+
+Query  104   PPPQQGYPPPQQGYPPPQQGYPAQQQGYPPAQQGYPAPQQGY  145
+              PPQ G+ PPQ G  P Q G    Q G  P Q G   P+ G+
+Sbjct  1219  DPPQLGHDPPQLGDDPLQLGDNPLQLGDNPLQLGDNPPELGH  1260
+
+
+>Hvulgaris.XP_012565782.1 unnamed protein product
+Length=215
+
+ Score = 48.1 bits (113),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 23/68 (34%), Positives = 36/68 (53%), Gaps = 0/68 (0%)
+
+Query  178  YCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITAGIIL  237
+            Y  ++  SCL C WP+GL+AV  +     A   GD  +A + S  A+ ++ I+I  G+ L
+Sbjct  128  YAFMAWLSCLCCFWPLGLIAVYYSSKVNSAINLGDREKAISASYKAKIFSIISIVIGLNL  187
+
+Query  238  IICIVVFR  245
+            I  I +  
+Sbjct  188  IWIIYLIN  195
+
+
+>Bbelcheri.XP_019638176.1 unnamed protein product
+Length=139
+
+ Score = 46.6 bits (109),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 30/82 (37%), Positives = 42/82 (51%), Gaps = 2/82 (2%)
+
+Query  160  TIVTGGPA--VVVGGVPAPDYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARAS  217
+            TIV   PA  VV+     PD+ G +LF+CL C WP G+VA++ +    +    GD   A+
+Sbjct  35   TIVQTVPATQVVIAESRPPDHFGCALFTCLCCFWPTGIVALVFSCQVGQKLHDGDIQGAN  94
+
+Query  218  TYSQMARRYANIAITAGIILII  239
+              S  A  +  I +  GI L I
+Sbjct  95   DSSNSANLWWKITLGIGIALWI  116
+
+
+>Bbelcheri.XP_019645750.1 unnamed protein product
+Length=2475
+
+ Score = 47.8 bits (112),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 45/150 (30%), Positives = 59/150 (39%), Gaps = 18/150 (12%)
+
+Query  42   SPYPAQNPPPYNPNDPSVPVVNMPYQQTVGFPASQQQGHPAPPPQQGYPPPQQG---YPP  98
+            SP     P PY    P   V + PYQ++    A QQQG P+P  Q   P PQ     Y P
+Sbjct  133  SPRTPMAPSPYYQQSPDGMVQHSPYQRSHTPMAQQQQGSPSPYSQNS-PYPQGSPAKYGP  191
+
+Query  99   PQQGYP--PPQQGYPPPQQGYPPPQQGYPAQQ--QG-----YPPAQQGYPAPQQGYQTTG  149
+                YP   P   Y P +       QG PA+   QG     +PP    +P   Q      
+Sbjct  192  QPSPYPQGSPSSRYQPQESSAKYAAQGSPARHMSQGSPGKFHPPT---FPLGHQQQNIPQ  248
+
+Query  150  GYPYTT--QHNVTIVTGGPAVVVGGVPAPD  177
+            G P  T   ++    +  P+  VG  P+ +
+Sbjct  249  GVPSNTCNGYSANQFSPAPSPAVGSPPSAN  278
+
+
+>Aplanci.XP_022086921.1 unnamed protein product
+Length=199
+
+ Score = 46.2 bits (108),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 17/74 (23%), Positives = 38/74 (51%), Gaps = 0/74 (0%)
+
+Query  176  PDYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITAGI  235
+            PD   L++   +F C  +G+ A++ +   ++    GD   A   +Q ++R + + +  G+
+Sbjct  122  PDNMILAIIVTVFFCLILGIFAIMKSLDVKKLWAVGDVTGARRAAQASKRLSVLGLVIGV  181
+
+Query  236  ILIICIVVFRIFAF  249
+            +  + IV+  + AF
+Sbjct  182  LAEVTIVILVVVAF  195
+
+
+>Nvectensis.XP_001641580.2 unnamed protein product
+Length=968
+
+ Score = 47.0 bits (110),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 39/125 (31%), Positives = 46/125 (37%), Gaps = 5/125 (4%)
+
+Query  25   NAPYPPEANPSPTTTQPSPYPAQNPPPYNPNDPSVPVVNMPYQQTVGFPASQQQGHPAPP  84
+            NA   P    +P++   +P      PP     P       P     G P S   G   PP
+Sbjct  315  NAATSPTRFGTPSSGFGTPPSGFGTPPSGFGTPPAGFGTPP--SGFGTPPS---GFGTPP  369
+
+Query  85   PQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYPPAQQGYPAPQQG  144
+               G PP   G PP   G PP   G PP   G PP   G P    G PP+  G P+   G
+Sbjct  370  SGFGTPPSGFGTPPAGFGTPPSGFGTPPSGFGTPPSGFGTPPSGFGTPPSGFGTPSSGFG  429
+
+Query  145  YQTTG  149
+               +G
+Sbjct  430  TAPSG  434
+
+
+>Aplanci.XP_022099592.1 unnamed protein product
+Length=300
+
+ Score = 45.8 bits (107),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 35/49 (71%), Positives = 36/49 (73%), Gaps = 6/49 (12%)
+
+Query  91   PPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYPPAQQGYP  139
+            PPQQGY   Q+GYPP QQGY   QQGY P QQGYPA QQGY P QQGY 
+Sbjct  198  PPQQGYAM-QEGYPP-QQGYAT-QQGYAP-QQGYPA-QQGYAP-QQGYA  240
+
+
+>Nvectensis.XP_032226152.1 unnamed protein product
+Length=1823
+
+ Score = 46.2 bits (108),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 51/174 (29%), Positives = 62/174 (36%), Gaps = 22/174 (13%)
+
+Query  14   PPYPETHQPYPNAPYPPEAN----PSPTTTQ-PSPYPAQNPPPYNPNDPSVPVVNMPYQQ  68
+            P     + P P+A Y P  +    P+P+ +  P+P  +  P P     P+     +P   
+Sbjct  191  PATSAGYLPTPSASYLPTPSASYLPTPSASYLPAPSASYLPAPSASYLPATSAGYLPTPS  250
+
+Query  69   TVGFPASQQQGHPAPPPQQGYPPPQQGYPPPQQGY-PPPQQGY-PPPQQGY-PPPQQGY-  124
+                PA      PAP       P     P P   Y P P  GY P P   Y P P   Y 
+Sbjct  251  ASYLPAPSASYLPAPSSSYLPAPSASYLPTPSASYLPAPSAGYLPTPSASYLPAPSASYL  310
+
+Query  125  PAQQQGYPPAQQG--YPAPQQGYQTTGGYPYTTQHNVTIVTGGPAVVVGGVPAP  176
+            PA   GY PA      PAP  GY       Y            PA   G +PAP
+Sbjct  311  PAPSAGYLPAPSASYLPAPSAGYLPAPSASYL-----------PASSAGYLPAP  353
+
+
+>Bbelcheri.XP_019644437.1 unnamed protein product
+Length=136
+
+ Score = 43.9 bits (102),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 41/135 (30%), Positives = 60/135 (44%), Gaps = 11/135 (8%)
+
+Query  121  QQGYPAQQQGYPPA--QQGYPAPQQGYQTTGGYPYTTQHNVTIVTGGPA--VVVGGVPAP  176
+            QQ +P  QQ   P   QQ +P  QQ      GYP   Q   T+V G P   + +     P
+Sbjct  3    QQAHPGMQQQAHPGMQQQAHPGLQQ---QAHGYP-GMQQQPTVVVGAPMQPLAITQREKP  58
+
+Query  177  -DYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITAGI  235
+             D+ G+  F+ L CC P+ + A   +       + GD   A   S+ A R   I+I  G+
+Sbjct  59   NDHRGMISFTLLCCCCPVSMFAWYYSTQVNSRWEAGDVEGAEKASRNAGRLWKISIGVGL  118
+
+Query  236  ILI--ICIVVFRIFA  248
+            I I  I ++ F + +
+Sbjct  119  IFIPVILLLYFLVIS  133
+
+
+>Aplanci.XP_022096361.1 unnamed protein product
+Length=152
+
+ Score = 43.9 bits (102),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 22/67 (33%), Positives = 36/67 (54%), Gaps = 4/67 (6%)
+
+Query  176  PDYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDY--ARASTYSQMARRYANIAITA  233
+             DY  L+LF  LFCC P+G++ +I +   R     GD   A  ++Y   +  YA + +  
+Sbjct  52   KDYQMLALFVTLFCCLPLGIMGLIKSSEVRRRAVIGDSFGAHQASYRAKSLLYAGLGV--  109
+
+Query  234  GIILIIC  240
+            G++L +C
+Sbjct  110  GLLLWMC  116
+
+
+>Nvectensis.XP_032223038.1 unnamed protein product
+Length=197
+
+ Score = 44.3 bits (103),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 40/130 (31%), Positives = 54/130 (42%), Gaps = 1/130 (1%)
+
+Query  95   GYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYPPAQQGYPAPQQGYQTTGGYPYT  154
+            GYP    GYP    GYP    GYP    G PAQ  GYP    GYPA Q    ++  Y  +
+Sbjct  38   GYPAQAPGYPAQVPGYPAQVPGYPAQAPGCPAQVPGYPAQVPGYPA-QVPAGSSVQYVSS  96
+
+Query  155  TQHNVTIVTGGPAVVVGGVPAPDYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYA  214
+             Q    +V   P    G     +    ++F+CL C WP G  A+   +   +    G Y 
+Sbjct  97   PQQFRVMVVAPPPPPPGVQKPGNLLVCAIFACLCCAWPCGAAAIHTNQQVDKCWNEGRYE  156
+
+Query  215  RASTYSQMAR  224
+             A   ++  +
+Sbjct  157  EALDNARKTK  166
+
+
+>Aplanci.XP_022112108.1 unnamed protein product
+Length=631
+
+ Score = 45.1 bits (105),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 21/55 (38%), Positives = 31/55 (56%), Gaps = 0/55 (0%)
+
+Query  70   VGFPASQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGY  124
+            V  P +  QG    PP++G  PP++G  PP++G  PP++G   P  G  PP+ G 
+Sbjct  415  VASPDTTHQGGLGMPPKEGMMPPKEGMMPPKEGMMPPKEGMSSPNGGTMPPKSGM  469
+
+
+>Hvulgaris.XP_002158914.1 unnamed protein product
+Length=130
+
+ Score = 43.1 bits (100),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 19/63 (30%), Positives = 34/63 (54%), Gaps = 0/63 (0%)
+
+Query  177  DYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITAGII  236
+            +Y   +L +C+ CC P+G+++++ +     A   G+  RA   S  A+ YA  A+  GI 
+Sbjct  53   NYSTAALLTCICCCVPLGIMSLMKSNEVDTAISEGNITRAKRASIDAKNYAIAALVCGIT  112
+
+Query  237  LII  239
+            + I
+Sbjct  113  IFI  115
+
+
+>Myessoensis.XP_021341652.1 unnamed protein product
+Length=756
+
+ Score = 44.3 bits (103),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 26/107 (24%), Positives = 40/107 (37%), Gaps = 3/107 (3%)
+
+Query  71   GFPASQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQG  130
+            G P S +     P  + G P    G P    G P   +G P   +G P   +G P  + G
+Sbjct  266  GLPVSNKG---LPVSESGVPVSDTGLPVTVSGLPVSDKGLPVSDKGLPVSDKGLPVSESG  322
+
+Query  131  YPPAQQGYPAPQQGYQTTGGYPYTTQHNVTIVTGGPAVVVGGVPAPD  177
+             P + +G P  + G   +      ++   ++   G  V   G P  D
+Sbjct  323  VPVSDEGLPVSESGAPVSDTGLPVSESGASVSNTGLPVSESGAPVSD  369
+
+
+>Bbelcheri.XP_019619908.1 unnamed protein product
+Length=334
+
+ Score = 42.7 bits (99),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 37/123 (30%), Positives = 55/123 (45%), Gaps = 12/123 (10%)
+
+Query  125  PAQQQGYPPAQQGYPAPQQGYQTTG-----GYPYTTQHNVTIVTGG------PAVVVGGV  173
+            P  ++ Y   Q    APQ+ Y   G        Y     VT+  GG        V   G+
+Sbjct  199  PDFERVYEEWQGSGGAPQREYVNNGFDKVYDQVYDISSIVTVERGGTLPRDPSTVFHQGL  258
+
+Query  174  PAPDYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITA  233
+            P PDY G+S+FS + C  P+G+ A+  +     +   GDY  AS  S+ A+  + +AI  
+Sbjct  259  P-PDYMGMSVFSTICCFAPLGIAALYFSLETSSSIILGDYHMASKTSRRAQLLSIMAIIL  317
+
+Query  234  GII  236
+            G +
+Sbjct  318  GTL  320
+
+
+>Myessoensis.XP_021351760.1 unnamed protein product
+Length=1211
+
+ Score = 43.1 bits (100),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 21/61 (34%), Positives = 31/61 (51%), Gaps = 6/61 (10%)
+
+Query  59    VPVVNMPYQQTVGFPASQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYP  118
+             VP VN P        A+ QQG+   PP+  + P ++ Y PP   + PPQ  + PP+  + 
+Sbjct  1099  VPTVNQPDT------ATGQQGNTYVPPKSAWKPQEEKYKPPTSDWMPPQDKWTPPEDKWA  1152
+
+Query  119   P  119
+             P
+Sbjct  1153  P  1153
+
+
+>Bbelcheri.XP_019643728.1 unnamed protein product
+Length=509
+
+ Score = 42.7 bits (99),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 29/70 (41%), Positives = 38/70 (54%), Gaps = 4/70 (6%)
+
+Query  72   FPASQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQ--QGYPAQQQ  129
+            FP    Q +P  P +QG PP +QG PP +QG PP +QG PP ++  PP +  QG P +  
+Sbjct  434  FPEKSNQRNP--PRRQGNPPRRQGNPPRRQGNPPRRQGNPPRRERIPPVRTTQGNPPETL  491
+
+Query  130  GYPPAQQGYP  139
+                 QQ  P
+Sbjct  492  RRSKRQQRNP  501
+
+
+>Aplanci.XP_022092587.1 unnamed protein product
+Length=157
+
+ Score = 41.2 bits (95),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 48/134 (36%), Positives = 56/134 (42%), Gaps = 36/134 (27%)
+
+Query  78   QGHPAPPPQQGYPPPQQGYPPP-QQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYPPAQQ  136
+            Q  P   P QGYP  QQGYPPP Q GYPP  QGYP  QQ    P      QQQ       
+Sbjct  51   QSQPGSYPPQGYPA-QQGYPPPGQSGYPPQHQGYPAHQQ----PPTVVTVQQQ-------  98
+
+Query  137  GYPAPQQGYQTTGGYPYTTQHNVTIVTGGPAVVVGGVPAPDY--CGLSLFSCLFCCWPIG  194
+                           P TTQ    ++TGG      GV    Y  CG+ L  C F   P+G
+Sbjct  99   ---------------PATTQ---VVMTGGCPTCHVGVMTDSYTACGIILAICFF---PLG  137
+
+Query  195  LVAVINAKHAREAN  208
+            ++  +  K    +N
+Sbjct  138  IICCLMMKERTCSN  151
+
+
+>Aplanci.XP_022079833.1 unnamed protein product
+Length=480
+
+ Score = 42.0 bits (97),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 31/75 (41%), Positives = 38/75 (51%), Gaps = 3/75 (4%)
+
+Query  46   AQNPPPYNPNDPSVPV-VNMPYQQTVGFPASQQQGHPAPPPQQGYPPPQQGYPPPQQGYP  104
+             ++P  YN +  S  + V M +Q+ +  P     G    PPQ G PP Q  YPP Q GYP
+Sbjct  337  VESPETYNTSFSSSAMKVLMFFQRRIMRPVGA--GGFVMPPQAGVPPAQGSYPPSQGGYP  394
+
+Query  105  PPQQGYPPPQQGYPP  119
+            P Q  YPP Q  Y P
+Sbjct  395  PSQGSYPPAQGSYAP  409
+
+
+>Bbelcheri.XP_019634395.1 unnamed protein product
+Length=1119
+
+ Score = 42.0 bits (97),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 17/65 (26%), Positives = 34/65 (52%), Gaps = 3/65 (5%)
+
+Query  72   FPASQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGY  131
+            FP  ++Q       ++  PP +   PP ++  PP ++  PP ++  PP ++G P  ++  
+Sbjct  606  FPQEKKQ---KSLREEDKPPGEDDKPPGEEDKPPGEEDKPPGEEDKPPGEEGKPPGEEDK  662
+
+Query  132  PPAQQ  136
+            PP ++
+Sbjct  663  PPGEE  667
+
+
+>Bbelcheri.XP_019627363.1 unnamed protein product
+Length=2040
+
+ Score = 42.0 bits (97),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 32/71 (45%), Positives = 34/71 (48%), Gaps = 17/71 (24%)
+
+Query  81   PAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYPPAQQGYPA  140
+            P PPP    PP   G+PP Q     P  G+PP Q    PP  G P    GYP     YP 
+Sbjct  919  PFPPPVSNAPP--YGHPPNQ-----PPYGHPPNQ----PPYHGAPTS--GYP----NYPP  961
+
+Query  141  PQQGYQTTGGY  151
+            PQQGY   GGY
+Sbjct  962  PQQGYGPYGGY  972
+
+
+>Aplanci.XP_022086922.1 unnamed protein product
+Length=173
+
+ Score = 40.4 bits (93),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 36/109 (33%), Positives = 49/109 (45%), Gaps = 13/109 (12%)
+
+Query  126  AQQQGYPPAQQGYPAPQQGYQTTGGYPYTTQHNVTIVTGGPAVVVGGVPAPDYCGLSLFS  185
+            AQQ GYPP  Q    PQQG   T     TT  +  IV         G+   D+   ++  
+Sbjct  51   AQQPGYPP--QAAYTPQQGAVVT-----TTPQSTVIVR------TTGIQPNDHLIFAIIV  97
+
+Query  186  CLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITAG  234
+             LFCC P G+V +I A   R     GD A A   S+ A++++   +  G
+Sbjct  98   TLFCCLPFGIVGIIKAMDVRNRWAAGDAAGAEAASKEAKKWSLAGLITG  146
+
+
+>Myessoensis.XP_021340407.1 unnamed protein product
+Length=162
+
+ Score = 40.0 bits (92),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 40/134 (30%), Positives = 60/134 (45%), Gaps = 21/134 (16%)
+
+Query  116  GYPPPQQ-----GYPAQQQGYPPAQQGYPAPQQGYQTTGGYPYTTQHNVTIVTGGPAVVV  170
+              PPP         P  Q  +P  Q     PQ         P  TQ +V      P    
+Sbjct  30   YQPPPPGYNSVPTAPMYQTEHPHFQ-----PQMA-------PGQTQIHVV----PPPQTF  73
+
+Query  171  GGVPAPDYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIA  230
+               P PD+   ++F+ + C WP+G+ A++ A  A+ A  RGD+  A + S  AR+ +NIA
+Sbjct  74   SEPPPPDFMNRAIFTTICCFWPVGIFAIMKASEAKNAYARGDFQGARSSSNSARQLSNIA  133
+
+Query  231  ITAGIILIICIVVF  244
+            I AG+  I+  ++ 
+Sbjct  134  IFAGVASIVVSMII  147
+
+
+>Myessoensis.XP_021350528.1 unnamed protein product
+Length=4368
+
+ Score = 41.6 bits (96),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 37/148 (25%), Positives = 43/148 (29%), Gaps = 10/148 (7%)
+
+Query  19    THQPYPNAPYPPEANPSPTTTQPSPYPAQNPPPYNPNDPSVPVVNMPYQQTVGFPASQQQ  78
+             T+ P      P     +P  T  +P      PP     P   V   P   T   PA+   
+Sbjct  1281  TYNPQVTTFTPSVTTYNPPVTTYNPQVTTYNPPVTTYTPPATVAYNPSLTTHNPPATTYN  1340
+
+Query  79    GHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYPPAQQGY  138
+                  P    Y PP   Y P    Y PP   Y P    Y P    Y +    YPP     
+Sbjct  1341  -----PQATTYNPPLTTYNPSVSTYTPPVTSYNPSATTYNPAVSTYISSAPAYPPHTAAA  1395
+
+Query  139   PAP-----QQGYQTTGGYPYTTQHNVTI  161
+               P     Q        YP  T    T+
+Sbjct  1396  SVPNTVFAQPMLPAASSYPPHTMDTATV  1423
+
+
+>Hvulgaris.XP_012561248.1 unnamed protein product
+Length=1001
+
+ Score = 41.6 bits (96),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 38/114 (33%), Positives = 41/114 (36%), Gaps = 18/114 (16%)
+
+Query  14   PPYPETHQPYPNAPYPPEANPS-PTTTQPSPYPAQN---PPPYNPNDPSVPVVNMPYQQT  69
+            P YP    P  N  +PP ANPS P    PS  P  N   PP  NP+ P     N P    
+Sbjct  71   PSYP----PSANPSFPPNANPSFPPNANPSFPPNANPSFPPNANPSFPPNANPNSPISSD  126
+
+Query  70   VGFPASQQQG---HPAP-PPQQGYPPPQQGYPP----PQQGYPPPQQGYPPPQQ  115
+              FP     G   +P P  P    P       P      Q YPP    YP   Q
+Sbjct  127  QSFPTYPNPGSSTYPEPISPINNNPSSNTNLNPNSINSNQNYPP--NSYPNSPQ  178
+
+
+>Myessoensis.XP_021368841.1 unnamed protein product
+Length=1209
+
+ Score = 41.6 bits (96),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 23/62 (37%), Positives = 23/62 (37%), Gaps = 0/62 (0%)
+
+Query  84   PPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYPPAQQGYPAPQQ  143
+            PP   Y PP   Y PP   Y PP   Y PP   Y PP   Y      Y P    Y  P  
+Sbjct  536  PPSDNYTPPSDNYTPPSDIYTPPSDNYTPPSDNYTPPSDIYTPPSDNYTPPSDNYTPPSD  595
+
+Query  144  GY  145
+             Y
+Sbjct  596  NY  597
+
+
+>Bbelcheri.XP_019620149.1 unnamed protein product
+Length=1689
+
+ Score = 41.6 bits (96),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 31/123 (25%), Positives = 42/123 (34%), Gaps = 19/123 (15%)
+
+Query  22    PYPNAPYPPEANPSPTTTQPSPYPAQNPPPYNPNDPSVPVVNMPYQQTVGFPASQQ----  77
+             P P+   PP  + SP + QP      N PP  P +   P  + P+ +  G P S+Q    
+Sbjct  1465  PAPDTRQPPYVS-SPVSRQPPTPSKTNSPPSTPTNKYFP--SXPFSKQSGSPVSKQFAPP  1521
+
+Query  78    ------------QGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYP  125
+                          GHP   P    P P      P    P  +    P     PPP    P
+Sbjct  1522  PPSGRQPPYPHPSGHPPLSPSFSLPTPSSPSGRPHVNSPTARHPPSPSASNAPPPAYRPP  1581
+
+Query  126   AQQ  128
+             + +
+Sbjct  1582  SHR  1584
+
+
+>Dgigantea.XP_028402653.1 unnamed protein product
+Length=239
+
+ Score = 40.0 bits (92),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 34/109 (31%), Positives = 52/109 (48%), Gaps = 13/109 (12%)
+
+Query  135  QQGYPAPQQGYQTT------GGYPYTTQHNVTI-VTGGPA-VVVGGVP--APDYCGLSLF  184
+            +QGY    QGYQ        GGY     ++ T+ VT  P   +  GVP     +  LS+ 
+Sbjct  120  EQGYQFKGQGYQHQVNTQEPGGYTSQNINSTTVHVTQNPQPQIATGVPPVVNTHLILSII  179
+
+Query  185  SCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITA  233
+            +C+    PIG+ A++ +  A+     GDY  A   ++ AR   N++I A
+Sbjct  180  ACVCFSPPIGIFAILKSSEAQRRYMVGDYVGAVASARSAR---NLSIAA  225
+
+
+>Aplanci.XP_022101487.1 unnamed protein product
+Length=323
+
+ Score = 38.9 bits (89),  Expect = 0.011, Method: Compositional matrix adjust.
+ Identities = 37/60 (62%), Positives = 37/60 (62%), Gaps = 15/60 (25%)
+
+Query  97   PPPQQGY---PPPQQGY---PPPQQGY---PPPQQGYPA---QQQGY---PPAQQGYPAP  141
+            PP QQGY   PP QQGY   PP QQGY   PP QQGY A    QQGY   PP QQGY AP
+Sbjct  23   PPGQQGYGAPPPGQQGYGAPPPGQQGYGAPPPGQQGYGAPPPGQQGYGAPPPGQQGYGAP  82
+
+
+>Myessoensis.XP_021351218.1 unnamed protein product
+Length=4722
+
+ Score = 39.3 bits (90),  Expect = 0.012, Method: Composition-based stats.
+ Identities = 45/130 (35%), Positives = 51/130 (39%), Gaps = 24/130 (18%)
+
+Query  28    YPPEANPSPTTTQPSPYPAQNP---PPYNPNDPSVPVVN-MPYQQTVGFPASQQQGHPAP  83
+             YPP  N + T  Q  P PA+       Y       P+ N + +QQ   FP       P P
+Sbjct  3019  YPPTGNQATTMHQVPPQPAEMSMFGSQYQQTPTQAPLPNQLGFQQ---FPGQVPLSGPTP  3075
+
+Query  84    PPQQGYPP---PQQGY----PPPQ--QGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYPPA  134
+                QG  P   P QG     P PQ   G  PP QG   P QG PP   G+P  Q G    
+Sbjct  3076  ---QGLLPQRIPGQGVAGQGPTPQGIAGQGPPPQGI--PGQGLPP---GHPGLQPGQSTG  3127
+
+Query  135   QQGYPAPQQG  144
+              QG   P  G
+Sbjct  3128  LQGQIVPAHG  3137
+
+
+>Aplanci.XP_022086923.1 unnamed protein product
+Length=168
+
+ Score = 37.4 bits (85),  Expect = 0.017, Method: Compositional matrix adjust.
+ Identities = 38/126 (30%), Positives = 55/126 (44%), Gaps = 33/126 (26%)
+
+Query  118  PPPQQGYPAQQQGYPPAQQGYPAPQQGYQTTGGYPYTTQHNVTIVT-----GGPAVV---  169
+             PPQQ YPAQQ G+ P                          T+VT     G P +V   
+Sbjct  41   YPPQQAYPAQQVGFQP-----------------------QAATVVTATPVPGQPVIVRTA  77
+
+Query  170  -VGGVPAPDYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYAN  228
+             VG  P  D+  L++   +FCC P+G+V ++ +   R     GD A A   SQ A++++ 
+Sbjct  78   AVGAQP-NDFLALAIIVTIFCCLPLGIVGILKSMEVRSKWAAGDAAGAQQASQEAKKWSL  136
+
+Query  229  IAITAG  234
+            I +  G
+Sbjct  137  IGLIVG  142
+
+
+>Myessoensis.XP_021368839.1 unnamed protein product
+Length=1585
+
+ Score = 38.5 bits (88),  Expect = 0.021, Method: Composition-based stats.
+ Identities = 27/81 (33%), Positives = 30/81 (37%), Gaps = 8/81 (10%)
+
+Query  73    PASQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYP  132
+             P     G    PP +  PP Q+ Y PP +  PP          G PP  Q  P    G P
+Sbjct  1199  PPPNNMGMRGMPPHRMPPPGQRMYQPPNRMGPPHGH-----NMGLPPHMQNMPLPHMGLP  1253
+
+Query  133   PAQQGYPAPQQGYQTTGGYPY  153
+             P   G   P   Y T   YPY
+Sbjct  1254  PHMGG---PNDPYNTGPRYPY  1271
+
+
+>Aplanci.XP_022106114.1 unnamed protein product
+Length=347
+
+ Score = 37.7 bits (86),  Expect = 0.026, Method: Compositional matrix adjust.
+ Identities = 18/30 (60%), Positives = 21/30 (70%), Gaps = 1/30 (3%)
+
+Query  93   QQGYPPPQQGYPPPQQGYPP-PQQGYPPPQ  121
+             +GYPPPQ GYP PQ  YPP   +GYPP +
+Sbjct  41   SEGYPPPQGGYPAPQAAYPPQSTEGYPPSE  70
+
+
+>Hsapiens.NP_001254479.2 titin isoform IC
+Length=35991
+
+ Score = 38.1 bits (87),  Expect = 0.028, Method: Composition-based stats.
+ Identities = 35/121 (29%), Positives = 50/121 (41%), Gaps = 21/121 (17%)
+
+Query  11     EPPPPYPETHQPYPNAPYPPEANPSPTTTQPSPYPAQNPPPYNPNDPSVPVVNMPYQQTV  70
+              EPPP  PE     P  P P E  P P      P   + P P  P  P  PV   P ++  
+Sbjct  10527  EPPPKVPE----LPEKPAPEEVAPVPI-----PKKVEPPAPKVPEVPKKPV---PEEKK-  10573
+
+Query  71     GFPASQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPP--QQGYPPPQQGYPPPQQGYPAQQ  128
+                P    +  PA PP+    P +   P P++  P P  ++   PP +  P  Q+G   ++
+Sbjct  10574  --PVPVPKKEPAAPPKVPEVPKK---PVPEEKIPVPVAKKKEAPPAK-VPEVQKGVVTEE  10627
+
+Query  129    Q  129
+              +
+Sbjct  10628  K  10628
+
+
+>Aplanci.XP_022099047.1 unnamed protein product
+Length=202
+
+ Score = 37.0 bits (84),  Expect = 0.029, Method: Compositional matrix adjust.
+ Identities = 30/81 (37%), Positives = 38/81 (47%), Gaps = 14/81 (17%)
+
+Query  83   PPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQ-------GYPPPQQGYPAQQQGYPPAQ  135
+            PPP Q +      YPPPQQ +      YPPPQQ        +PPPQQ +     G+PP Q
+Sbjct  46   PPPLQVWEEDSMAYPPPQQVWKEDSIAYPPPQQVRKDDSIAHPPPQQLWEEDSIGHPPPQ  105
+
+Query  136  Q-------GYPAPQQGYQTTG  149
+            Q        +P PQQ ++   
+Sbjct  106  QVWEEDSIAHPPPQQVWEEDS  126
+
+
+>Nvectensis.XP_032220297.1 unnamed protein product
+Length=989
+
+ Score = 38.1 bits (87),  Expect = 0.030, Method: Compositional matrix adjust.
+ Identities = 25/96 (26%), Positives = 40/96 (42%), Gaps = 9/96 (9%)
+
+Query  80   HPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYPPAQQGYP  139
+            H  P P+   P P+   P P+   P P+   P P+   P P+   P+ +   P  +   P
+Sbjct  702  HSQPSPEHSQPSPEHSQPSPEHSQPSPEHSQPSPEHCQPSPEHSQPSPEHSLPSQEHSLP  761
+
+Query  140  APQQGY-------QTTGGYPYTTQHNVTIVTGGPAV  168
+            +P           Q+T    YT+  ++ + T G AV
+Sbjct  762  SPTSSLGEQVCDVQSTSAQSYTS--DLVLQTPGGAV  795
+
+
+>Bbelcheri.XP_019639705.1 unnamed protein product
+Length=316
+
+ Score = 37.4 bits (85),  Expect = 0.035, Method: Compositional matrix adjust.
+ Identities = 75/261 (29%), Positives = 98/261 (38%), Gaps = 85/261 (33%)
+
+Query  65   PYQQTVGFPASQQQGHPAPPPQQG-YPPPQQGYPPPQQGY----PPPQQGY--PPPQQ--  115
+            P QQ  G P S QQG+  PP QQ  Y  P    PPPQQGY    PP  QGY  PP QQ  
+Sbjct  24   PQQQGYGQPPSYQQGYGQPPGQQNPYGQPGPRAPPPQQGYGSAPPPQHQGYGTPPAQQQA  83
+
+Query  116  -GYPPPQQ-GYPAQQQGY----------------------------PPAQQGYPAPQQGY  145
+             G PPPQQ GY AQQQ Y                            PP QQGY    QGY
+Sbjct  84   YGAPPPQQPGYGAQQQRYGAPPPQQQHYGAPPPQQGGYGAQQGYGAPPPQQGY---HQGY  140
+
+Query  146  Q--------TTGGYPYTTQHN----VTIVTGGPAVVVGGVP--APDYCGLSL--------  183
+            Q        T  G+  T   +    +       A+V G      P+ C L +        
+Sbjct  141  QGPPPGVDPTLWGWFQTVDQDRSGSINATELRQALVNGNWSHFNPETCRLLIGMFDQNKD  200
+
+Query  184  -------FSCL----------FCCWPIGLVAVINAKHAREANQRGDYARASTYSQMA---  223
+                   F+ L          F  +       I+A+    A +   Y+ ++++  M    
+Sbjct  201  GTINIQEFAALWKYINDWKGCFDRFDTDRSGNIDAQELNNAFRTFGYSLSASFCGMIVTK  260
+
+Query  224  -RRYANIAITAGIILIICIVV  243
+              R +N  I     + +C+++
+Sbjct  261  FDRSSNRTINFDDFIQVCVML  281
+
+
+>Myessoensis.XP_021367980.1 unnamed protein product
+Length=1450
+
+ Score = 37.7 bits (86),  Expect = 0.038, Method: Composition-based stats.
+ Identities = 37/119 (31%), Positives = 43/119 (36%), Gaps = 13/119 (11%)
+
+Query  14   PPYPETHQP--YPNAPYPPEANPSPTTTQPSPYPAQNPPPYNPNDPSVPVVNMPYQQTVG  71
+            P YP   QP  Y    YPP+   +  T  P   P Q  P   P  P  P+  M       
+Sbjct  575  PQYPAYSQPASYSQPGYPPDM--ANYTNSPVAPPTQVHPGAVPPYPGAPMGAM-----YN  627
+
+Query  72   FPASQQQGHPAPPPQQGYPPPQQGYPPP----QQGYPPPQQGYPPPQQGYPPPQQGYPA  126
+             P     GHP     QG  P    YPP     Q  + PP  G PP  Q +  P    P+
+Sbjct  628  APPQYGYGHPPQGFDQGSYPNYTNYPPQGAPFQPRHNPPNLGPPPHGQAFHGPPPNVPS  686
+
+
+>Hvulgaris.XP_012562865.1 unnamed protein product
+Length=153
+
+ Score = 36.2 bits (82),  Expect = 0.042, Method: Compositional matrix adjust.
+ Identities = 15/53 (28%), Positives = 28/53 (53%), Gaps = 0/53 (0%)
+
+Query  178  YCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIA  230
+            Y  ++  SCLF C P  + AV+ ++   +   +GD   A   S++  + A++A
+Sbjct  80   YKTVAWLSCLFGCIPFSIAAVLKSRKVSKLIAKGDLKNAKVQSEVTVKLASLA  132
+
+
+>Bbelcheri.XP_019634330.1 unnamed protein product
+Length=1596
+
+ Score = 37.7 bits (86),  Expect = 0.043, Method: Composition-based stats.
+ Identities = 37/134 (28%), Positives = 48/134 (36%), Gaps = 21/134 (16%)
+
+Query  20   HQPYPNAPYP---PEANPSPTTTQPSPYPAQNPPPYNPNDPSVPVVNMPYQ---------  67
+            H   PNAP      + +P PTT    P    +  P +PN P+  +   P Q         
+Sbjct  450  HSNKPNAPMEGLLNQPHPKPTTGFSVPNETTSSSPQHPNLPNTSMGGQPQQAYSMQQSTS  509
+
+Query  68   QTVGFPASQQQGHPAPP---PQQGYP------PPQQGYPPPQQGYPPPQQGYPPPQQGYP  118
+                  +SQQ   P  P   P Q YP      P +  +P PQ        G   PQQ + 
+Sbjct  510  SEATVTSSQQTNIPNAPMESPHQPYPTTGFSVPTETTHPSPQHPTLNTSMGPGQPQQPWY  569
+
+Query  119  PPQQGYPAQQQGYP  132
+            P    +P     YP
+Sbjct  570  PYWHPHPQWGMMYP  583
+
+
+>Aplanci.XP_022097439.1 unnamed protein product
+Length=512
+
+ Score = 37.0 bits (84),  Expect = 0.054, Method: Compositional matrix adjust.
+ Identities = 35/64 (55%), Positives = 38/64 (59%), Gaps = 15/64 (23%)
+
+Query  88   GYPPPQ--QGYPPPQ--QGYPPPQ--QGYPPPQ--QGYPPPQQGYPAQQQGYPP--AQQG  137
+            GYPPP   +GYPPP   Q YPPP    GYPPP+   GYPPP     A  QGYPP    +G
+Sbjct  405  GYPPPGVPEGYPPPSAPQTYPPPAGGTGYPPPEGDAGYPPP-----AGTQGYPPPADGEG  459
+
+Query  138  YPAP  141
+            YP P
+Sbjct  460  YPPP  463
+
+
+>Aplanci.XP_022089336.1 unnamed protein product
+Length=772
+
+ Score = 36.6 bits (83),  Expect = 0.090, Method: Compositional matrix adjust.
+ Identities = 36/68 (53%), Positives = 37/68 (54%), Gaps = 6/68 (9%)
+
+Query  77   QQGHPAPPPQQGYPPPQQGY-PPPQQGYPPPQQGYPPPQQGYPPP--QQGYPAQQQGYPP  133
+            Q G  A PPQ G  P QQG  PPPQ    PP Q Y  PQQ + PP   QG PA   GY P
+Sbjct  549  QGGMMAAPPQ-GMMPQQQGIIPPPQGAMIPPGQ-YSVPQQTFSPPSSMQGSPAHS-GYNP  605
+
+Query  134  AQQGYPAP  141
+             QQ Y AP
+Sbjct  606  QQQTYNAP  613
+
+
+>Nvectensis.XP_032217897.1 unnamed protein product
+Length=1158
+
+ Score = 35.8 bits (81),  Expect = 0.17, Method: Compositional matrix adjust.
+ Identities = 45/154 (29%), Positives = 58/154 (38%), Gaps = 20/154 (13%)
+
+Query  12    PPPPYPETHQPYPNAPYPPE---ANPSPTTTQPSPYPAQNPP-PYNPND-----PSVPVV  62
+             PP P PE H   P  P   +   A+ +   +Q + Y +Q+   P +  D      S P  
+Sbjct  964   PPAPQPEDHTQEPELPSQDDNYPAHNADYKSQETGYVSQDGTYPSSQTDFPSYGGSFPAN  1023
+
+Query  63    NMPYQQTVGFPASQQQGHPA-----PPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGY  117
+             +  Y        +   G+P      PP   GY     GYP    GY     GY     GY
+Sbjct  1024  SAEYSSYGAGDHTHGSGYPVNGTEYPPQDSGYDT---GYPLQDTGYQSHDTGYQSYDTGY  1080
+
+Query  118   PPPQQGYPAQQQGYPPAQQGYPAPQQGY---QTT  148
+             P    GYP+Q   YP     Y +P   Y   QTT
+Sbjct  1081  PLHDTGYPSQYGDYPSQYADYQSPYSTYDPSQTT  1114
+
+
+>Dgigantea.XP_028405366.1 unnamed protein product
+Length=327
+
+ Score = 35.4 bits (80),  Expect = 0.17, Method: Compositional matrix adjust.
+ Identities = 17/35 (49%), Positives = 18/35 (51%), Gaps = 1/35 (3%)
+
+Query  86   QQGYPPPQQGYPPPQQGYPPPQ-QGYPPPQQGYPP  119
+              GYPP    YPP    YPPP  + YPP    YPP
+Sbjct  19   NSGYPPVSTAYPPMASAYPPPSAEAYPPTTNAYPP  53
+
+
+>Bbelcheri.XP_019621758.1 unnamed protein product
+Length=332
+
+ Score = 35.0 bits (79),  Expect = 0.19, Method: Compositional matrix adjust.
+ Identities = 46/135 (34%), Positives = 54/135 (40%), Gaps = 17/135 (13%)
+
+Query  9    GSEPPPPYPETHQPYPNAPYPPEANPSPTTTQPSP-YPAQNPPPYNPNDPSVPVVNMPYQ  67
+            G++ PP +   +QP    P P + +      Q  P  PA   P YNP             
+Sbjct  197  GTQQPPTHAIIYQP--GQPLPQQVHSGVIIMQTVPGAPAGQQPAYNPQ-----------A  243
+
+Query  68   QTVGFPASQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQG-YPA  126
+            Q   +PA  Q G  + P Q G  P Q G  P Q G  P Q G  P Q G  P Q G YP 
+Sbjct  244  QAGAYPAQLQPG--SYPAQPGSYPAQAGTYPAQAGAYPTQAGTYPAQAGTYPAQAGTYPT  301
+
+Query  127  QQQGYPPAQQGYPAP  141
+            Q   YP     YP P
+Sbjct  302  QAGAYPTQAGAYPTP  316
+
+
+>Hvulgaris.XP_002161982.2 unnamed protein product
+Length=421
+
+ Score = 35.4 bits (80),  Expect = 0.19, Method: Compositional matrix adjust.
+ Identities = 36/91 (40%), Positives = 40/91 (44%), Gaps = 13/91 (14%)
+
+Query  37   TTTQPSPYPAQNPPPYNPNDPSVPVVNMPYQQTVGFPASQQQGHPAP-PPQQGYPPPQQG  95
+             T Q S      P   NPN  S P V+           S+Q  +P+P P QQ YPP   G
+Sbjct  310  VTLQYSAVANSVPDSINPNIKSNPQVH----------NSKQNFNPSPYPVQQAYPPCNDG  359
+
+Query  96   YPPPQQGYPPPQQGYPPPQQGYPPPQQGYPA  126
+               P   YPPPQQ Y    Q YP P   YPA
+Sbjct  360  LKQPLM-YPPPQQ-YQAINQQYPGPPSQYPA  388
+
+
+>Hsapiens.NP_055853.1 uncharacterized protein KIAA0754
+Length=1427
+
+ Score = 35.4 bits (80),  Expect = 0.20, Method: Composition-based stats.
+ Identities = 35/143 (24%), Positives = 49/143 (34%), Gaps = 8/143 (6%)
+
+Query  14    PPYPETHQPYPNAPYPPEANPSPTTTQPSPYPAQNPPPYNPNDP--SVPVVNMPYQQTVG  71
+             P  P    P P  P  P A   PT  +P+   A  PPP  P  P  +VP    P      
+Sbjct  1000  PASPAAAVPTPEEPTSPAA-AVPTPEEPTSPAAAVPPPEEPTSPAAAVPTPEEPTSPAAA  1058
+
+Query  72    FPASQQQGHPAP--PPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQ  129
+              P  ++   PA   P  +    P    P P++    P    P P++   P       ++ 
+Sbjct  1059  VPTPEEPTSPAAAVPTPEEPTSPAAAVPTPEEP-TSPAAAVPTPEEPTSPAAAVPTPEEP  1117
+
+Query  130   GYPPAQQGYPAPQQGYQTTGGYP  152
+               P A    P P++        P
+Sbjct  1118  ASPAA--AVPTPEEPASPAAAVP  1138
+
+
+>Bbelcheri.XP_019636910.1 unnamed protein product
+Length=400
+
+ Score = 35.0 bits (79),  Expect = 0.25, Method: Compositional matrix adjust.
+ Identities = 46/129 (36%), Positives = 53/129 (41%), Gaps = 7/129 (5%)
+
+Query  17   PETHQPYPNAPYPPEAN--PSPTTTQPSPYPAQNPPPYNPNDPSVPVVNMPYQQTVGFPA  74
+            P + Q  PN    P +N    P+  Q  P P Q  P +    PS       +QQT   P 
+Sbjct  132  PSSQQVQPNIQQVPPSNQQTRPSLQQTRPSPQQTRPSHQQTRPSHQQTRPSHQQTRPSPL  191
+
+Query  75   SQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYPPA  134
+                    P  QQ    PQQ  P  QQ  P  QQ  P PQQ  P  QQ  P+ QQ  P  
+Sbjct  192  -----QIRPSHQQVQHSPQQIRPSLQQTQPSHQQVQPSPQQIRPSLQQIRPSLQQIRPSL  246
+
+Query  135  QQGYPAPQQ  143
+            QQ  P+ QQ
+Sbjct  247  QQIRPSLQQ  255
+
+
+>Bbelcheri.XP_019619105.1 unnamed protein product
+Length=2771
+
+ Score = 35.0 bits (79),  Expect = 0.27, Method: Compositional matrix adjust.
+ Identities = 28/59 (47%), Positives = 36/59 (61%), Gaps = 10/59 (17%)
+
+Query  84   PPQQGYPPPQQGYPPPQQGYP--PPQQGYPPPQ--QGYPPPQQGYPAQQ--QGYPPAQQ  136
+            PP++G  PP++G  PP +G    PP++G P PQ  Q  PP    YP Q+  QG PPAQQ
+Sbjct  477  PPREGMQPPREGMVPPAEGMATQPPREGMPVPQPGQQRPP----YPTQRFPQGVPPAQQ  531
+
+
+>Nvectensis.XP_032228508.1 unnamed protein product
+Length=1032
+
+ Score = 34.7 bits (78),  Expect = 0.31, Method: Composition-based stats.
+ Identities = 21/52 (40%), Positives = 23/52 (44%), Gaps = 6/52 (12%)
+
+Query  85   PQQGYP----PPQQGYP--PPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQG  130
+            PQQG P     PQQ +   P   G  P       PQQ +PP     P QQQG
+Sbjct  947  PQQGTPYVCSTPQQPWVMVPRDAGQQPEVPPTAFPQQNHPPFPTQQPDQQQG  998
+
+
+>Nvectensis.XP_001623291.1 unnamed protein product
+Length=1300
+
+ Score = 34.7 bits (78),  Expect = 0.37, Method: Compositional matrix adjust.
+ Identities = 25/57 (44%), Positives = 32/57 (56%), Gaps = 0/57 (0%)
+
+Query  83    PPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYPPAQQGYP  139
+             PP  QG PP + G PP + G PP + G PP + G PP + G P  + G PP + G P
+Sbjct  1012  PPHDQGRPPYEPGRPPHEPGRPPHEPGRPPHEPGRPPHEPGRPPHEPGRPPHEPGRP  1068
+
+
+>Aplanci.XP_022082962.1 unnamed protein product
+Length=1964
+
+ Score = 33.9 bits (76),  Expect = 0.65, Method: Compositional matrix adjust.
+ Identities = 57/136 (42%), Positives = 59/136 (43%), Gaps = 21/136 (15%)
+
+Query  15    PYPETHQPYPNA--PYPPEANPSPTTTQPSPYPAQNPPPYNPNDPSVPVVNMPYQQTVGF  72
+             P+     PYP    PYP    P P   QP P   Q   PY       P    PY+   G 
+Sbjct  1709  PFTGGQSPYPGGQQPYPGGQQPYPGGQQPYPGSQQ---PY-------PSGQQPYR---GQ  1755
+
+Query  73    PASQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYP--PPQQG----YPPPQQGYPA  126
+             P  Q    P P  QQ YP  QQ YP  QQ YP  QQ Y   PP QG    YP  QQ YP 
+Sbjct  1756  PPLQGSQQPYPGGQQPYPGGQQPYPGGQQPYPSGQQPYRGQPPLQGSQQPYPGGQQPYPG  1815
+
+Query  127   QQQGYPPAQQGYPAPQ  142
+              QQ YP  QQ YP  Q
+Sbjct  1816  GQQPYPGGQQPYPGGQ  1831
+
+
+>Nvectensis.XP_032240216.1 unnamed protein product
+Length=2028
+
+ Score = 33.9 bits (76),  Expect = 0.70, Method: Compositional matrix adjust.
+ Identities = 37/96 (39%), Positives = 44/96 (46%), Gaps = 10/96 (10%)
+
+Query  67   QQTVGFPASQQQGHPAPPP------QQGYPPPQQGYPPPQQGYPPPQQG--YPPPQQGYP  118
+            QQ +G   +   GHP   P      QQG+P  Q G  P Q G  P QQ   +P  Q G  
+Sbjct  520  QQMIGQAPTHMGGHPGQRPMGPHAHQQGHPGQQMGGHPHQMGVHPHQQMGQHPVRQMGPH  579
+
+Query  119  PPQQGYPAQQQGYPPAQQ-GYPAPQQGY-QTTGGYP  152
+            P Q G   QQ G  P Q  G+P    G+ Q  GG+P
+Sbjct  580  PGQMGSHPQQMGVHPQQMGGHPQQMGGHPQQMGGHP  615
+
+
+>Aplanci.XP_022092303.1 unnamed protein product
+Length=628
+
+ Score = 33.5 bits (75),  Expect = 0.81, Method: Compositional matrix adjust.
+ Identities = 28/46 (61%), Positives = 28/46 (61%), Gaps = 0/46 (0%)
+
+Query  84   PPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQ  129
+            PPQQG   PQQG  PPQ G   PQ G   PQQG  PPQQG   QQQ
+Sbjct  207  PPQQGAYSPQQGAYPPQPGTYSPQPGTYSPQQGAYPPQQGTYPQQQ  252
+
+
+>Myessoensis.XP_021355735.1 unnamed protein product
+Length=1987
+
+ Score = 33.5 bits (75),  Expect = 0.83, Method: Compositional matrix adjust.
+ Identities = 22/55 (40%), Positives = 35/55 (64%), Gaps = 0/55 (0%)
+
+Query  82   APPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYPPAQQ  136
+             PP ++G PP ++G PP + G PP ++G PP + G PP ++G P  ++G PP + 
+Sbjct  913  GPPFREGGPPFREGGPPFRDGGPPFREGGPPFRDGGPPFREGGPPFREGGPPHRD  967
+
+
+>Myessoensis.XP_021359454.1 unnamed protein product
+Length=2026
+
+ Score = 33.1 bits (74),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 23/83 (28%), Positives = 31/83 (37%), Gaps = 7/83 (8%)
+
+Query  6     GFPGSEPPPPYPETHQPYPNAPYPPEANPSPTTTQPSPYPAQNPPPYNPNDPSVPVVNMP  65
+              F  + PPPP P +   + +A  PP    S    Q +  P Q+   +    P  P    P
+Sbjct  1610  AFQSAGPPPPIPLSAVAFQSAGPPPPIQQSDRAFQSAGPPPQSAMAFQSAGPPRP----P  1665
+
+Query  66    YQQTVGFPASQQQGHPAPPPQQG  88
+              Q  + F   Q      PPP  G
+Sbjct  1666  SQSAMAF---QSAAALPPPPLSG  1685
+
+
+>Aplanci.XP_022099594.1 unnamed protein product
+Length=254
+
+ Score = 32.3 bits (72),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 31/58 (53%), Positives = 34/58 (59%), Gaps = 6/58 (10%)
+
+Query  93   QQGYPPPQQGYP--PPQQGYPPPQQGYPPPQQGYPAQQQGYPPAQQGYP-APQQGYQT  147
+            QQG   P QGY    PQQGYP  Q    PPQ GYP Q    P AQQGYP +P QG ++
+Sbjct  187  QQG-SAPLQGYGGYTPQQGYPSHQG--CPPQPGYPPQVGYSPAAQQGYPHSPPQGVES  241
+
+
+>Nvectensis.XP_032221684.1 unnamed protein product
+Length=2917
+
+ Score = 32.7 bits (73),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 35/129 (27%), Positives = 42/129 (33%), Gaps = 17/129 (13%)
+
+Query  11    EPPPPYPETHQPYPNAPYPPEANPSPTTTQPSPYPAQNPPPYNPNDPSVPVVNMPYQQTV  70
+             E PP     + P P   Y   A P           A  PPP   +    P    P + + 
+Sbjct  2794  EGPPSMGRYNTPPPMGQYGAPARP-----------AMGPPPMGSSRYGPPPPMGPARHSP  2842
+
+Query  71    GFPASQQQGHPAPPPQQGYPPPQQGYPPPQQGYP--PPQQGYPPPQQGYPPPQQGYPAQQ  128
+               P S     P+ PP  G PP     PPP    P  PP  G PP            P   
+Sbjct  2843  SGP-SPLGAPPSVPPPMGAPPSG---PPPMGAPPSGPPPMGTPPSGHPPMGAPPMGPPPS  2898
+
+Query  129   QGYPPAQQG  137
+               + PA +G
+Sbjct  2899  GSHSPAPRG  2907
+
+
+>Bbelcheri.XP_019620292.1 unnamed protein product
+Length=526
+
+ Score = 32.3 bits (72),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 29/78 (37%), Positives = 31/78 (40%), Gaps = 5/78 (6%)
+
+Query  70   VGFPASQQQGHP----APPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQ-GYPPPQQGY  124
+             G P + Q GHP     P   Q   PP  G P   Q   PP  G P   Q   PP   G 
+Sbjct  296  TGGPTAHQTGHPPATGGPTAHQTAEPPATGGPTAHQTAEPPATGGPTAHQTAEPPATGGQ  355
+
+Query  125  PAQQQGYPPAQQGYPAPQ  142
+             A   G+PPA  G  A Q
+Sbjct  356  TAHHTGHPPATGGQTAHQ  373
+
+
+>Bbelcheri.XP_019636994.1 unnamed protein product
+Length=1125
+
+ Score = 32.3 bits (72),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 25/110 (23%), Positives = 45/110 (41%), Gaps = 7/110 (6%)
+
+Query  8    PGSEPPPPYPETHQPYPNAPYPPEANPSPTTTQPSPYPAQNPPPYNPNDPSVPVVNMPYQ  67
+            P  E  P   E  +P P      E  P+P   +P+P   + P       P+      P  
+Sbjct  689  PKVEEKPTSKEEEKPTPKV----EEKPTPDEKKPTPKVEEKPASTQQEKPTPKAEEKPTP  744
+
+Query  68   QTVGFPASQQQGHPAPPPQQGYPPP---QQGYPPPQQGYPPPQQGYPPPQ  114
+            + V  PAS+++   + P ++  P P   ++  P  ++   P ++  P P+
+Sbjct  745  KEVEKPASKEEEEKSAPKEEEKPTPKVEEKPTPKVEEKSAPKEEEKPAPK  794
+
+
+>Aplanci.XP_022080539.1 unnamed protein product
+Length=334
+
+ Score = 32.0 bits (71),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 32/70 (46%), Positives = 32/70 (46%), Gaps = 6/70 (9%)
+
+Query  73   PASQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYP  132
+            PAS  Q    P  QQ YP  Q  YP  Q  YP  Q  YP  Q  YP  Q  YPA   GYP
+Sbjct  270  PASYGQPGAYPAGQQAYPAIQPAYPAGQPAYPAGQPAYPAGQPAYPAGQPTYPA---GYP  326
+
+Query  133  PAQQGYPAPQ  142
+             A   YP  Q
+Sbjct  327  TA---YPGEQ  333
+
+
+>Dgigantea.XP_028412343.1 unnamed protein product
+Length=406
+
+ Score = 32.0 bits (71),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 24/57 (42%), Positives = 31/57 (54%), Gaps = 1/57 (2%)
+
+Query  84   PPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQG-YPAQQQGYPPAQQGYP  139
+            PP+Q   PP+Q   PP+Q   PP+Q   PP+Q   PP+Q   P +Q   PP Q   P
+Sbjct  195  PPEQAIKPPEQTIKPPEQAIKPPEQTIKPPEQSIKPPEQAIKPPEQTIKPPEQTTKP  251
+
+
+>Myessoensis.XP_021354329.1 unnamed protein product
+Length=1234
+
+ Score = 32.0 bits (71),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 37/132 (28%), Positives = 45/132 (34%), Gaps = 17/132 (13%)
+
+Query  17   PETHQPYPNAPYPPEANPSPTTTQPSPYPAQNPP-PYNPNDPSVPVVNMPYQQTVGFPAS  75
+            P   QP+      P     P     +  P  N P PY    P++P   MPY+        
+Sbjct  199  PNIQQPFEGPYSRPYGELGPARPWSNSGPNTNVPLPYGGPGPNLP---MPYEGPGPNVPP  255
+
+Query  76   QQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYPPAQ  135
+              +G     P +  PPP     P  Q Y  P    PPP QG         +   GYP   
+Sbjct  256  PNRG-----PDRNIPPPYGPPTPYLQPYGGPYPMVPPPNQG----SDAIASSWYGYP---  303
+
+Query  136  QGYPAPQQGYQT  147
+             GY   QQ   T
+Sbjct  304  -GYHVHQQQSST  314
+
+
+>Myessoensis.XP_021347272.1 unnamed protein product
+Length=1772
+
+ Score = 32.0 bits (71),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 33/101 (33%), Positives = 35/101 (35%), Gaps = 16/101 (16%)
+
+Query  67   QQTVGFPA---SQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPP-----PQQGYP  118
+            QQT   P    S QQ    PP        QQ    PQ   P  Q   PP     PQQ   
+Sbjct  310  QQTASTPQHTDSTQQAAQTPPHTTS---TQQAAETPQHSDPTQQTAQPPQHTDSPQQAAQ  366
+
+Query  119  PPQQGYPAQQQGYPPAQQGYPAPQQ---GYQTTGGYPYTTQ  156
+             PQ    AQQ      QQ    PQ      Q    + +TTQ
+Sbjct  367  TPQHKDSAQQAD--STQQAAQTPQHTDSAQQAAQTHQHTTQ  405
+
+
+>Myessoensis.XP_021351393.1 unnamed protein product
+Length=2008
+
+ Score = 31.6 bits (70),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 47/164 (29%), Positives = 62/164 (38%), Gaps = 8/164 (5%)
+
+Query  16   YPETHQPYPNAPYPPEANPSPTTTQPSPYPA--QNPPPYNPNDPSVPVVNMPYQQTVGFP  73
+            YP ++ P    P+PP++  S +   P P     ++P         +P   M Y Q    P
+Sbjct  641  YPTSYTPLSKVPHPPDSKMSSSKKPPLPNSTGLKSPSVQGMKMGQLPT-QMFYPQEQYPP  699
+
+Query  74   ASQQ-QGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYP  132
+             SQ    HP   PQ    P  Q    P+      QQ  PP    YPPP +    Q     
+Sbjct  700  TSQALHPHPFSQPQPTSAPGSQSTNIPELHPNYIQQ--PPKGIPYPPPPENVDLQAYFQF  757
+
+Query  133  PAQQGYPAPQQGYQTTGGYPYTTQHNVTIVTGGPAVVVGGVPAP  176
+               QGYP P Q    +  +P   Q N      GP  ++  VP P
+Sbjct  758  LESQGYPVPYQVVTASQKHPDVEQVNEGGTPQGPYEMM--VPRP  799
+
+
+>Nvectensis.XP_032242091.1 unnamed protein product
+Length=237
+
+ Score = 30.8 bits (68),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 15/25 (60%), Positives = 18/25 (72%), Gaps = 0/25 (0%)
+
+Query  29   PPEANPSPTTTQPSPYPAQNPPPYN  53
+            PP +NP+   T PS YP+Q PPPYN
+Sbjct  179  PPGSNPALMQTYPSNYPSQYPPPYN  203
+
+
+>Nvectensis.XP_001635026.2 unnamed protein product
+Length=134
+
+ Score = 30.0 bits (66),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 24/48 (50%), Positives = 25/48 (52%), Gaps = 1/48 (2%)
+
+Query  82   APPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQ  129
+            APPP     P +  YPP Q GY P Q GY PP  G  PPQQ     QQ
+Sbjct  4    APPPYTAGDPSKAAYPP-QPGYGPQQPGYWPPGYGINPPQQHTTVIQQ  50
+
+
+>Myessoensis.XP_021360115.1 unnamed protein product
+Length=274
+
+ Score = 30.4 bits (67),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 41/118 (35%), Positives = 47/118 (40%), Gaps = 13/118 (11%)
+
+Query  60   PVVNM--PYQQTVGFPASQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGY  117
+            P VN   P Q T GFP SQQ   PA   +   P P  G P  QQ   P    + PPQ   
+Sbjct  4    PTVNKWSPLQTTDGFPRSQQMESPA-VNKWSSPQPINGVPHSQQMESPAVDKWSPPQST-  61
+
+Query  118  PPPQQGYPAQQQGYPPAQQGYPAPQQGYQTTGGYPYTTQHNVTIVTG-GPAVVVGGVP  174
+                 G   +QQ   PA   +  P    Q+T G P + Q N   V    P     GVP
+Sbjct  62   ----NGVSRRQQMESPAVNKWSPP----QSTNGVPGSQQINSPAVNKWSPLPSTNGVP  111
+
+
+>Dgigantea.XP_028401165.1 unnamed protein product
+Length=335
+
+ Score = 30.4 bits (67),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 46/103 (45%), Positives = 52/103 (50%), Gaps = 29/103 (28%)
+
+Query  66   YQQTVGFPASQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQ--QGYPPPQQGYPPPQQG  123
+            YQQ  G+P  Q QG+   P +QGY P +QGY P +QGY   Q   GY    QGY     G
+Sbjct  161  YQQGQGYP--QMQGY---PQRQGY-PQRQGY-PQRQGYNNMQSPSGY-QANQGYT----G  208
+
+Query  124  YP------AQQQGYP--------PAQQGYPAPQQGYQTTGGYP  152
+            YP      AQQ  YP        P  QGYPA  QGY  + GYP
+Sbjct  209  YPQYPGGQAQQGTYPGTPGYTGNPPTQGYPAT-QGYHASQGYP  250
+
+
+>Myessoensis.XP_021367487.1 unnamed protein product
+Length=1354
+
+ Score = 30.8 bits (68),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 33/84 (39%), Positives = 33/84 (39%), Gaps = 14/84 (17%)
+
+Query  82   APPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPP--------PQQGYPAQQQGYPP  133
+            APPP  G PP   G PPP  G PP   G PP     PP        P  G P QQ     
+Sbjct  414  APPPMSGAPPLMSGAPPPISGAPPHMSGGPPRSMAGPPLPGGPGQMPSGGLPLQQIRGVN  473
+
+Query  134  AQQGYPAPQQGYQTTGGYPYTTQH  157
+            A  G P PQ      G     TQH
+Sbjct  474  ALAGPPLPQ------GNTNQMTQH  491
+
+
+>Hsapiens.NP_001369477.1 transcription elongation regulator 1 isoform 3
+Length=1115
+
+ Score = 30.4 bits (67),  Expect = 8.0, Method: Composition-based stats.
+ Identities = 27/90 (30%), Positives = 37/90 (41%), Gaps = 16/90 (18%)
+
+Query  10   SEPPP---PYPETHQPYPNA--PYPPEANPSPTTTQPSPYPAQNPPPYNPNDPSVP----  60
+            S P P   P     QP+P    P  P + P PTT  P+ +P    PP+    P +P    
+Sbjct  320  STPAPTATPVQTVPQPHPQTLPPAVPHSVPQPTTAIPA-FPPVMVPPFRVPLPGMPIPLP  378
+
+Query  61   ------VVNMPYQQTVGFPASQQQGHPAPP  84
+                  +V+ PY +TV    +      APP
+Sbjct  379  GVAMMQIVSCPYVKTVATTKTGVLPGMAPP  408
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.138    0.455    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9158899540
+
+
+  Database: allprotein.fas
+    Posted date:  Sep 27, 2021  7:11 PM
+  Number of letters in database: 81,927,641
+  Number of sequences in database:  150,063
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
