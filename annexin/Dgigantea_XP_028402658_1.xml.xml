@@ -1,0 +1,184 @@
+<?xml version="1.0"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interproscan-version="5.52-86.0">
+  <protein>
+    <sequence md5="7cd9ebf02b93c7f3ed25431dc707134f">MEQPPPYSQGNQYPPQSAPYPPEQHPGYPPQKDHGGSGYPPQGYPPQGQGYPPQGQGYPPQGQGYPPQGHFQQPAGFSSQTNNTTTVVVQNQPQVVTSTVIPVVNDQMGLAIFACLCCCPLIGLIAIVKSSESRSRYVSGDYVGAVSSAQSSRNLSYAAIVCGLIMIPLIIVLRVVVFATTYESNDYNN</sequence>
+    <xref id="Dgigantea.XP_028402658.1" name="Dgigantea.XP_028402658.1"/>
+    <matches>
+      <hmmer3-match evalue="6.2E-20" score="71.1">
+        <signature ac="PF04505" desc="Interferon-induced transmembrane protein" name="CD225">
+          <entry ac="IPR007593" desc="CD225/Dispanin family" name="CD225/Dispanin_fam" type="FAMILY">
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0016021" name="integral component of membrane"/>
+            <pathway-xref db="Reactome" id="R-RNO-198933" name="Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell"/>
+            <pathway-xref db="Reactome" id="R-MMU-198933" name="Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell"/>
+            <pathway-xref db="Reactome" id="R-HSA-198933" name="Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell"/>
+            <pathway-xref db="Reactome" id="R-HSA-909733" name="Interferon alpha/beta signaling"/>
+          </entry>
+          <signature-library-release library="PFAM" version="33.1"/>
+        </signature>
+        <model-ac>PF04505</model-ac>
+        <locations>
+          <hmmer3-location env-end="170" env-start="102" post-processed="true" score="70.4" evalue="1.0E-19" hmm-start="3" hmm-end="65" hmm-length="68" hmm-bounds="INCOMPLETE" start="105" end="167">
+            <location-fragments>
+              <hmmer3-location-fragment start="105" end="167" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Proline-rich" start="1" end="28">
+            <location-fragments>
+              <mobidblite-location-fragment start="1" end="28" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="1" end="80">
+            <location-fragments>
+              <mobidblite-location-fragment start="1" end="80" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polar" start="66" end="80">
+            <location-fragments>
+              <mobidblite-location-fragment start="66" end="80" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <panther-match evalue="4.3E-27" familyName="Not available" score="106.8">
+        <signature ac="PTHR14948:SF25" name="TRANSMEMBRANE PROTEIN">
+          <signature-library-release library="PANTHER" version="15.0"/>
+        </signature>
+        <model-ac>PTHR14948:SF25</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="189" hmm-start="17" hmm-end="182" hmm-length="194" hmm-bounds="INCOMPLETE" start="7" end="183">
+            <location-fragments>
+              <panther-location-fragment start="7" end="183" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="4.3E-27" familyName="Not available" score="106.8">
+        <signature ac="PTHR14948" name="NG5">
+          <signature-library-release library="PANTHER" version="15.0"/>
+        </signature>
+        <model-ac>PTHR14948</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="189" hmm-start="17" hmm-end="182" hmm-length="194" hmm-bounds="INCOMPLETE" start="7" end="183">
+            <location-fragments>
+              <panther-location-fragment start="7" end="183" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <phobius-match>
+        <signature ac="TRANSMEMBRANE" desc="Region of a membrane-bound protein predicted to be embedded in the membrane." name="Transmembrane region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>TRANSMEMBRANE</model-ac>
+        <locations>
+          <phobius-location start="108" end="128">
+            <location-fragments>
+              <phobius-location-fragment start="108" end="128" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="180" end="189">
+            <location-fragments>
+              <phobius-location-fragment start="180" end="189" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm." name="Cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="129" end="156">
+            <location-fragments>
+              <phobius-location-fragment start="129" end="156" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="TRANSMEMBRANE" desc="Region of a membrane-bound protein predicted to be embedded in the membrane." name="Transmembrane region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>TRANSMEMBRANE</model-ac>
+        <locations>
+          <phobius-location start="157" end="179">
+            <location-fragments>
+              <phobius-location-fragment start="157" end="179" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="1" end="107">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="107" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <tmhmm-match>
+        <signature ac="TMhelix" desc="Region of a membrane-bound protein predicted to be embedded in the membrane.">
+          <signature-library-release library="TMHMM" version="2.0c"/>
+        </signature>
+        <model-ac>TMhelix</model-ac>
+        <locations>
+          <tmhmm-location start="109" end="128">
+            <location-fragments>
+              <tmhmm-location-fragment start="109" end="128" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </tmhmm-location>
+        </locations>
+      </tmhmm-match>
+      <tmhmm-match>
+        <signature ac="TMhelix" desc="Region of a membrane-bound protein predicted to be embedded in the membrane.">
+          <signature-library-release library="TMHMM" version="2.0c"/>
+        </signature>
+        <model-ac>TMhelix</model-ac>
+        <locations>
+          <tmhmm-location start="156" end="178">
+            <location-fragments>
+              <tmhmm-location-fragment start="156" end="178" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </tmhmm-location>
+        </locations>
+      </tmhmm-match>
+    </matches>
+  </protein>
+</protein-matches>

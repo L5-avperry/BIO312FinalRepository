@@ -1,0 +1,42 @@
+##gff-version 3
+##feature-ontology http://song.cvs.sourceforge.net/viewvc/song/ontology/sofa.obo?revision=1.269
+##interproscan-version 5.52-86.0
+##sequence-region Nvectensis.XP_032233579.1 1 192
+Nvectensis.XP_032233579.1	.	polypeptide	1	192	.	+	.	ID=Nvectensis.XP_032233579.1;md5=7fe6b28e827f1ca7cee0ad903c1d4dd1
+Nvectensis.XP_032233579.1	TMHMM	protein_match	152	174	.	+	.	date=16-11-2021;Target=Nvectensis.XP_032233579.1 152 174;ID=match$1_152_174;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Nvectensis.XP_032233579.1	MobiDBLite	protein_match	60	76	.	+	.	date=16-11-2021;Target=Nvectensis.XP_032233579.1 60 76;ID=match$2_60_76;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+Nvectensis.XP_032233579.1	MobiDBLite	protein_match	78	120	.	+	.	date=16-11-2021;Target=Nvectensis.XP_032233579.1 78 120;ID=match$3_78_120;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+Nvectensis.XP_032233579.1	Phobius	protein_match	154	175	.	+	.	date=16-11-2021;Target=Nvectensis.XP_032233579.1 154 175;ID=match$4_154_175;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Nvectensis.XP_032233579.1	Phobius	protein_match	1	153	.	+	.	date=16-11-2021;Target=Nvectensis.XP_032233579.1 1 153;ID=match$5_1_153;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Nvectensis.XP_032233579.1	MobiDBLite	protein_match	121	138	.	+	.	date=16-11-2021;Target=Nvectensis.XP_032233579.1 121 138;ID=match$6_121_138;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+Nvectensis.XP_032233579.1	Phobius	protein_match	176	192	.	+	.	date=16-11-2021;Target=Nvectensis.XP_032233579.1 176 192;ID=match$7_176_192;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Nvectensis.XP_032233579.1	MobiDBLite	protein_match	1	138	.	+	.	date=16-11-2021;Target=Nvectensis.XP_032233579.1 1 138;ID=match$8_1_138;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+Nvectensis.XP_032233579.1	MobiDBLite	protein_match	8	58	.	+	.	date=16-11-2021;Target=Nvectensis.XP_032233579.1 8 58;ID=match$9_8_58;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+##FASTA
+>Nvectensis.XP_032233579.1
+MAEKQGFPGSEPPPPYPETHQPYPNAPYPPEANPSPTTTQPSPYPAQNPPPYNPNDPSVP
+VVNMPYQQTVGFPASQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPP
+QQGYPAQQQGYPPAQQGYQTTGGYPYTTQHNVTIVVSVWFCLVSFMCILLLLLNYHRRGT
+EQKKSFSKIRSG
+>match$1_152_174
+VTIVVSVWFCLVSFMCILLLLLN
+>match$2_60_76
+PVVNMPYQQTVGFPASQ
+>match$3_78_120
+QGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPP
+>match$4_154_175
+IVVSVWFCLVSFMCILLLLLNY
+>match$5_1_153
+MAEKQGFPGSEPPPPYPETHQPYPNAPYPPEANPSPTTTQPSPYPAQNPPPYNPNDPSVP
+VVNMPYQQTVGFPASQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPP
+QQGYPAQQQGYPPAQQGYQTTGGYPYTTQHNVT
+>match$6_121_138
+QQGYPAQQQGYPPAQQGY
+>match$7_176_192
+HRRGTEQKKSFSKIRSG
+>match$8_1_138
+MAEKQGFPGSEPPPPYPETHQPYPNAPYPPEANPSPTTTQPSPYPAQNPPPYNPNDPSVP
+VVNMPYQQTVGFPASQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPP
+QQGYPAQQQGYPPAQQGY
+>match$9_8_58
+PGSEPPPPYPETHQPYPNAPYPPEANPSPTTTQPSPYPAQNPPPYNPNDPS

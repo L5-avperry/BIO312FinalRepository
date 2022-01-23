@@ -1,0 +1,57 @@
+##gff-version 3
+##feature-ontology http://song.cvs.sourceforge.net/viewvc/song/ontology/sofa.obo?revision=1.269
+##interproscan-version 5.52-86.0
+##sequence-region Dgigantea.XP_028402658.1 1 189
+Dgigantea.XP_028402658.1	.	polypeptide	1	189	.	+	.	ID=Dgigantea.XP_028402658.1;md5=7cd9ebf02b93c7f3ed25431dc707134f
+Dgigantea.XP_028402658.1	Pfam	protein_match	105	167	1.0E-19	+	.	date=16-11-2021;Target=Dgigantea.XP_028402658.1 105 167;Ontology_term="GO:0016021";ID=match$1_105_167;signature_desc=Interferon-induced transmembrane protein;Name=PF04505;status=T;Dbxref="InterPro:IPR007593","Reactome:R-HSA-198933","Reactome:R-HSA-909733","Reactome:R-MMU-198933","Reactome:R-RNO-198933"
+Dgigantea.XP_028402658.1	TMHMM	protein_match	109	128	.	+	.	date=16-11-2021;Target=Dgigantea.XP_028402658.1 109 128;ID=match$2_109_128;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Dgigantea.XP_028402658.1	PANTHER	protein_match	7	183	4.3E-27	+	.	date=16-11-2021;Target=Dgigantea.XP_028402658.1 7 183;ID=match$3_7_183;Name=PTHR14948:SF25;status=T
+Dgigantea.XP_028402658.1	MobiDBLite	protein_match	1	28	.	+	.	date=16-11-2021;Target=Dgigantea.XP_028402658.1 1 28;ID=match$4_1_28;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+Dgigantea.XP_028402658.1	Phobius	protein_match	108	128	.	+	.	date=16-11-2021;Target=Dgigantea.XP_028402658.1 108 128;ID=match$5_108_128;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Dgigantea.XP_028402658.1	Phobius	protein_match	180	189	.	+	.	date=16-11-2021;Target=Dgigantea.XP_028402658.1 180 189;ID=match$6_180_189;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Dgigantea.XP_028402658.1	MobiDBLite	protein_match	1	80	.	+	.	date=16-11-2021;Target=Dgigantea.XP_028402658.1 1 80;ID=match$7_1_80;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+Dgigantea.XP_028402658.1	Phobius	protein_match	129	156	.	+	.	date=16-11-2021;Target=Dgigantea.XP_028402658.1 129 156;ID=match$8_129_156;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Dgigantea.XP_028402658.1	TMHMM	protein_match	156	178	.	+	.	date=16-11-2021;Target=Dgigantea.XP_028402658.1 156 178;ID=match$9_156_178;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Dgigantea.XP_028402658.1	Phobius	protein_match	157	179	.	+	.	date=16-11-2021;Target=Dgigantea.XP_028402658.1 157 179;ID=match$10_157_179;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Dgigantea.XP_028402658.1	MobiDBLite	protein_match	66	80	.	+	.	date=16-11-2021;Target=Dgigantea.XP_028402658.1 66 80;ID=match$11_66_80;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+Dgigantea.XP_028402658.1	PANTHER	protein_match	7	183	4.3E-27	+	.	date=16-11-2021;Target=Dgigantea.XP_028402658.1 7 183;ID=match$12_7_183;Name=PTHR14948;status=T
+Dgigantea.XP_028402658.1	Phobius	protein_match	1	107	.	+	.	date=16-11-2021;Target=Dgigantea.XP_028402658.1 1 107;ID=match$13_1_107;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+##FASTA
+>Dgigantea.XP_028402658.1
+MEQPPPYSQGNQYPPQSAPYPPEQHPGYPPQKDHGGSGYPPQGYPPQGQGYPPQGQGYPP
+QGQGYPPQGHFQQPAGFSSQTNNTTTVVVQNQPQVVTSTVIPVVNDQMGLAIFACLCCCP
+LIGLIAIVKSSESRSRYVSGDYVGAVSSAQSSRNLSYAAIVCGLIMIPLIIVLRVVVFAT
+TYESNDYNN
+>match$1_105_167
+NDQMGLAIFACLCCCPLIGLIAIVKSSESRSRYVSGDYVGAVSSAQSSRNLSYAAIVCGL
+IMI
+>match$2_109_128
+GLAIFACLCCCPLIGLIAIV
+>match$3_7_183
+YSQGNQYPPQSAPYPPEQHPGYPPQKDHGGSGYPPQGYPPQGQGYPPQGQGYPPQGQGYP
+PQGHFQQPAGFSSQTNNTTTVVVQNQPQVVTSTVIPVVNDQMGLAIFACLCCCPLIGLIA
+IVKSSESRSRYVSGDYVGAVSSAQSSRNLSYAAIVCGLIMIPLIIVLRVVVFATTYE
+>match$4_1_28
+MEQPPPYSQGNQYPPQSAPYPPEQHPGY
+>match$5_108_128
+MGLAIFACLCCCPLIGLIAIV
+>match$6_180_189
+TTYESNDYNN
+>match$7_1_80
+MEQPPPYSQGNQYPPQSAPYPPEQHPGYPPQKDHGGSGYPPQGYPPQGQGYPPQGQGYPP
+QGQGYPPQGHFQQPAGFSSQ
+>match$8_129_156
+KSSESRSRYVSGDYVGAVSSAQSSRNLS
+>match$9_156_178
+SYAAIVCGLIMIPLIIVLRVVVF
+>match$10_157_179
+YAAIVCGLIMIPLIIVLRVVVFA
+>match$11_66_80
+PPQGHFQQPAGFSSQ
+>match$12_7_183
+YSQGNQYPPQSAPYPPEQHPGYPPQKDHGGSGYPPQGYPPQGQGYPPQGQGYPPQGQGYP
+PQGHFQQPAGFSSQTNNTTTVVVQNQPQVVTSTVIPVVNDQMGLAIFACLCCCPLIGLIA
+IVKSSESRSRYVSGDYVGAVSSAQSSRNLSYAAIVCGLIMIPLIIVLRVVVFATTYE
+>match$13_1_107
+MEQPPPYSQGNQYPPQSAPYPPEQHPGYPPQKDHGGSGYPPQGYPPQGQGYPPQGQGYPP
+QGQGYPPQGHFQQPAGFSSQTNNTTTVVVQNQPQVVTSTVIPVVNDQ

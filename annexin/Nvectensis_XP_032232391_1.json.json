@@ -1,0 +1,393 @@
+{
+ "interproscan-version": "5.52-86.0",
+"results": [ {
+  "sequence" : "MAEKQGFPGSEPPPPYPETHQPYPNAPYPPEANPSPTTTQPSPYPAQNPPPYNPNDPSVPVVNMPYQQTVGFPASQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYPPAQQGYPAPQQGYQTTGGYPYTTQHNVTIVTGGPAVVVGGVPAPDYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITAGIILIICIVVFRIFAFN",
+  "md5" : "758aeb304ceaba0c2229a4b157e82e4c",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "TMhelix",
+      "name" : null,
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "TMHMM",
+        "version" : "2.0c"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 178,
+      "end" : 200,
+      "prediction" : null,
+      "score" : -1.0,
+      "location-fragments" : [ {
+        "start" : 178,
+        "end" : 200,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TMhelix"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 121,
+      "end" : 146,
+      "location-fragments" : [ {
+        "start" : 121,
+        "end" : 146,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polar"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "TMhelix",
+      "name" : null,
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "TMHMM",
+        "version" : "2.0c"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 226,
+      "end" : 248,
+      "prediction" : null,
+      "score" : -1.0,
+      "location-fragments" : [ {
+        "start" : 226,
+        "end" : 248,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TMhelix"
+  }, {
+    "signature" : {
+      "accession" : "TRANSMEMBRANE",
+      "name" : "Transmembrane region",
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 226,
+      "end" : 248,
+      "location-fragments" : [ {
+        "start" : 226,
+        "end" : 248,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TRANSMEMBRANE"
+  }, {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 180,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 180,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "PTHR14948",
+      "name" : "NG5",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "15.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 77,
+      "end" : 245,
+      "hmmStart" : 5,
+      "hmmEnd" : 173,
+      "hmmLength" : 194,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 64,
+      "envelopeEnd" : 250,
+      "location-fragments" : [ {
+        "start" : 77,
+        "end" : 245,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.9E-32,
+    "familyName" : "Not available",
+    "score" : 124.3,
+    "model-ac" : "PTHR14948"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 60,
+      "end" : 76,
+      "location-fragments" : [ {
+        "start" : 60,
+        "end" : 76,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polar"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 146,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 146,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 78,
+      "end" : 120,
+      "location-fragments" : [ {
+        "start" : 78,
+        "end" : 120,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Proline-rich"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "CYTOPLASMIC_DOMAIN",
+      "name" : "Cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 202,
+      "end" : 225,
+      "location-fragments" : [ {
+        "start" : 202,
+        "end" : 225,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "PTHR14948:SF25",
+      "name" : "TRANSMEMBRANE PROTEIN",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "15.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 77,
+      "end" : 245,
+      "hmmStart" : 5,
+      "hmmEnd" : 173,
+      "hmmLength" : 194,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 64,
+      "envelopeEnd" : 250,
+      "location-fragments" : [ {
+        "start" : 77,
+        "end" : 245,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.9E-32,
+    "familyName" : "Not available",
+    "score" : 124.3,
+    "model-ac" : "PTHR14948:SF25"
+  }, {
+    "signature" : {
+      "accession" : "PF04505",
+      "name" : "CD225",
+      "description" : "Interferon-induced transmembrane protein",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "33.1"
+      },
+      "entry" : {
+        "accession" : "IPR007593",
+        "name" : "CD225/Dispanin_fam",
+        "description" : "CD225/Dispanin family",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "integral component of membrane",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0016021"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-198933"
+        }, {
+          "name" : "Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-198933"
+        }, {
+          "name" : "Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-198933"
+        }, {
+          "name" : "Interferon alpha/beta signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-909733"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 176,
+      "end" : 240,
+      "hmmStart" : 3,
+      "hmmEnd" : 67,
+      "hmmLength" : 68,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 3.8E-21,
+      "score" : 75.0,
+      "envelopeStart" : 173,
+      "envelopeEnd" : 241,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 176,
+        "end" : 240,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.7E-21,
+    "score" : 75.5,
+    "model-ac" : "PF04505"
+  }, {
+    "signature" : {
+      "accession" : "TRANSMEMBRANE",
+      "name" : "Transmembrane region",
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 181,
+      "end" : 201,
+      "location-fragments" : [ {
+        "start" : 181,
+        "end" : 201,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TRANSMEMBRANE"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 8,
+      "end" : 58,
+      "location-fragments" : [ {
+        "start" : 8,
+        "end" : 58,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Proline-rich"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 249,
+      "end" : 250,
+      "location-fragments" : [ {
+        "start" : 249,
+        "end" : 250,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  } ],
+  "xref" : [ {
+    "name" : "Nvectensis.XP_032232391.1",
+    "id" : "Nvectensis.XP_032232391.1"
+  } ]
+} ]
+}

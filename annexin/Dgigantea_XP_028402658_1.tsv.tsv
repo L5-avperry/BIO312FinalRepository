@@ -1,0 +1,13 @@
+Dgigantea.XP_028402658.1	7cd9ebf02b93c7f3ed25431dc707134f	189	Pfam	PF04505	Interferon-induced transmembrane protein	105	167	1.0E-19	T	16-11-2021	IPR007593	CD225/Dispanin family	GO:0016021	Reactome: R-HSA-198933|Reactome: R-HSA-909733|Reactome: R-MMU-198933|Reactome: R-RNO-198933
+Dgigantea.XP_028402658.1	7cd9ebf02b93c7f3ed25431dc707134f	189	TMHMM	TMhelix	Region of a membrane-bound protein predicted to be embedded in the membrane.	109	128	-	T	16-11-2021	-	-
+Dgigantea.XP_028402658.1	7cd9ebf02b93c7f3ed25431dc707134f	189	PANTHER	PTHR14948:SF25	TRANSMEMBRANE PROTEIN	7	183	4.3E-27	T	16-11-2021	-	-
+Dgigantea.XP_028402658.1	7cd9ebf02b93c7f3ed25431dc707134f	189	MobiDBLite	mobidb-lite	consensus disorder prediction	1	28	-	T	16-11-2021	-	-
+Dgigantea.XP_028402658.1	7cd9ebf02b93c7f3ed25431dc707134f	189	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	108	128	-	T	16-11-2021	-	-
+Dgigantea.XP_028402658.1	7cd9ebf02b93c7f3ed25431dc707134f	189	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	180	189	-	T	16-11-2021	-	-
+Dgigantea.XP_028402658.1	7cd9ebf02b93c7f3ed25431dc707134f	189	MobiDBLite	mobidb-lite	consensus disorder prediction	1	80	-	T	16-11-2021	-	-
+Dgigantea.XP_028402658.1	7cd9ebf02b93c7f3ed25431dc707134f	189	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	129	156	-	T	16-11-2021	-	-
+Dgigantea.XP_028402658.1	7cd9ebf02b93c7f3ed25431dc707134f	189	TMHMM	TMhelix	Region of a membrane-bound protein predicted to be embedded in the membrane.	156	178	-	T	16-11-2021	-	-
+Dgigantea.XP_028402658.1	7cd9ebf02b93c7f3ed25431dc707134f	189	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	157	179	-	T	16-11-2021	-	-
+Dgigantea.XP_028402658.1	7cd9ebf02b93c7f3ed25431dc707134f	189	MobiDBLite	mobidb-lite	consensus disorder prediction	66	80	-	T	16-11-2021	-	-
+Dgigantea.XP_028402658.1	7cd9ebf02b93c7f3ed25431dc707134f	189	PANTHER	PTHR14948	NG5	7	183	4.3E-27	T	16-11-2021	-	-
+Dgigantea.XP_028402658.1	7cd9ebf02b93c7f3ed25431dc707134f	189	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	1	107	-	T	16-11-2021	-	-

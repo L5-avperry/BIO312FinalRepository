@@ -1,0 +1,1000 @@
+   66  cd docs
+   67  ls
+   68  cd ../
+   69  ls
+   70  cd tools
+   71  ls
+   72  cd ../
+   73  mv bedtools2 tools/bedtools2
+   74  ls
+   75  rm bedtools-2.29.1.tar.gz 
+   76  ls
+   77  rm faTrans 
+   78  rm *.tar
+   79  ls
+   80  cd genometools-1.6.1/
+   81  ls
+   82  cd testdata/
+   83  ls
+   84  cd ../
+   85  ls
+   86  cd ../
+   87  mv genometools-1.6.1/ tools/genometools-1.6.1
+   88  ls
+   89  rm *.zip
+   90  ls
+   91  rm -rf Python-3.6.3
+   92  ls
+   93  rm Python-3.6.3.tar.xz
+   94  ls
+   95  rm Python-3.6.3.tar.xz.1
+   96  cd R-4.0.2/
+   97  ls
+   98  cd ../
+   99  rm -rf R-4.0.2/
+  100  ls
+  101  rm get-pip.py 
+  102  ls
+  103  cd iqtree-2.1.1-Linux/
+  104  ls
+  105  cd ../
+  106  ls
+  107  cp iqtree-2.1.1-Linux/ tools/iqtree-2.1.1-Linux
+  108  mv iqtree-2.1.1-Linux/ tools/iqtree-2.1.1-Linux
+  109  cd tools
+  110  ls
+  111  cd ../
+  112  ls
+  113  rm gotree_amd64_linux 
+  114  ls
+  115  rm muscle3.8.31_i86linux64 
+  116  ls
+  117  cd ncbi-blast-2.10.1+/
+  118  ls
+  119  cd doc
+  120  ls
+  121  less README.txt 
+  122  ls
+  123  cd ../
+  124  ls
+  125  cd ../
+  126  ls
+  127  rm -rf ncbi-blast-2.10.1+/
+  128  ls
+  129  cd seqkit
+  130  rm seqkit
+  131  ls
+  132  rm translatorx_vLocal.pl 
+  133  rm v0.13.2 
+  134  ls
+  135  cd T-COFFEE_installer_Version_13.41.0.28bdc39_linux_x64/
+  136  ls
+  137  cd methods
+  138  ls
+  139  cd ../
+  140  ls
+  141  cd bin
+  142  ls
+  143  cd ../
+  144  ls
+  145  cd ../
+  146  rm -rf T-COFFEE_installer_Version_13.41.0.28bdc39_linux_x64/
+  147  t_coffee 
+  148  ls
+  149  mv Notung-3.0-beta/ tools/Notung-3.0-beta/
+  150  ls
+  151  cd tools
+  152  ls
+  153  ./Notung-3.0-beta/
+  154   java -jar Notung-3.0-beta.jar --help
+  155  ls
+  156  cd Notung-3.0-beta/
+  157  ls
+  158   java -jar Notung-3.0-beta.jar --help
+  159  pwd
+  160  cd
+  161  ls
+  162  rm -rf Python-3.6.3/
+  163  ls
+  164  cd Python-3.6.3/
+  165  ls
+  166  cd Lib
+  167  ls
+  168  sudo updatedb
+  169  locate ensurepip
+  170  cd
+  171  ls
+  172  sudo rm -rf Python-3.6.3/
+  173  ls
+  174  git clone https://github.com/WandrilleD/recPhyloXML
+  175  pwd
+  176  ls
+  177  cd recPhyloXML/
+  178  ls
+  179  cd
+  180  ls
+  181  mv recPhyloXML/ tools/recPhyloXML/
+  182  ls
+  183  git clone https://gitlab.inria.fr/Phylophile/Treerecs.git
+  184  cd Treerecs/
+  185  cmake -DCMAKE_BUILD_TYPE=MinSizeRel .
+  186  sudo yum install cmake
+  187  cmake -DCMAKE_BUILD_TYPE=MinSizeRel .
+  188  yum remove cmake
+  189  sudo yum remove cmake
+  190  cmake
+  191  sudo yum install gcc-c++
+  192  wget https://github.com/Kitware/CMake/releases/download/v3.18.2/cmake-3.18.2.tar.gz
+  193  tar -xvzf cmake-3.18.2.tar.gz
+  194  cd cmake
+  195  ./bootstrap
+  196  ls
+  197  cd ../
+  198  ls
+  199  cd cmake-3.18.2/
+  200  ./bootstrap
+  201  make
+  202  sudo make install
+  203  pwd
+  204  cd ../
+  205  ls
+  206  cmake -DCMAKE_BUILD_TYPE=MinSizeRel .
+  207  cd cmake-3.18.2/
+  208  ls
+  209  /usr/local/bin/cmake
+  210  sudo mv /usr/local/bin/cmake /usr/bin/cmake
+  211  cd ../
+  212  cmake -DCMAKE_BUILD_TYPE=MinSizeRel .
+  213  sudo mv /usr/bin/cmake /usr/local/bin/cmake
+  214  /usr/local/bin/cmake
+  215  /usr/local/bin/cmake -DCMAKE_BUILD_TYPE=MinSizeRel .
+  216  make
+  217  sudo make install
+  218  treerecs
+  219  cd
+  220  treerecs
+  221  cd Treerecs/
+  222  ls
+  223  cd examples
+  224  ls
+  225  cd ../
+  226  rm cmake
+  227  cm cmake-3.18.2
+  228  rm cmake-3.18.2
+  229  cd cmake
+  230  ls
+  231  cd ../
+  232  cd cmake-3.18.2/
+  233  ls
+  234  cd ../
+  235  ls
+  236  rm -rf cmake-3.18.2
+  237  ls
+  238  rm cmake-3.18.2.tar.gz 
+  239  ls
+  240  cd ../
+  241  ls
+  242  mv Treerecs/ tools/Treerecs
+  243  ls
+  244  cd labs
+  245  ls
+  246  mkdir lab1
+  247  mkdir lab2
+  248  mkdir lab3
+  249  mkdir lab4
+  250  mkdir lab5
+  251  mkdir lab6
+  252  mkdir lab7
+  253  mkdir lab8
+  254  mkdir lab9
+  255  mkdir lab10
+  256  tblastn
+  257  transeq
+  258  bedtools
+  259  df -h
+  260  tmux
+  261  ls
+  262  mkdir lab11
+  263  cd
+  264  wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.10.0/sratoolkit.2.10.0-ubuntu64.tar.gz
+  265  sudo yum install sratoolkit
+  266  cd
+  267  wget https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.10.8/sratoolkit.2.10.8-centos_linux64.tar.gz
+  268  tar -pxvzf sratoolkit.2.10.8-centos_linux64.tar.gz
+  269  cd sratoolkit.2.10.8-centos_linux64/bin
+  270  ls
+  271  ./fastq-dump
+  272  fastq-dump
+  273  ./fastq-dump
+  274  pwd
+  275   sudo cp * /usr/bin
+  276  cd ncbi
+  277  ls
+  278  cd ../
+  279  cd
+  280  fastq-dump
+  281  vdb-config --interactive
+  282  fastq-dump
+  283  ls
+  284  cdata
+  285  cd data
+  286  ls
+  287  cd sra
+  288  ls
+  289  cd files
+  290  ls
+  291  cd nannot
+  292  cd sra
+  293  cd wgs
+  294  less wgs
+  295  ls
+  296  cd ../
+  297  cd wgs
+  298  ls
+  299  cd
+  300  wget ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/downloads/hisat2-2.1.0-Linux_x86_64.zip
+  301  unzip hisat2-2.1.0-Linux_x86_64.zip
+  302  sudo cp ~/hisat2-2.1.0/hisat* /usr/bin
+  303  cd
+  304  hisat2
+  305  hisat2-build 
+  306  samtools
+  307  cd
+  308  sudo yum install samtools
+  309  sudo yum install SAMtools
+  310  wget https://github.com/samtools/samtools/releases/download/1.10/samtools-1.10.tar.bz2
+  311  pwd
+  312  bzip2 -d samtools-1.10.tar.bz2
+  313  ls
+  314  cd labs
+  315  ls
+  316  cd ../
+  317  ls
+  318  tar xvf samtools-1.10.tar 
+  319  cd samtools-1.10/
+  320   sudo yum install xorg-x11-proto-devel
+  321  sudo yum install libX11-devel
+  322  sudo yum install EMBOSS
+  323  sudo yum install emboss
+  324  wget ftp://emboss.open-bio.org/pub/EMBOSS/EMBOSS-6.6.0.tar.gz
+  325  gunzip EMBOSS-6.6.0.tar.gz 
+  326  tar xvf EMBOSS-6.6.0.tar 
+  327  .configure
+  328  cd EMBOSS-6.6.0/
+  329  .configure
+  330  ./configure
+  331  make
+  332  sudo make install
+  333  transeq
+  334  cd
+  335  ls
+  336  xvfb-run
+  337  sudo yum install xvfb-run
+  338  sudo yum install xvfb
+  339  sudo yum install Xvfb
+  340  cd
+  341  ls
+  342  mkdir labs
+  343  cd labs
+  344  perl -version
+  345  python3 --version
+  346  python3.6 --version
+  347  java -version
+  348  df -h
+  349  sudo yum insatll libxml2-devel
+  350  sudo yum install libxml2-devel
+  351  ls
+  352  cd
+  353  cd labs
+  354  ls
+  355  cd ../
+  356  wget https://github.com/mircare/Porter5/
+  357  ls
+  358  rm index.html
+  359  git clone https://github.com/soedinglab/hh-suite.git
+  360  mkdir -p hh-suite/build && cd hh-suite/build
+  361  cmake -DCMAKE_INSTALL_PREFIX=. ..
+  362  make -j 4 && make install
+  363  export PATH="$(pwd)/bin:$(pwd)/scripts:$PATH"
+  364  git clone https://github.com/mircare/Porter5/
+  365  cd Porter5
+  366  wget http://wwwuser.gwdg.de/~compbiol/data/hhsuite/databases/hhsuite_dbs/old-releases/uniprot20_2016_02.tgz
+  367  ls
+  368  cd ../
+  369  ls
+  370  pwd
+  371  cd ../
+  372  ls
+  373  cd ../
+  374  ls
+  375  rm -rf hh-suite/
+  376  treerecs
+  377  Treerecs
+  378  ls
+  379  cd labs
+  380  ls
+  381  cd mkdir lab14
+  382  mkdir lab14
+  383  cd
+  384   wget http://unafold.rna.albany.edu/download/mfold-3.6.tar.gz
+  385  tar  -pxvzf mfold-3.6.tar.gz
+  386  cd mfold-3.6/
+  387  ./configure
+  388  make
+  389  sudo make install
+  390  mfold
+  391  df -h
+  392  cd
+  393  ls
+  394  cd samtools-1.10/
+  395  sudo yum install samtools
+  396  cd
+  397  sudo bash
+  398  samtools
+  399  df -h
+  400  sudo bash
+  401  sudo service httpd start 
+  402  sudo mkdir /var/www/html/efs-mount-point
+  403  cd
+  404  wget https://raw.githubusercontent.com/ebi-wp/webservice-clients/master/perl/iprscan5.pl
+  405  ls
+  406  nano test.fas
+  407  ls
+  408  iprscan5.pl
+  409  ./iprscan5.pl
+  410  chmod +x iprscan5.pl
+  411  ./iprscan5.pl 
+  412  cpan App::cpanminus
+  413  sudo yum install cpan
+  414  cpan App::cpanminus
+  415  sudo cpan App::cpanminus
+  416  sudo cpanm LWP
+  417  cpanm LWP
+  418  sudo bash
+  419  sudo -E env "PATH=$PATH" cpanm LWP
+  420  ./iprscan5.pl 
+  421  sudo -E env "PATH=$PATH" cpanm XML::Simple
+  422  ./iprscan5.pl 
+  423  sudo yum install libxml-simple-perl
+  424  sudo -E env "PATH=$PATH" cpanm  XML::LibXML
+  425  sudo -E env "PATH=$PATH" cpanm  XML::Simple
+  426  sudo -E env "PATH=$PATH" cpanm  XML::SAX
+  427  sudo -E env "PATH=$PATH" cpanm  XML::SAX --force
+  428  sudo -E env "PATH=$PATH" cpanm  XML::Simple
+  429  ./iprscan5.pl 
+  430  ls
+  431  sudo cp iprscan5.pl /usr/bin/iprscan5
+  432  iprscan5
+  433  df -h
+  434  ls
+  435  sudo su
+  436  pwd
+  437  ls /var/www/html
+  438  ls
+  439  locate *.pdf
+  440  ls /var/www/
+  441  sudo mkdir /var/www/files
+  442  cp /usr/share/doc/python-babel-0.9.6/doc/logo.pdf /var/www/files/logo.pdf
+  443  sudo cp /usr/share/doc/python-babel-0.9.6/doc/logo.pdf /var/www/files/logo.pdf
+  444  sudo rm -rf /var/www/files
+  445  sudo mkdir /var/www/html/files
+  446  sudo cp /usr/share/doc/python-babel-0.9.6/doc/logo.pdf /var/www/html/files/logo.pdf
+  447  cp /usr/share/doc/python-babel-0.9.6/doc/logo.pdf /var/www/html/files/logo.pdf
+  448  cd
+  449  ls
+  450  cd data
+  451  ls
+  452  cd
+  453  ls
+  454  cd hisat2-2.1.0/
+  455  ls
+  456  cd example/
+  457  ls
+  458  cd reads
+  459  ls
+  460  cd
+  461  ls
+  462  cp hisat2-2.1.0 tools/hisat2-2.1.0
+  463  mv hisat2-2.1.0 tools/hisat2-2.1.0
+  464  rm -rf hisat2-2.1.0-Linux_x86_64.zip 
+  465  ls
+  466  rm iprscan5.pl 
+  467  ls
+  468  rm *.gz
+  469  rm test.fas
+  470  ls
+  471  perl5
+  472  cd perl5
+  473  ls
+  474  cd ../
+  475  rm -rf perl5
+  476  ls
+  477  rm *.tar
+  478  cd tools
+  479  ls
+  480  cd
+  481  ls
+  482  cd mfold-3.6/
+  483  ls
+  484  cd samples
+  485  ls
+  486  cd
+  487  ls
+  488  mv mfold-3.6/ tools/mfold-3.6
+  489  ls
+  490  cd samtools-1.10/
+  491  ls
+  492  cd examples
+  493  ls
+  494  cd
+  495  ls
+  496  mv samtools-1.10/ tools/samtools-1.10
+  497  ls
+  498  cd sratoolkit.2.10.8-centos_linux64/
+  499  ls
+  500  cd example/
+  501  ls
+  502  cd perl
+  503  ls
+  504  cd ../
+  505  ls
+  506  cd ../
+  507  ls
+  508  cd ../
+  509  ls
+  510  rm -rf sratoolkit.2.10.8-centos_linux64/
+  511  ls
+  512  cd tools
+  513  ls
+  514  cd bedtools2/
+  515  ls
+  516  rm -rf bin
+  517  rm -rf src
+  518  rm Makefile 
+  519  cd ../
+  520  ls
+  521  cd bedtools2/
+  522  ls
+  523  cd ../
+  524  ls
+  525  cd hisat2-2.1.0/
+  526  ls
+  527  rm -rf hisat2*
+  528  rm *.py
+  529  ls
+  530  cd ../
+  531  ls
+  532  cd mfold-3.6/
+  533  ls
+  534  rm -rf src
+  535  ls
+  536  make clean
+  537  ls
+  538  rm config*
+  539  rm -rf config*
+  540  ls
+  541  cd ../
+  542  ls
+  543  cd recPhyloXML/
+  544  ls
+  545  cd ../
+  546  ls
+  547  cd genometools-1.6.1/
+  548  ls
+  549  rm -rf bin
+  550  rm -rf src
+  551  cd ../
+  552  ls
+  553  cd iqtree-2.1.1-Linux/
+  554  ls
+  555  rm -rf bin
+  556  cd ../
+  557  ls
+  558  cd samtools-1.10/
+  559  ls
+  560  rm *.o
+  561  rm -rf *.o
+  562  rm -rf *.c
+  563  ls
+  564  rm -rf config*
+  565  ls
+  566  rm -rf *.h
+  567  ls
+  568  cd ../
+  569  ls
+  570  cd ../
+  571  ls
+  572  cd
+  573  sudo yum install cairo
+  574  sudo yum install cairo-devel
+  575  sudo yum install pango-devel
+  576  wget http://genometools.org/pub/genometools-1.6.1.tar.gz
+  577  sudo yum install genometools
+  578  gunzip genometools-1.6.1.tar.gz 
+  579  tar xvf genometools-1.6.1.tar 
+  580  cd genometools-1.6.1/
+  581  make
+  582  sudo make install
+  583  gt
+  584  gt -help
+  585  cd
+  586  gt -help
+  587  tmux
+  588  sudo yum install tmux
+  589  git
+  590  yum install xorg-x11-server-devel libX11-devel libXt-devel
+  591  sudo yum install xorg-x11-server-devel libX11-devel libXt-devel
+  592  sudo yum install pcre2
+  593  sudo yum install R
+  594  R
+  595  wget https://cloud.r-project.org/src/base/R-4/R-4.0.2.tar.gz
+  596  ./configure
+  597  gunzip R-4.0.2.tar.gz 
+  598  tar xvf R-4.0.2.tar 
+  599  cd R-4.0.2/
+  600  ./configure
+  601  sudo yum install pcre2
+  602  sudo yum install pcre2-dev
+  603  sudo yum install lib-pcre2
+  604  sudo yum install pcre-devel
+  605  sudo yum install pcre2-devel
+  606  ./configure
+  607  sudo yum install libcurl
+  608  sudo yum install libcurl4-openssl-dev
+  609  sudo yum install openssl-devel
+  610  sudo yum install libcurl-devel
+  611  ./configure
+  612  sudo yum install texinfo
+  613  ./configure
+  614  make
+  615  R
+  616  sudo yum install java
+  617  sudo yum install openjdk
+  618  sudo yum install java-11-openjdk-devel
+  619  sudo amazon-linux-extras install java-openjdk11
+  620  ./configure
+  621  make
+  622  sudo make install
+  623  R
+  624  sudo R --vanilla
+  625  R
+  626  R --vanilla
+  627  sudo R --vanilla
+  628  sudo -E env "PATH=$PATH" R --vanilla
+  629  R --vanilla
+  630  cd
+  631  R --vanilla
+  632  sudo -E env "PATH=$PATH" R --vanilla
+  633  rm /usr/local/lib64/R/library/00LOCK-ggplot2
+  634  sudo rm -rf /usr/local/lib64/R/library/00LOCK-ggplot2
+  635  sudo -E env "PATH=$PATH" R --vanilla
+  636  mv .Xauthority old.Xauthority 
+  637  touch ~/.Xauthority
+  638  xauth generate :0 . trusted 
+  639  xauth add ${HOST}:0 . $(xxd -l 16 -p /dev/urandom)
+  640  xauth list 
+  641  exit
+  642  ls
+  643  rm old.Xauthority 
+  644  ls
+  645  service httpd start 
+  646  sudo service httpd start 
+  647  echo Hello World
+  648  cd labs/lab2
+  649  ncbi-acc-download -h
+  650  ncbi-acc-download -F genbank NW_001834348.1
+  651  ls
+  652  less NW_001834348.1.gbk
+  653      ncbi-acc-download -F fasta NW_001834348.1
+  654  ls
+  655  cd labs
+  656  ls
+  657  cd
+  658  cd labs
+  659  ls
+  660  cd
+  661  ls
+  662  dat
+  663  data
+  664  cd data
+  665  l
+  666  ls
+  667  cd ../
+  668  ls
+  669  labs
+  670  cd labs
+  671  ls
+  672  cd ../
+  673  ls
+  674  cd tools
+  675  ls
+  676  cd ../
+  677  cd labs
+  678  cd lab2
+  679      grep exon NW_001834348.1.gff > NW_001834348.1.mrna.gff
+  680  ls
+  681   ncbi-acc-download -F gff3 NW_001834348.1
+  682   grep LOC5513668 NW_001834348.1.gff > LOC5513668.gff
+  683      grep exon LOC5513668.gff > LOC5513668.mrna.gff
+  684  less LOC5513668.mrna.gff 
+  685  ls
+  686  cd
+  687  ls
+  688  cd labs
+  689  ls
+  690  cd ~/labs
+  691  ls -d */
+  692      ncbi-acc-download -h
+  693  screen -dRR
+  694  mkdir braindbody
+  695  cd braindbody/
+  696  iprscan5   --email joshua.rest@stonybrook.edu --useSeqId --multifasta  OTX1_MinusFirstLetter.unalignedr.faa --appl Pfam
+  697  ls
+  698  iprscan5   --email joshua.rest@stonybrook.edu --useSeqId --multifasta  OTX1_MinusFirstLetter.unalignedr.faa --appl Pfam
+  699  iprscan5   --email joshua.rest@stonybrook.edu --useSeqId --multifasta  --sequence OTX1_MinusFirstLetter.unalignedr.faa --appl Pfam
+  700  pip install LWP::Protocol::https
+  701  sudo pip install LWP::Protocol::https
+  702  iqtree OTX1_MinusFirstLetter.aligned.faa
+  703  iqtree -in OTX1_MinusFirstLetter.aligned.faa
+  704  iqtree -infile  OTX1_MinusFirstLetter.aligned.faa -nt AUTO
+  705  iqtree -in  OTX1_MinusFirstLetter.aligned.faa -nt AUTO
+  706  iqtree
+  707  iqtree -s  OTX1_MinusFirstLetter.aligned.faa -nt AUTO -bb 1000
+  708  t_coffee -other_pg seq_reformat -in OTX1_MinusFirstLetter.aligned.faa 
+  709  t_coffee -other_pg seq_reformat -in OTX1_MinusFirstLetter.aligned.faa -output sim
+  710  hmmer
+  711  hmmscan
+  712  ls
+  713  t_coffee -other_pg seq_reformat -in fourChecked_mafft_concat.fas -action +rm_gap 90  -out   fourChecked_mafft_concat.m90.fas
+  714  sudo yum update
+  715  ls
+  716  cd brainbody
+  717  ls
+  718  cd braindbody/
+  719  ls
+  720  cd ../
+  721  ls
+  722  rm -rf braindbody/
+  723  ls
+  724  rm fourChecked_mafft_concat.*
+  725  ls
+  726  cd tools
+  727  ls
+  728  cd ../
+  729  ls
+  730  cd data
+  731  ls
+  732  cd sra
+  733  ls
+  734  cd files
+  735  ls
+  736  cd ../
+  737  cd nannot
+  738  ls
+  739  cd ../
+  740  pwd
+  741  ls
+  742  pwd
+  743  cd ../
+  744  ls
+  745  cd sra
+  746  ls
+  747  cd refseq
+  748  s
+  749  ls
+  750  cd ../
+  751  ls
+  752  cd sra
+  753  ls
+  754  cd ../
+  755  cd wgs
+  756  ls
+  757  cd ../
+  758  cd files
+  759  ls
+  760  cd ../
+  761  cd nannot
+  762  ls
+  763  cd ../
+  764  cd refseq/
+  765  ls
+  766  cd ../
+  767  cd sra
+  768  ls
+  769  cd ../
+  770  cd wgs
+  771  ls
+  772  cd ../
+  773  ls
+  774  rmdir files
+  775  rmdir nannot
+  776  rmdir refseq
+  777  rmdir sra
+  778  rmdir wgs
+  779  ls
+  780  cd ../
+  781  ls
+  782  rmdir sra
+  783  ls
+  784  cd ../
+  785  ls
+  786  cd labs
+  787  ls
+  788  cd lab1
+  789  ls
+  790  cd ../
+  791  rmdir lab1
+  792  cd lab2
+  793  ls
+  794  cd ../
+  795  cd lab3
+  796  ls
+  797  cd ../
+  798  cd lab4
+  799  ls
+  800  cd ../
+  801  cd lab5
+  802  ls
+  803  cd ../
+  804  cd lab6
+  805  ls
+  806  cd ../
+  807  cd lab7
+  808  ls
+  809  cd ..
+  810  cd lab8
+  811  ls
+  812  cd ../
+  813  cd lab9
+  814  ls
+  815  cd ../
+  816  cd lab10
+  817  cd ../
+  818  ls
+  819  rmdir lab*
+  820  ls
+  821  cd lab2
+  822  ls
+  823  echo Hello World
+  824      echo 'Hello World'
+  825  yum moo
+  826  sudo yum moo
+  827  sudo yum install moo
+  828  aptitude -vvvvv moo
+  829  telnet towel.blinkenlights.nl
+  830  traceroute -m 254 -q1 obiwan.scrye.net
+  831  sudo yum install fortune cowsay
+  832  cowsay "hello, I'm a cow"
+  833  fortune | cowsay
+  834  sudo yum install fortune 
+  835  cowsay "hello, I'm a cow"
+  836  cowsay 'Bio 312 is super fun!'
+  837  cd
+  838  ls
+  839  cd tools
+  840  ls
+  841  cd /home/ec2-user/tools/samtools-1.10/examples
+  842  cd ../
+  843  ls
+  844  cd data
+  845  ls
+  846  cd
+  847  ls
+  848   cd data
+  849  ls
+  850  nano animal.txt
+  851  less animal.txt
+  852  pwd
+  853  cat animal.txt
+  854  man cat
+  855      git config --global user.name "joshrest"
+  856  cd
+  857  cd labs
+  858     git config --global credential.helper store  
+  859      git config --global credential.helper cache 
+  860      git config --global core.editor nano 
+  861  cd ~/labs
+  862      git clone https://github.com/Bio312/lab4
+  863  ls
+  864  cd lab2
+  865  ls
+  866  rm *
+  867  ls
+  868  cd ../
+  869  ls
+  870  rmdir lab2
+  871  ls
+  872  cd ../
+  873  ls
+  874  cd lbs
+  875  cd labs
+  876      cd ~/labs
+  877      git clone https://github.com/Bio312/lab2
+  878  ls
+  879  cd lab2
+  880  ls
+  881  cd ../
+  882  rm -rf lab2
+  883      git clone https://github.com/Bio312/lab2
+  884  ls
+  885  cd labs
+  886  ls
+  887  cd lab2
+  888  ls
+  889  cd ../
+  890  ls
+  891  rm -rf lab2
+  892  ls
+  893  cd
+  894  ls
+  895  nano filterGFF
+  896  chmod +x filterGFF
+  897  ./filterGFF
+  898  nano filterGFF
+  899  ./filterGFF
+  900  ls
+  901  sudo mv filterGFF /usr/local/bin/filterGFF
+  902  filterGFF
+  903  ls
+  904  sudo nano /usr/local/bin/filterGFF 
+  905  filterGFF
+  906  ls
+  907  rm by.gff
+  908  rm by.X1.cds.gff
+  909  rm by.X1.gff
+  910  ls
+  911  filterGFF
+  912  ls
+  913  cargo install thirdkind
+  914  cd ~/tools
+  915  wget http://ftp.gnu.org/gnu/datamash/datamash-1.3.tar.gz
+  916  tar -xzf datamash-1.3.tar.gz  
+  917  cd datamash-1.3
+  918  ./configure
+  919  make
+  920  make check
+  921  sudo make install 
+  922  cd
+  923  pip install matplotlib
+  924  cd
+  925  wget https://repo.anaconda.com/miniconda/Miniconda3-py37_4.10.3-Linux-x86_64.sh    
+  926  bash Miniconda3-py37_4.10.3-Linux-x86_64.sh
+  927  exit
+  928  sudo yum update
+  929  cd ~/tools
+  930  git clone git://github.com/tjunier/newick_utils.git
+  931  cd newick_utils/
+  932  autoreconf -fi
+  933  ./configure
+  934  make
+  935  sudo make install
+  936  nw_display -h
+  937  cd ..
+  938  cd
+  939  cd tools
+  940  sudo yum install numpy
+  941  sudo easy_install -U ete3
+  942  curl https://sh.rustup.rs -sSf | sh
+  943  bash
+  944  screen -r
+  945  exit
+  946  conda install -c bioconda agat
+  947  pip install matplotlib
+  948  pip install quast
+  949  quast.py
+  950  labnums=(1 2 3 4 5 6 7 8 9 10)
+  951  echo ${labnums}
+  952  echo ${labnums[*]}
+  953  cd labs
+  954  for num in ${labnums[*]}; do git clone https://github.com/Bio312/lab${num}-L5-avperry.git; done
+  955  ls
+  956  tar -xvzf all_labs.tar.gz 
+  957  ls
+  958  rm all_labs.tar.gz 
+  959  ls
+  960  cd lab7-L5-avperry/
+  961  ls
+  962  exit
+  963  ls ~/labs
+  964  nano
+  965  stretcher -asequence seq1.fas -bsequence seq2.fas -gapopen 8 -gapextend 8 -outfile result.fas
+  966  ls
+  967  less result.fas 
+  968  cd ~/tools
+  969  wget http://ftp.gnu.org/gnu/datamash/datamash-1.3.tar.gz
+  970  tar -xzf datamash-1.3.tar.gz  
+  971  cd datamash-1.3
+  972  ./configure
+  973  make
+  974  make check
+  975  sudo make install 
+  976  cd
+  977  git clone https://github.com/Bio312/lab8-L5-avperry
+  978  cd lab8-L5-avperry
+  979  ls ~/labs
+  980  ls lab-L5-avperry
+  981  cp ~/labs/lab5-L5-avperry/maguk.blastp.detail.filtered.fas
+  982  cd ~/labs/lab5-L5-avperry/maguk.blastp.detail.filtered.fas
+  983  cp ~/labs/lab5-L5-avperry/maguk.blastp.detail.filtered.fas
+  984  cd ~/labs
+  985  cp ~/labs/lab5-L5-avperry/maguk.blastp.detail.filtered.fas
+  986  ls /labs
+  987  ls ~/labs
+  988  cd lab5-L5-avperry
+  989  ls
+  990      cp ../lab5-myusername/maguk.blastp.detail.filtered.aligned.fas .
+  991  cd lab8-L5-avperry
+  992  cp ../lab5-L5-avperry/maguk.blastp.detail.filtered.fas .
+  993  cd lab8-L5-avperry
+  994  cd ~/labs
+  995  cd lab8-L5-avperry
+  996  cp ../lab5-L5-avperry/maguk.blastp.detail.filtered.fas .
+  997  mkdir ~/labs/lab8-myusername/maguk
+  998  mkdir ~/labs/lab8-L5-avperry/maguk
+  999      cd ~/labs/lab8-L5-avperry/maguk
+ 1000  iprscan5   --email avalon.perry@stonybrook.edu  --multifasta --useSeqId --sequence   ~/labs/lab5-L5-avperry/maguk.blastp.detail.filtered.fas
+ 1001  less ~/labs/lab8-L5-avperry/maguk.domains.all.tsv
+ 1002  git status
+ 1003  ls
+ 1004  ls ~/labs
+ 1005  cd lab8-L5-avperry/
+ 1006  git status
+ 1007  ls
+ 1008  cat ~/labs/lab8-L5-avperry/maguk/*.tsv.tsv > ~/labs/lab8-L5-avperry/maguk.domains.all.tsv
+ 1009  grep Pfam ~/labs/lab8-L5-avperry/maguk.domains.all.tsv >  ~/labs/lab8-L5-avperry/maguk.domains.pfam.tsv
+ 1010  awk 'BEGIN{FS="\t"} {print $1"\t"$3"\t"$7"@"$8"@"$5}' ~/labs/lab8-L5-avperry/maguk.domains.pfam.tsv | datamash -sW --group=1,2 collapse 3 | sed 's/,/\t/g' | sed 's/@/,/g' > ~/labs/lab8-L5-avperry/maguk.domains.pfam.evol.tsv
+ 1011  ls
+ 1012  ls -lA
+ 1013  ls maguk
+ 1014  ls
+ 1015  cat ~/labs/lab8-L5-avperry/maguk/*.tsv.tsv > ~/labs/lab8-L5-avperry/maguk.domains.all.tsv
+ 1016  ls
+ 1017  pwd
+ 1018  ls ~
+ 1019  pwd ~
+ 1020  cd
+ 1021  pwd
+ 1022  ls
+ 1023  ls ~/labs
+ 1024  ls lab8-L5-avperry
+ 1025  ls lab8-L5-avperry/maguk
+ 1026  ls
+ 1027  ls labs/lab8-L5-avperry
+ 1028  cd labs/lab8-L5-avperry
+ 1029  git push labs/lab8-L5-avperry
+ 1030  git status
+ 1031       git add .
+ 1032       git commit -a -m "Adding all new data files I generated in AWS to the repository."
+ 1033       git pull --no-edit
+ 1034  git push labs/lab8-L5-avperry
+ 1035  git status
+ 1036  git push
+ 1037   cut -f 1 maguk.domains.pfam.tsv | sort | uniq -c
+ 1038  mkdir ~/labs/lab8-L5-avperry/annexin
+ 1039  cp ~/labs/lab5-L5-avperry/annexin.blastp.detail.filtered.fas
+ 1040  cp ~/labs/lab5-L5-avperry/annexin.blastp.detail.filtered.fas lab8-L5-avperry
+ 1041  ls
+ 1042  ls annexin
+ 1043  cp ~/labs/lab5-L5-avperry/annexin.blastp.detail.filtered.fas lab8-L5-avperry/annexin
+ 1044  cp ~/labs/lab5-L5-avperry/annexin.blastp.detail.filtered.aligned_.fas ~/labs/lab8-L5-avperry/annexin
+ 1045  cp ~/labs/lab5-L5-avperry/annexin.blastp.detail.filtered.aligned.fas ~/labs/lab8-L5-avperry/annexin
+ 1046  ls
+ 1047  ls lab8-L5-avperry/annexin
+ 1048  ls labs/lab8-L5-avperry/annexin
+ 1049  ls ~/labs/lab8-L5-avperry/annexin
+ 1050  sed 's/ /_/g' annexin.blastp.detail.filtered.fas > annexin.blastp.detail.filtered.renamed.fas
+ 1051  cd ~/labs/lab8-myusername/myfamily
+ 1052  cd ~/labs/lab8-L5-avperry/annexin
+ 1053      iprscan5   --email avalon.perry@stonybrook.edu  --multifasta --useSeqId --sequence   annexin.blastp.detail.filtered.fas
+ 1054  ls
+ 1055  cp ~/labs/lab5-L5-avperry/annexin.blastp.detail.filtered.fas ~/labs/lab8-L5-avperry/annexin
+ 1056  sed 's/ /_/g' annexin.blastp.detail.filtered.fas > annexin.blastp.detail.filtered.renamed.fas
+ 1057      iprscan5   --email avalon.perry@stonybrook.edu  --multifasta --useSeqId --sequence   annexin.blastp.detail.filtered.fas
+ 1058      
+ 1059  cat ~/labs/lab8-L5-avperry/annexin/*.tsv.tsv > ~/labs/lab8-L5-avperry/annexin.domains.all.tsv
+ 1060      grep Pfam ~/labs/lab8-L5-avperry/annexin.domains.all.tsv >  ~/labs/lab8-L5-avperry/annexin.domains.pfam.tsv
+ 1061   awk 'BEGIN{FS="\t"} {print $1"\t"$3"\t"$7"@"$8"@"$5}' ~/labs/lab8-L5-avperry/annexin.domains.pfam.tsv | datamash -sW --group=1,2 collapse 3 | sed 's/,/\t/g' | sed 's/@/,/g' > ~/labs/lab8-L5-avperry/annexin.domains.pfam.evol.tsv
+ 1062  ls lab8-L5-avperry/annexin
+ 1063  ls ~/labs/lab8-L5-avperry/annexin
+ 1064  ls
+ 1065    history > lab8.commandhistory.txt

@@ -1,0 +1,66 @@
+##gff-version 3
+##feature-ontology http://song.cvs.sourceforge.net/viewvc/song/ontology/sofa.obo?revision=1.269
+##interproscan-version 5.52-86.0
+##sequence-region Nvectensis.XP_032232391.1 1 250
+Nvectensis.XP_032232391.1	.	polypeptide	1	250	.	+	.	ID=Nvectensis.XP_032232391.1;md5=758aeb304ceaba0c2229a4b157e82e4c
+Nvectensis.XP_032232391.1	TMHMM	protein_match	178	200	.	+	.	date=16-11-2021;Target=Nvectensis.XP_032232391.1 178 200;ID=match$1_178_200;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Nvectensis.XP_032232391.1	MobiDBLite	protein_match	121	146	.	+	.	date=16-11-2021;Target=Nvectensis.XP_032232391.1 121 146;ID=match$2_121_146;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+Nvectensis.XP_032232391.1	TMHMM	protein_match	226	248	.	+	.	date=16-11-2021;Target=Nvectensis.XP_032232391.1 226 248;ID=match$3_226_248;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Nvectensis.XP_032232391.1	Phobius	protein_match	226	248	.	+	.	date=16-11-2021;Target=Nvectensis.XP_032232391.1 226 248;ID=match$4_226_248;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Nvectensis.XP_032232391.1	Phobius	protein_match	1	180	.	+	.	date=16-11-2021;Target=Nvectensis.XP_032232391.1 1 180;ID=match$5_1_180;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Nvectensis.XP_032232391.1	PANTHER	protein_match	77	245	1.9E-32	+	.	date=16-11-2021;Target=Nvectensis.XP_032232391.1 77 245;ID=match$6_77_245;Name=PTHR14948;status=T
+Nvectensis.XP_032232391.1	MobiDBLite	protein_match	60	76	.	+	.	date=16-11-2021;Target=Nvectensis.XP_032232391.1 60 76;ID=match$7_60_76;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+Nvectensis.XP_032232391.1	MobiDBLite	protein_match	1	146	.	+	.	date=16-11-2021;Target=Nvectensis.XP_032232391.1 1 146;ID=match$8_1_146;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+Nvectensis.XP_032232391.1	MobiDBLite	protein_match	78	120	.	+	.	date=16-11-2021;Target=Nvectensis.XP_032232391.1 78 120;ID=match$9_78_120;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+Nvectensis.XP_032232391.1	Phobius	protein_match	202	225	.	+	.	date=16-11-2021;Target=Nvectensis.XP_032232391.1 202 225;ID=match$10_202_225;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Nvectensis.XP_032232391.1	PANTHER	protein_match	77	245	1.9E-32	+	.	date=16-11-2021;Target=Nvectensis.XP_032232391.1 77 245;ID=match$11_77_245;Name=PTHR14948:SF25;status=T
+Nvectensis.XP_032232391.1	Pfam	protein_match	176	240	3.8E-21	+	.	date=16-11-2021;Target=Nvectensis.XP_032232391.1 176 240;Ontology_term="GO:0016021";ID=match$12_176_240;signature_desc=Interferon-induced transmembrane protein;Name=PF04505;status=T;Dbxref="InterPro:IPR007593","Reactome:R-HSA-198933","Reactome:R-HSA-909733","Reactome:R-MMU-198933","Reactome:R-RNO-198933"
+Nvectensis.XP_032232391.1	Phobius	protein_match	181	201	.	+	.	date=16-11-2021;Target=Nvectensis.XP_032232391.1 181 201;ID=match$13_181_201;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Nvectensis.XP_032232391.1	MobiDBLite	protein_match	8	58	.	+	.	date=16-11-2021;Target=Nvectensis.XP_032232391.1 8 58;ID=match$14_8_58;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+Nvectensis.XP_032232391.1	Phobius	protein_match	249	250	.	+	.	date=16-11-2021;Target=Nvectensis.XP_032232391.1 249 250;ID=match$15_249_250;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+##FASTA
+>Nvectensis.XP_032232391.1
+MAEKQGFPGSEPPPPYPETHQPYPNAPYPPEANPSPTTTQPSPYPAQNPPPYNPNDPSVP
+VVNMPYQQTVGFPASQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPP
+QQGYPAQQQGYPPAQQGYPAPQQGYQTTGGYPYTTQHNVTIVTGGPAVVVGGVPAPDYCG
+LSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITAGIILIIC
+IVVFRIFAFN
+>match$1_178_200
+YCGLSLFSCLFCCWPIGLVAVIN
+>match$2_121_146
+QQGYPAQQQGYPPAQQGYPAPQQGYQ
+>match$3_226_248
+YANIAITAGIILIICIVVFRIFA
+>match$4_226_248
+YANIAITAGIILIICIVVFRIFA
+>match$5_1_180
+MAEKQGFPGSEPPPPYPETHQPYPNAPYPPEANPSPTTTQPSPYPAQNPPPYNPNDPSVP
+VVNMPYQQTVGFPASQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPP
+QQGYPAQQQGYPPAQQGYPAPQQGYQTTGGYPYTTQHNVTIVTGGPAVVVGGVPAPDYCG
+>match$6_77_245
+QQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYPPAQQ
+GYPAPQQGYQTTGGYPYTTQHNVTIVTGGPAVVVGGVPAPDYCGLSLFSCLFCCWPIGLV
+AVINAKHAREANQRGDYARASTYSQMARRYANIAITAGIILIICIVVFR
+>match$7_60_76
+PVVNMPYQQTVGFPASQ
+>match$8_1_146
+MAEKQGFPGSEPPPPYPETHQPYPNAPYPPEANPSPTTTQPSPYPAQNPPPYNPNDPSVP
+VVNMPYQQTVGFPASQQQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPP
+QQGYPAQQQGYPPAQQGYPAPQQGYQ
+>match$9_78_120
+QGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPP
+>match$10_202_225
+KHAREANQRGDYARASTYSQMARR
+>match$11_77_245
+QQGHPAPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPPPQQGYPAQQQGYPPAQQ
+GYPAPQQGYQTTGGYPYTTQHNVTIVTGGPAVVVGGVPAPDYCGLSLFSCLFCCWPIGLV
+AVINAKHAREANQRGDYARASTYSQMARRYANIAITAGIILIICIVVFR
+>match$12_176_240
+PDYCGLSLFSCLFCCWPIGLVAVINAKHAREANQRGDYARASTYSQMARRYANIAITAGI
+ILIIC
+>match$13_181_201
+LSLFSCLFCCWPIGLVAVINA
+>match$14_8_58
+PGSEPPPPYPETHQPYPNAPYPPEANPSPTTTQPSPYPAQNPPPYNPNDPS
+>match$15_249_250
+FN

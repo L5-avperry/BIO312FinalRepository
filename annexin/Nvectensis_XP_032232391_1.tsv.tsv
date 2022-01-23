@@ -1,0 +1,15 @@
+Nvectensis.XP_032232391.1	758aeb304ceaba0c2229a4b157e82e4c	250	TMHMM	TMhelix	Region of a membrane-bound protein predicted to be embedded in the membrane.	178	200	-	T	16-11-2021	-	-
+Nvectensis.XP_032232391.1	758aeb304ceaba0c2229a4b157e82e4c	250	MobiDBLite	mobidb-lite	consensus disorder prediction	121	146	-	T	16-11-2021	-	-
+Nvectensis.XP_032232391.1	758aeb304ceaba0c2229a4b157e82e4c	250	TMHMM	TMhelix	Region of a membrane-bound protein predicted to be embedded in the membrane.	226	248	-	T	16-11-2021	-	-
+Nvectensis.XP_032232391.1	758aeb304ceaba0c2229a4b157e82e4c	250	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	226	248	-	T	16-11-2021	-	-
+Nvectensis.XP_032232391.1	758aeb304ceaba0c2229a4b157e82e4c	250	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	1	180	-	T	16-11-2021	-	-
+Nvectensis.XP_032232391.1	758aeb304ceaba0c2229a4b157e82e4c	250	PANTHER	PTHR14948	NG5	77	245	1.9E-32	T	16-11-2021	-	-
+Nvectensis.XP_032232391.1	758aeb304ceaba0c2229a4b157e82e4c	250	MobiDBLite	mobidb-lite	consensus disorder prediction	60	76	-	T	16-11-2021	-	-
+Nvectensis.XP_032232391.1	758aeb304ceaba0c2229a4b157e82e4c	250	MobiDBLite	mobidb-lite	consensus disorder prediction	1	146	-	T	16-11-2021	-	-
+Nvectensis.XP_032232391.1	758aeb304ceaba0c2229a4b157e82e4c	250	MobiDBLite	mobidb-lite	consensus disorder prediction	78	120	-	T	16-11-2021	-	-
+Nvectensis.XP_032232391.1	758aeb304ceaba0c2229a4b157e82e4c	250	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	202	225	-	T	16-11-2021	-	-
+Nvectensis.XP_032232391.1	758aeb304ceaba0c2229a4b157e82e4c	250	PANTHER	PTHR14948:SF25	TRANSMEMBRANE PROTEIN	77	245	1.9E-32	T	16-11-2021	-	-
+Nvectensis.XP_032232391.1	758aeb304ceaba0c2229a4b157e82e4c	250	Pfam	PF04505	Interferon-induced transmembrane protein	176	240	3.8E-21	T	16-11-2021	IPR007593	CD225/Dispanin family	GO:0016021	Reactome: R-HSA-198933|Reactome: R-HSA-909733|Reactome: R-MMU-198933|Reactome: R-RNO-198933
+Nvectensis.XP_032232391.1	758aeb304ceaba0c2229a4b157e82e4c	250	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	181	201	-	T	16-11-2021	-	-
+Nvectensis.XP_032232391.1	758aeb304ceaba0c2229a4b157e82e4c	250	MobiDBLite	mobidb-lite	consensus disorder prediction	8	58	-	T	16-11-2021	-	-
+Nvectensis.XP_032232391.1	758aeb304ceaba0c2229a4b157e82e4c	250	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	249	250	-	T	16-11-2021	-	-
