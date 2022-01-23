@@ -1,0 +1,1000 @@
+   39  sudo yum install SAMtools
+   40  wget https://github.com/samtools/samtools/releases/download/1.10/samtools-1.10.tar.bz2
+   41  pwd
+   42  bzip2 -d samtools-1.10.tar.bz2
+   43  ls
+   44  cd labs
+   45  ls
+   46  cd ../
+   47  ls
+   48  tar xvf samtools-1.10.tar 
+   49  cd samtools-1.10/
+   50   sudo yum install xorg-x11-proto-devel
+   51  sudo yum install libX11-devel
+   52  sudo yum install EMBOSS
+   53  sudo yum install emboss
+   54  wget ftp://emboss.open-bio.org/pub/EMBOSS/EMBOSS-6.6.0.tar.gz
+   55  gunzip EMBOSS-6.6.0.tar.gz 
+   56  tar xvf EMBOSS-6.6.0.tar 
+   57  .configure
+   58  cd EMBOSS-6.6.0/
+   59  .configure
+   60  ./configure
+   61  make
+   62  sudo make install
+   63  transeq
+   64  cd
+   65  ls
+   66  xvfb-run
+   67  sudo yum install xvfb-run
+   68  sudo yum install xvfb
+   69  sudo yum install Xvfb
+   70  cd
+   71  ls
+   72  mkdir labs
+   73  cd labs
+   74  perl -version
+   75  python3 --version
+   76  python3.6 --version
+   77  java -version
+   78  df -h
+   79  sudo yum insatll libxml2-devel
+   80  sudo yum install libxml2-devel
+   81  ls
+   82  cd
+   83  cd labs
+   84  ls
+   85  cd ../
+   86  wget https://github.com/mircare/Porter5/
+   87  ls
+   88  rm index.html
+   89  git clone https://github.com/soedinglab/hh-suite.git
+   90  mkdir -p hh-suite/build && cd hh-suite/build
+   91  cmake -DCMAKE_INSTALL_PREFIX=. ..
+   92  make -j 4 && make install
+   93  export PATH="$(pwd)/bin:$(pwd)/scripts:$PATH"
+   94  git clone https://github.com/mircare/Porter5/
+   95  cd Porter5
+   96  wget http://wwwuser.gwdg.de/~compbiol/data/hhsuite/databases/hhsuite_dbs/old-releases/uniprot20_2016_02.tgz
+   97  ls
+   98  cd ../
+   99  ls
+  100  pwd
+  101  cd ../
+  102  ls
+  103  cd ../
+  104  ls
+  105  rm -rf hh-suite/
+  106  treerecs
+  107  Treerecs
+  108  ls
+  109  cd labs
+  110  ls
+  111  cd mkdir lab14
+  112  mkdir lab14
+  113  cd
+  114   wget http://unafold.rna.albany.edu/download/mfold-3.6.tar.gz
+  115  tar  -pxvzf mfold-3.6.tar.gz
+  116  cd mfold-3.6/
+  117  ./configure
+  118  make
+  119  sudo make install
+  120  mfold
+  121  df -h
+  122  cd
+  123  ls
+  124  cd samtools-1.10/
+  125  sudo yum install samtools
+  126  cd
+  127  sudo bash
+  128  samtools
+  129  df -h
+  130  sudo bash
+  131  sudo service httpd start 
+  132  sudo mkdir /var/www/html/efs-mount-point
+  133  cd
+  134  wget https://raw.githubusercontent.com/ebi-wp/webservice-clients/master/perl/iprscan5.pl
+  135  ls
+  136  nano test.fas
+  137  ls
+  138  iprscan5.pl
+  139  ./iprscan5.pl
+  140  chmod +x iprscan5.pl
+  141  ./iprscan5.pl 
+  142  cpan App::cpanminus
+  143  sudo yum install cpan
+  144  cpan App::cpanminus
+  145  sudo cpan App::cpanminus
+  146  sudo cpanm LWP
+  147  cpanm LWP
+  148  sudo bash
+  149  sudo -E env "PATH=$PATH" cpanm LWP
+  150  ./iprscan5.pl 
+  151  sudo -E env "PATH=$PATH" cpanm XML::Simple
+  152  ./iprscan5.pl 
+  153  sudo yum install libxml-simple-perl
+  154  sudo -E env "PATH=$PATH" cpanm  XML::LibXML
+  155  sudo -E env "PATH=$PATH" cpanm  XML::Simple
+  156  sudo -E env "PATH=$PATH" cpanm  XML::SAX
+  157  sudo -E env "PATH=$PATH" cpanm  XML::SAX --force
+  158  sudo -E env "PATH=$PATH" cpanm  XML::Simple
+  159  ./iprscan5.pl 
+  160  ls
+  161  sudo cp iprscan5.pl /usr/bin/iprscan5
+  162  iprscan5
+  163  df -h
+  164  ls
+  165  sudo su
+  166  pwd
+  167  ls /var/www/html
+  168  ls
+  169  locate *.pdf
+  170  ls /var/www/
+  171  sudo mkdir /var/www/files
+  172  cp /usr/share/doc/python-babel-0.9.6/doc/logo.pdf /var/www/files/logo.pdf
+  173  sudo cp /usr/share/doc/python-babel-0.9.6/doc/logo.pdf /var/www/files/logo.pdf
+  174  sudo rm -rf /var/www/files
+  175  sudo mkdir /var/www/html/files
+  176  sudo cp /usr/share/doc/python-babel-0.9.6/doc/logo.pdf /var/www/html/files/logo.pdf
+  177  cp /usr/share/doc/python-babel-0.9.6/doc/logo.pdf /var/www/html/files/logo.pdf
+  178  cd
+  179  ls
+  180  cd data
+  181  ls
+  182  cd
+  183  ls
+  184  cd hisat2-2.1.0/
+  185  ls
+  186  cd example/
+  187  ls
+  188  cd reads
+  189  ls
+  190  cd
+  191  ls
+  192  cp hisat2-2.1.0 tools/hisat2-2.1.0
+  193  mv hisat2-2.1.0 tools/hisat2-2.1.0
+  194  rm -rf hisat2-2.1.0-Linux_x86_64.zip 
+  195  ls
+  196  rm iprscan5.pl 
+  197  ls
+  198  rm *.gz
+  199  rm test.fas
+  200  ls
+  201  perl5
+  202  cd perl5
+  203  ls
+  204  cd ../
+  205  rm -rf perl5
+  206  ls
+  207  rm *.tar
+  208  cd tools
+  209  ls
+  210  cd
+  211  ls
+  212  cd mfold-3.6/
+  213  ls
+  214  cd samples
+  215  ls
+  216  cd
+  217  ls
+  218  mv mfold-3.6/ tools/mfold-3.6
+  219  ls
+  220  cd samtools-1.10/
+  221  ls
+  222  cd examples
+  223  ls
+  224  cd
+  225  ls
+  226  mv samtools-1.10/ tools/samtools-1.10
+  227  ls
+  228  cd sratoolkit.2.10.8-centos_linux64/
+  229  ls
+  230  cd example/
+  231  ls
+  232  cd perl
+  233  ls
+  234  cd ../
+  235  ls
+  236  cd ../
+  237  ls
+  238  cd ../
+  239  ls
+  240  rm -rf sratoolkit.2.10.8-centos_linux64/
+  241  ls
+  242  cd tools
+  243  ls
+  244  cd bedtools2/
+  245  ls
+  246  rm -rf bin
+  247  rm -rf src
+  248  rm Makefile 
+  249  cd ../
+  250  ls
+  251  cd bedtools2/
+  252  ls
+  253  cd ../
+  254  ls
+  255  cd hisat2-2.1.0/
+  256  ls
+  257  rm -rf hisat2*
+  258  rm *.py
+  259  ls
+  260  cd ../
+  261  ls
+  262  cd mfold-3.6/
+  263  ls
+  264  rm -rf src
+  265  ls
+  266  make clean
+  267  ls
+  268  rm config*
+  269  rm -rf config*
+  270  ls
+  271  cd ../
+  272  ls
+  273  cd recPhyloXML/
+  274  ls
+  275  cd ../
+  276  ls
+  277  cd genometools-1.6.1/
+  278  ls
+  279  rm -rf bin
+  280  rm -rf src
+  281  cd ../
+  282  ls
+  283  cd iqtree-2.1.1-Linux/
+  284  ls
+  285  rm -rf bin
+  286  cd ../
+  287  ls
+  288  cd samtools-1.10/
+  289  ls
+  290  rm *.o
+  291  rm -rf *.o
+  292  rm -rf *.c
+  293  ls
+  294  rm -rf config*
+  295  ls
+  296  rm -rf *.h
+  297  ls
+  298  cd ../
+  299  ls
+  300  cd ../
+  301  ls
+  302  cd
+  303  sudo yum install cairo
+  304  sudo yum install cairo-devel
+  305  sudo yum install pango-devel
+  306  wget http://genometools.org/pub/genometools-1.6.1.tar.gz
+  307  sudo yum install genometools
+  308  gunzip genometools-1.6.1.tar.gz 
+  309  tar xvf genometools-1.6.1.tar 
+  310  cd genometools-1.6.1/
+  311  make
+  312  sudo make install
+  313  gt
+  314  gt -help
+  315  cd
+  316  gt -help
+  317  tmux
+  318  sudo yum install tmux
+  319  git
+  320  yum install xorg-x11-server-devel libX11-devel libXt-devel
+  321  sudo yum install xorg-x11-server-devel libX11-devel libXt-devel
+  322  sudo yum install pcre2
+  323  sudo yum install R
+  324  R
+  325  wget https://cloud.r-project.org/src/base/R-4/R-4.0.2.tar.gz
+  326  ./configure
+  327  gunzip R-4.0.2.tar.gz 
+  328  tar xvf R-4.0.2.tar 
+  329  cd R-4.0.2/
+  330  ./configure
+  331  sudo yum install pcre2
+  332  sudo yum install pcre2-dev
+  333  sudo yum install lib-pcre2
+  334  sudo yum install pcre-devel
+  335  sudo yum install pcre2-devel
+  336  ./configure
+  337  sudo yum install libcurl
+  338  sudo yum install libcurl4-openssl-dev
+  339  sudo yum install openssl-devel
+  340  sudo yum install libcurl-devel
+  341  ./configure
+  342  sudo yum install texinfo
+  343  ./configure
+  344  make
+  345  R
+  346  sudo yum install java
+  347  sudo yum install openjdk
+  348  sudo yum install java-11-openjdk-devel
+  349  sudo amazon-linux-extras install java-openjdk11
+  350  ./configure
+  351  make
+  352  sudo make install
+  353  R
+  354  sudo R --vanilla
+  355  R
+  356  R --vanilla
+  357  sudo R --vanilla
+  358  sudo -E env "PATH=$PATH" R --vanilla
+  359  R --vanilla
+  360  cd
+  361  R --vanilla
+  362  sudo -E env "PATH=$PATH" R --vanilla
+  363  rm /usr/local/lib64/R/library/00LOCK-ggplot2
+  364  sudo rm -rf /usr/local/lib64/R/library/00LOCK-ggplot2
+  365  sudo -E env "PATH=$PATH" R --vanilla
+  366  mv .Xauthority old.Xauthority 
+  367  touch ~/.Xauthority
+  368  xauth generate :0 . trusted 
+  369  xauth add ${HOST}:0 . $(xxd -l 16 -p /dev/urandom)
+  370  xauth list 
+  371  exit
+  372  ls
+  373  rm old.Xauthority 
+  374  ls
+  375  service httpd start 
+  376  sudo service httpd start 
+  377  echo Hello World
+  378  cd labs/lab2
+  379  ncbi-acc-download -h
+  380  ncbi-acc-download -F genbank NW_001834348.1
+  381  ls
+  382  less NW_001834348.1.gbk
+  383      ncbi-acc-download -F fasta NW_001834348.1
+  384  ls
+  385  cd labs
+  386  ls
+  387  cd
+  388  cd labs
+  389  ls
+  390  cd
+  391  ls
+  392  dat
+  393  data
+  394  cd data
+  395  l
+  396  ls
+  397  cd ../
+  398  ls
+  399  labs
+  400  cd labs
+  401  ls
+  402  cd ../
+  403  ls
+  404  cd tools
+  405  ls
+  406  cd ../
+  407  cd labs
+  408  cd lab2
+  409      grep exon NW_001834348.1.gff > NW_001834348.1.mrna.gff
+  410  ls
+  411   ncbi-acc-download -F gff3 NW_001834348.1
+  412   grep LOC5513668 NW_001834348.1.gff > LOC5513668.gff
+  413      grep exon LOC5513668.gff > LOC5513668.mrna.gff
+  414  less LOC5513668.mrna.gff 
+  415  ls
+  416  cd
+  417  ls
+  418  cd labs
+  419  ls
+  420  cd ~/labs
+  421  ls -d */
+  422      ncbi-acc-download -h
+  423  screen -dRR
+  424  mkdir braindbody
+  425  cd braindbody/
+  426  iprscan5   --email joshua.rest@stonybrook.edu --useSeqId --multifasta  OTX1_MinusFirstLetter.unalignedr.faa --appl Pfam
+  427  ls
+  428  iprscan5   --email joshua.rest@stonybrook.edu --useSeqId --multifasta  OTX1_MinusFirstLetter.unalignedr.faa --appl Pfam
+  429  iprscan5   --email joshua.rest@stonybrook.edu --useSeqId --multifasta  --sequence OTX1_MinusFirstLetter.unalignedr.faa --appl Pfam
+  430  pip install LWP::Protocol::https
+  431  sudo pip install LWP::Protocol::https
+  432  iqtree OTX1_MinusFirstLetter.aligned.faa
+  433  iqtree -in OTX1_MinusFirstLetter.aligned.faa
+  434  iqtree -infile  OTX1_MinusFirstLetter.aligned.faa -nt AUTO
+  435  iqtree -in  OTX1_MinusFirstLetter.aligned.faa -nt AUTO
+  436  iqtree
+  437  iqtree -s  OTX1_MinusFirstLetter.aligned.faa -nt AUTO -bb 1000
+  438  t_coffee -other_pg seq_reformat -in OTX1_MinusFirstLetter.aligned.faa 
+  439  t_coffee -other_pg seq_reformat -in OTX1_MinusFirstLetter.aligned.faa -output sim
+  440  hmmer
+  441  hmmscan
+  442  ls
+  443  t_coffee -other_pg seq_reformat -in fourChecked_mafft_concat.fas -action +rm_gap 90  -out   fourChecked_mafft_concat.m90.fas
+  444  sudo yum update
+  445  ls
+  446  cd brainbody
+  447  ls
+  448  cd braindbody/
+  449  ls
+  450  cd ../
+  451  ls
+  452  rm -rf braindbody/
+  453  ls
+  454  rm fourChecked_mafft_concat.*
+  455  ls
+  456  cd tools
+  457  ls
+  458  cd ../
+  459  ls
+  460  cd data
+  461  ls
+  462  cd sra
+  463  ls
+  464  cd files
+  465  ls
+  466  cd ../
+  467  cd nannot
+  468  ls
+  469  cd ../
+  470  pwd
+  471  ls
+  472  pwd
+  473  cd ../
+  474  ls
+  475  cd sra
+  476  ls
+  477  cd refseq
+  478  s
+  479  ls
+  480  cd ../
+  481  ls
+  482  cd sra
+  483  ls
+  484  cd ../
+  485  cd wgs
+  486  ls
+  487  cd ../
+  488  cd files
+  489  ls
+  490  cd ../
+  491  cd nannot
+  492  ls
+  493  cd ../
+  494  cd refseq/
+  495  ls
+  496  cd ../
+  497  cd sra
+  498  ls
+  499  cd ../
+  500  cd wgs
+  501  ls
+  502  cd ../
+  503  ls
+  504  rmdir files
+  505  rmdir nannot
+  506  rmdir refseq
+  507  rmdir sra
+  508  rmdir wgs
+  509  ls
+  510  cd ../
+  511  ls
+  512  rmdir sra
+  513  ls
+  514  cd ../
+  515  ls
+  516  cd labs
+  517  ls
+  518  cd lab1
+  519  ls
+  520  cd ../
+  521  rmdir lab1
+  522  cd lab2
+  523  ls
+  524  cd ../
+  525  cd lab3
+  526  ls
+  527  cd ../
+  528  cd lab4
+  529  ls
+  530  cd ../
+  531  cd lab5
+  532  ls
+  533  cd ../
+  534  cd lab6
+  535  ls
+  536  cd ../
+  537  cd lab7
+  538  ls
+  539  cd ..
+  540  cd lab8
+  541  ls
+  542  cd ../
+  543  cd lab9
+  544  ls
+  545  cd ../
+  546  cd lab10
+  547  cd ../
+  548  ls
+  549  rmdir lab*
+  550  ls
+  551  cd lab2
+  552  ls
+  553  echo Hello World
+  554      echo 'Hello World'
+  555  yum moo
+  556  sudo yum moo
+  557  sudo yum install moo
+  558  aptitude -vvvvv moo
+  559  telnet towel.blinkenlights.nl
+  560  traceroute -m 254 -q1 obiwan.scrye.net
+  561  sudo yum install fortune cowsay
+  562  cowsay "hello, I'm a cow"
+  563  fortune | cowsay
+  564  sudo yum install fortune 
+  565  cowsay "hello, I'm a cow"
+  566  cowsay 'Bio 312 is super fun!'
+  567  cd
+  568  ls
+  569  cd tools
+  570  ls
+  571  cd /home/ec2-user/tools/samtools-1.10/examples
+  572  cd ../
+  573  ls
+  574  cd data
+  575  ls
+  576  cd
+  577  ls
+  578   cd data
+  579  ls
+  580  nano animal.txt
+  581  less animal.txt
+  582  pwd
+  583  cat animal.txt
+  584  man cat
+  585      git config --global user.name "joshrest"
+  586  cd
+  587  cd labs
+  588     git config --global credential.helper store  
+  589      git config --global credential.helper cache 
+  590      git config --global core.editor nano 
+  591  cd ~/labs
+  592      git clone https://github.com/Bio312/lab4
+  593  ls
+  594  cd lab2
+  595  ls
+  596  rm *
+  597  ls
+  598  cd ../
+  599  ls
+  600  rmdir lab2
+  601  ls
+  602  cd ../
+  603  ls
+  604  cd lbs
+  605  cd labs
+  606      cd ~/labs
+  607      git clone https://github.com/Bio312/lab2
+  608  ls
+  609  cd lab2
+  610  ls
+  611  cd ../
+  612  rm -rf lab2
+  613      git clone https://github.com/Bio312/lab2
+  614  ls
+  615  cd labs
+  616  ls
+  617  cd lab2
+  618  ls
+  619  cd ../
+  620  ls
+  621  rm -rf lab2
+  622  ls
+  623  cd
+  624  ls
+  625  nano filterGFF
+  626  chmod +x filterGFF
+  627  ./filterGFF
+  628  nano filterGFF
+  629  ./filterGFF
+  630  ls
+  631  sudo mv filterGFF /usr/local/bin/filterGFF
+  632  filterGFF
+  633  ls
+  634  sudo nano /usr/local/bin/filterGFF 
+  635  filterGFF
+  636  ls
+  637  rm by.gff
+  638  rm by.X1.cds.gff
+  639  rm by.X1.gff
+  640  ls
+  641  filterGFF
+  642  ls
+  643  git config --global user.name "L5-avperry" 
+  644  git config --global credential.helper store  
+  645  git config --global credential.helper cache 
+  646  git config --global core.editor nano 
+  647  cd ~/labs
+  648  gitclone https://github.com/Bio312/lab2-L5-avperry
+  649  git clone https://github.com/Bio312/lab2-L5-avperry 
+  650  ls -1
+  651  ncbi-acc-download -h
+  652  ncbi-acc-download -F genbank NW_001834348.1
+  653  ls
+  654  less NW_0018434348.gbk
+  655  less NW_0018434348.1.gbk
+  656  less NW_001834348.1.gbk
+  657  ncbi-acc-download -F fasta NW_001834348.1
+  658  more NW_001834348.1
+  659  ncbi-acc-download -F fasta NW_001834348.1
+  660  more NW_001834348.1.fa
+  661  less NW_001834348.1.fa
+  662  ncbi-acc-download -F gff3 NW_001834348.1
+  663  filterGFF LOC5513668 NW_001834348.1.gff
+  664  gt gff3 -sort  -tidy -force -o LOC5513668.sorted.gff LOC5513668.X1.gff
+  665  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force -o L)C5513668.sorted.counts.gff L0C5513668.sorted.gff
+  666  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o LOC5513668.sorted.counts.gff LOC5513668.sorted.gff
+  667  gt gff3 -sort -tidy -o NW_001834348.1.sorted.gff NW_001834348.1.gff
+  668  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force -o NW_001834348.1.counts.txt NW_001834348.1.sorted.gff
+  669  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o LOC5513668.sorted.counts.gff LOC5513668.sorted.gff
+  670  gt gff3 -sort -tidy -o NW_001834348.1.sorted.gff NW_001834348.1.gff
+  671  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force -o NW_001834348.1.counts.txt NW_001834348.1.sorted.gff
+  672  grep CDS LOC5513668.X1.gff > LOC5513668.X1.cds.gff
+  673  bedtools getfasta -s -fi NW_001834348.1.fa -fo LOC5513668.X1.cds.fa -bed LOC5513668.X1.cds.gff
+  674  less LOC5513668.X1.cds.fa
+  675  gt stat -help
+  676  ls
+  677  gt gff3 -sort  -tidy -force -o LOC5513668.sorted.gff LOC5513668.X1.gff
+  678  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o LOC5513668.sorted.counts.gff LOC5513668.sorted.gff
+  679  less LOC5513668.sorted.counts.gff
+  680  gt gff3 -sort -tidy -o NW_001834348.1.sorted.gff NW_001834348.1.gff
+  681  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force -o NW_001834348.1.counts.txt NW_001834348.1.sorted.gff
+  682  less NW_001834348.1.sorted.gff
+  683  less NW_001834348.1.counts.txt
+  684  grep CDS LOC5513668.X1.gff > LOC5513668.X1.cds.gff
+  685  bedtools getfasta -s -fi NW_001834348.1.fa -fo LOC5513668.X1.cds.fa -bed LOC5513668.X1.cds.gff
+  686  less LOC5513668.X1.cds.fa
+  687  union LOC5513668.X1.cds.fa -outseq LOC5513668.X1.cds.union.fa
+  688  transeq LOC5513668.X1.cds.union.fa -outseq LOC5513668.X1.aa.fa
+  689  echo 'Hello World'
+  690  echo 'Hello World'
+  691  cd
+  692  '
+  693  cowsay 'Bio 312 is super fun!'
+  694  pwd
+  695  ls
+  696  cd data
+  697  ls
+  698  cat animal.txt
+  699  cowsay-d 'hi'
+  700  cowsayd 'hi'
+  701  cowsay -d 'hi'
+  702  git config --global user.name "**your username**" 
+  703  git config --global credential.helper store  
+  704  git config --global credential.helper cache 
+  705  git config --global core.editor nano 
+  706  cd ~?labs
+  707  git config --global user.name "L5-avperry" 
+  708  git config --global credential.helper store  
+  709  git config --global credential.helper cache 
+  710  git config --global core.editor nano 
+  711  cd ~/labs
+  712  git clone https://github.com/Bio312/lab2-L5-avperry
+  713  /home/ec2-user/labs/lab2-L5-avperry
+  714  cat part2.md
+  715  cd
+  716  cd /home/ec2-user/labs/lab2-L5-avperry
+  717  cat part2.md
+  718  cat part2.md 
+  719  wget https://repo.anaconda.com/miniconda/Miniconda3-py37_4.10.3-Linux-x86_64.sh    
+  720  bash Miniconda3-py37_4.10.3-Linux-x86_64.sh
+  721  exit
+  722  conda install -c bioconda agat
+  723  exit
+  724  conda install -c bioconda agat
+  725  bash Miniconda3-py37_4.10.3-Linux-x86_64.sh
+  726  conda install -c bioconda agat
+  727  exit
+  728  conda install -c bioconda agat
+  729  cd ~/labs
+  730  git clone https://github.com/Bio312/lab3-L5-avperry
+  731  cd lab3-L5-avperry
+  732  ls
+  733     ncbi-acc-download -F gff3 NW_001834348.1
+  734  echo -e "NW_001834348.1\t648084\t659647" > LOC5513668.bed
+  735  bedtools intersect -wa -a NW_001834348.1.gff -b LOC5513668.bed > LOC5513668.gff
+  736  ls
+  737  conda --version
+  738  -e
+  739  agat_sp_keep_longest_isoform.pl -gff LOC5513668.gff -o LOC5513668.longest.gff
+  740  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o LOC5513668.longest.txt LOC5513668.longest.gff 
+  741  export bestidea=bio312iscool
+  742  echo $bestidea
+  743  export geneid=LOC5513668
+  744  echo $geneid
+  745  export scaffold=NW_001834348.1
+  746  export genestart=648084
+  747  export geneend=659647
+  748     ncbi-acc-download -F gff3 $scaffold
+  749     echo -e "$scaffold\t$genestart\t$geneend" > $geneid.bed
+  750     bedtools intersect -wa -a $scaffold.gff -b $geneid.bed > $geneid.gff
+  751     agat_sp_keep_longest_isoform.pl -gff $geneid.gff -o $geneid.longest.gff
+  752     gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o $geneid.longest.txt $geneid.longest.gff 
+  753  nano WolfieGetGene.sh
+  754  cat WolfieGetGene.sh
+  755     ncbi-acc-download -F gff3 $scaffold
+  756     echo -e "$scaffold\t$genestart\t$geneend" > $geneid.bed
+  757     bedtools intersect -wa -a $scaffold.gff -b $geneid.bed > $geneid.gff
+  758     agat_sp_keep_longest_isoform.pl -gff $geneid.gff -o $geneid.longest.gff
+  759     gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o $geneid.longest.txt $geneid.longest.gff 
+  760  nano WolfieGetGene.sh
+  761  bash WolfieGetGene.sh
+  762  export geneid=5507746
+  763  export scaffold=LOC5507746
+  764  export genestart=1
+  765  export geneend=250
+  766  bash WolfieGetGene.sh
+  767  export geneid=LOC5507746
+  768  export scaffold=5507746
+  769  export genestart=1
+  770  export geneend=250
+  771  bash WolfieGetGene.sh
+  772  export geneid= 5507746
+  773  export scaffold= NW_001834247.1
+  774  export genestart= 1
+  775  export geneend= 250
+  776  export geneid=5507746
+  777  export scaffold=NW_001834247.1
+  778  export genestart=1
+  779  export geneend=250
+  780  bash WolfieGetGene.sh
+  781  export geneid=5507746
+  782  export scaffold=NW_001834247.1
+  783  export genestart=21080
+  784  export geneend=26811
+  785  bash WolfieGetGene.sh
+  786  export geneid=LOC5507746
+  787  export scaffold=NW_001834247.1
+  788  export genestart=21080
+  789  export geneend=26811
+  790  bash WolfieGetGene.sh
+  791  less LOC5507746.longest.gff 
+  792  less $LOC5507746.longest.gff 
+  793  less LOC5507746.longest.gff 
+  794  $LOC5507746.longest.txt
+  795  less $LOC5507746.longest.txt
+  796  export geneid=LOC5507746
+  797  export scaffold=NW_001834247.1
+  798  export genestart=21080
+  799  export geneend=26811
+  800  bash WolfieGetGene.sh
+  801  less $LOC5507746.longest.txt
+  802  export geneid=LOC5507746
+  803  export scaffold=NW_001834247.1
+  804  export genestart=21080
+  805  export geneend=26811
+  806  bash WolfieGetGene.sh
+  807  ls
+  808  less 5507746.longest.txt
+  809    history > lab3.commandhistory.txt
+  810   git add .
+  811   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  812   git pull --no-edit
+  813   git push 
+  814    history > lab3.commandhistory.txt
+  815   git add .
+  816   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  817   git pull --no-edit
+  818   git push 
+  819   git add .
+  820   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  821   git pull --no-edit
+  822   git push 
+  823  ls
+  824  mv WolfieGetGene.sh labs/lab3-L5-avperry/
+  825  mv 5507746.* labs/lab3-L5-avperry/
+  826  mv LOC5507746.* labs/lab3-L5-avperry/
+  827  mv NW* labs/lab3-L5-avperry/
+  828  mv LOC* labs/lab3-L5-avperry/
+  829  ls
+  830  mv lab3.commandhistory.txt labs/lab3-L5-avperry/
+  831  cd labs/lab3-L5-avperry/
+  832   git add .
+  833   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  834   git pull --no-edit
+  835   git add .
+  836   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  837   git pull --no-edit
+  838   git add .
+  839   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  840   git pull --no-edit
+  841  commit -a -m "Adding all new data files I generated in AWS to the repository."
+  842   git pull --no-edit
+  843   git add .
+  844   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  845   git pull --no-edit
+  846  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
+  847   git add .
+  848   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  849   git pull --no-edit
+  850   git add .
+  851   git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  852   git pull --no-edit
+  853  git add .
+  854  git commit -a -m "Adding all new data files I generated in AWS to the repository"
+  855  git pull --no-edit
+  856  gut push
+  857  git push
+  858  ls
+  859  cd labs ls
+  860  ls
+  861  ncbi-acc-download -F fasta AF254382.1
+  862  cd ~/labs
+  863  git clone https://github.com/Bio312/lab4-L5-avperry
+  864  cd lab4-L5-avperry
+  865  ncbi-acc-download -F fasta AF254382.1
+  866  ncbi-acc-download -F fasta NR_145820.1 
+  867  cat AF254382.1.fa  NR_145820.1.fa > 18s.fa
+  868  muscle -in 18s.fa -out 18s.aligned.fa
+  869  alv -k 18s.aligned.fa | less -r
+  870   t_coffee -other_pg seq_reformat -in 18s.aligned.fa -output sim
+  871  t_coffee
+  872  cp ~/labs/lab2-myusername/LOC5513668.X1.cds.union.fa .
+  873  ls
+  874  locate LOC5513668.X1.cds.union.fa
+  875  cp ~/labs/lab2-L5-avperry/LOC5513668.X1.cds.union.fa .
+  876  cp ~/labs/lab2-L5-avperry/LOC5513668.X1.cds.union.fa 
+  877  ls
+  878  cd ../
+  879  ls
+  880  cd lac2-L5-avperry
+  881  cd lab2-L5-avperry
+  882  ls
+  883  union LOC5513668.X1.cds.fa -outseq LOC5513668.X1.cds.union.fa
+  884  ncbi-acc-download -F fasta NW_001834348.1
+  885  ncbi-acc-download -F gff3 NW_001834348.1
+  886  filterGFF LOC5513668 NW_001834348.1.gff
+  887  gt gff3 -sort  -tidy -force -o LOC5513668.sorted.gff LOC5513668.X1.gff
+  888  filterGFF LOC5513668 NW_001834348.1.gff
+  889  gt gff3 -sort  -tidy -force -o LOC5513668.sorted.gff LOC5513668.X1.gff
+  890  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o LOC5513668.sorted.counts.gff LOC5513668.sorted.gff
+  891  gt gff3 -sort -tidy -o NW_001834348.1.sorted.gff NW_001834348.1.gff
+  892  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force -o NW_001834348.1.counts.txt NW_001834348.1.sorted.gff
+  893  grep CDS LOC5513668.X1.gff > LOC5513668.X1.cds.gff
+  894  bedtools getfasta -s -fi NW_001834348.1.fa -fo LOC5513668.X1.cds.fa -bed LOC5513668.X1.cds.gff
+  895  less LOC5513668.X1.cds.fa
+  896  union LOC5513668.X1.cds.fa -outseq LOC5513668.X1.cds.union.fa
+  897  transeq LOC5513668.X1.cds.union.fa -outseq LOC5513668.X1.aa.fa
+  898  git add.
+  899  git add .
+  900  git commit - a -m "Adding all new data files I generated in AWS to the repository"
+  901  git commit -a -m "Adding all new data files I generated in AWS to the repository"
+  902  git pull --no-edit
+  903  git push
+  904  cd ~/labs
+  905  cd lab4-L5-avperry
+  906  ls
+  907  cp ~/labs/lab2-myusername/LOC5513668.X1.cds.union.fa .
+  908  ls
+  909  locate LOC5513668.X1.cds.union.fa
+  910  cp ~/labs/lab2-L5-avperry/LOC5513668.X1.cds.union.fa .
+  911      export geneid=ZO1
+  912      export species=Nvectensis
+  913      sed  "1s/.*/>$species.$geneid/" LOC5513668.X1.cds.union.fa > $geneid.$species.longest.cds.fa
+  914      export geneid=TJP1
+  915      export scaffold=NC_000015.10
+  916      export genestart=29699367
+  917      export geneend=29969049
+  918      export species=Hsapiens
+  919      cp ~/labs/lab3-myusername/WolfieGetGene.sh WolfieGetGene2.sh
+  920      cp ~/labs/lab3-L5-avperry/WolfieGetGene.sh WolfieGetGene2.sh
+  921  cp ~/labs/lab3-L5-avperry/WolfieGetGene.sh WolfieGetGene2.sh
+  922       bash WolfieGetGene2.sh
+  923        ncbi-acc-download -F fasta $scaffold
+  924  gt gff3 -sort yes -force -o $geneid.longest.sorted.gff $geneid.longest.gff
+  925      gt extractfeat -type CDS -join yes  -force -translate no  -seqfile $scaffold.fa -matchdescstart -o $geneid.longest.cds.poorname.fa $geneid.longest.sorted.gff
+  926  sed "1s/.*/>$species.$geneid/" $geneid.longest.cds.poorname.fa > $geneid.longest.cds.fa
+  927  ls
+  928  ls labs
+  929  cd lab4-L5-avperry
+  930  cd
+  931  ls
+  932  cd lab4-L5-avperry
+  933  cd ~/labs
+  934  git clone https://github.com/Bio312/lab4-L5-avperry
+  935  cd lab4-L5-avperry
+  936  ncbi-acc-download -F fasta AF254382.1
+  937  ncbi-acc-download -F fasta NR_145820.1 
+  938  cat AF254382.1.fa  NR_145820.1.fa > 18s.fa
+  939  muscle -in 18s.fa -out 18s.aligned.fa
+  940  alv -k 18s.aligned.fa | less -r
+  941   t_coffee -other_pg seq_reformat -in 18s.aligned.fa -output sim
+  942  cp ~/labs/lab2-myusername/LOC5513668.X1.cds.union.fa .
+  943  cp ~/labs/lab2-L5-avperry/LOC5513668.X1.cds.union.fa .
+  944      export geneid=ZO1
+  945      export species=Nvectensis
+  946      sed  "1s/.*/>$species.$geneid/" LOC5513668.X1.cds.union.fa > $geneid.$species.longest.cds.fa
+  947  man sed
+  948      export geneid=TJP1
+  949      export scaffold=NC_000015.10
+  950      export genestart=29699367
+  951      export geneend=29969049
+  952      export species=Hsapiens
+  953      cp ~/labs/lab3-myusername/WolfieGetGene.sh WolfieGetGene2.sh
+  954  cp ~/labs/lab3-L5-avperry/WolfieGetGene.sh WolfieGetGene2.sh
+  955       bash WolfieGetGene2.sh
+  956        ncbi-acc-download -F fasta $scaffold
+  957  gt gff3 -sort yes -force -o $geneid.longest.sorted.gff $geneid.longest.gff
+  958      gt extractfeat -type CDS -join yes  -force -translate no  -seqfile $scaffold.fa -matchdescstart -o $geneid.longest.cds.poorname.fa $geneid.longest.sorted.gff
+  959  sed "1s/.*/>$species.$geneid/" $geneid.longest.cds.poorname.fa > $geneid.longest.cds.fa
+  960  export geneid=TJP2
+  961  export scaffold=NC_000015
+  962  export genestart=29699367
+  963  export geneend=29969049
+  964  export species=Hsapiens
+  965  cp ~/labs/lab3-L5-avperry/WolfieGetGene.sh WolfieGetGene2.sh
+  966  bash WolfieGetGene2.sh
+  967  ncbi-acc-download -F fasta $scaffold
+  968  gt gff3 -sort yes -force -o $geneid.longest.sorted.gff $geneid.longest.gff
+  969  gt extractfeat -type CDS -join yes  -force -translate no  -seqfile $scaffold.fa -matchdescstart -o $geneid.longest.cds.poorname.fa $geneid.longest.sorted.gff
+  970  sed "1s/.*/>$species.$geneid/" $geneid.longest.cds.poorname.fa > $geneid.longest.cds.fa
+  971      cat ZO1.Nvectensis.longest.cds.fa TJP1.longest.cds.fa TJP2.longest.cds.fa > ZO1homologs.cds.fa
+  972  translatorx -i ZO1homologs.cds.fa -o ZO1homologs.trX -p M
+  973      alv -k ZO1homologs.trX.nt_ali.fasta | less -r
+  974       elinks ZO1homologs.trX.aa_based_codon_coloured.html
+  975       alv -k ZO1homologs.trX.aa_ali.fasta | less -r
+  976       elinks ZO1homologs.trX.aa_based_codon_coloured.html
+  977       alv -k ZO1homologs.trX.aa_ali.fasta | less -r
+  978      t_coffee -other_pg seq_reformat -in ZO1homologs.trX.nt_ali.fasta -output sim  
+  979      t_coffee -other_pg seq_reformat -in ZO1homologs.trX.aa_ali.fasta -output sim  
+  980  history > lab4.commandhistory.txt
+  981  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  982  git add .
+  983  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  984  git pull --no-edit
+  985  git push
+  986  git config --global user.name L5-avperry 
+  987  git config --global credential.helper store  
+  988  git config --global credential.helper cache 
+  989  git config --global core.editor nano 
+  990  cd ~/labs
+  991  git clone https://github.com/Bio312/lab5-L5-avperry
+  992  cd lab5-L5-avperry
+  993  ls
+  994  gunzip proteomes/*.gz
+  995  cat  proteomes/* > allprotein.fas
+  996  makeblastdb -in allprotein.fas -parse_seqids -dbtype prot
+  997  ncbi-acc-download -F fasta -m protein XP_032239066.1
+  998   blastp -db allprotein.fas -query XP_032239066.1.fa -outfmt 0 -max_hsps 1 -out maguk.blastp.typical.out
+  999  less maguk.blastp.typical.out
+ 1000  blastp -db allprotein.fas -query XP_032239066.1.fa -outfmt "6 sseqid pident length mismatch gapopen evalue bitscore pident stitle"  -max_hsps 1 -out maguk.blastp.detail.out
+ 1001  less maguk.blastp.detail.out
+ 1002  grep -c Hsapiens maguk.blastp.detail.out
+ 1003  awk '{if ($6<0.00000000000001)print $1 }' maguk.blastp.detail.out > maguk.blastp.detail.filtered.out
+ 1004  wc -l maguk.blastp.detail.filtered.out
+ 1005   seqkit grep --pattern-file maguk.blastp.detail.filtered.out allprotein.fas > maguk.blastp.detail.filtered.fas
+ 1006   muscle -in maguk.blastp.detail.filtered.fas -out maguk.blastp.detail.filtered.aligned.fas
+ 1007   t_coffee -other_pg seq_reformat -in maguk.blastp.detail.filtered.aligned.fas -output sim
+ 1008  alv -k maguk.blastp.detail.filtered.aligned.fas | less -r 
+ 1009   alv -kli --majority maguk.blastp.detail.filtered.aligned.fas | less -RS
+ 1010  alv -k maguk.blastp.detail.filtered.aligned.fas | less -r 
+ 1011   t_coffee -other_pg seq_reformat -in maguk.blastp.detail.filtered.aligned.fas -action +rm_gap 50 -out maguk.blastp.detail.filtered.aligned.r50.fas
+ 1012   alv -kli --majority maguk.blastp.detail.filtered.aligned.r50.fas | less -RS
+ 1013  ncbi-acc-download -F fasta -m protein XP_032232391.1
+ 1014  blastp -db allprotein.fas -query XP_032232391.1.fa -outfmt 0 -max_hsps 1 -out annexin.blastp.typical.out
+ 1015  blastp -db allprotein.fas -query XP_032232391.1.fa -outfmt "6 sseqid pident length mismatch gapopen evalue bitscore pident stitle"  -max_hsps 1 -out annexin.blastp.detail.out
+ 1016  awk '{if ($6<0.00000000000001)print $1 }' annexin.blastp.detail.out > annexin.blastp.detail.filtered.out
+ 1017  wc -l annexin.blastp.detail.filtered.out
+ 1018  seqkit grep --pattern-file annexin.blastp.detail.filtered.out allprotein.fas > annexin.blastp.detail.filtered.fas
+ 1019  muscle -in annexin.blastp.detail.filtered.fas -out annexin.blastp.detail.filtered.aligned.fas
+ 1020  t_coffee -other_pg seq_reformat -in annexin.blastp.detail.filtered.aligned.fas -output sim
+ 1021  alv -k annexin.blastp.detail.filtered.aligned.fas | less -r 
+ 1022  alv -kli --majority annexin.blastp.detail.filtered.aligned.fas | less -RS
+ 1023  ncbi-acc-download -F fasta -m protein XP_032232391.1
+ 1024  blastp -db allprotein.fas -query XP_032232391.1.fa -outfmt 0 -max_hsps 1 -out annexin.blastp.typical.out
+ 1025  blastp -db allprotein.fas -query XP_032232391.1.fa -outfmt "6 sseqid pident length mismatch gapopen evalue bitscore pident stitle"  -max_hsps 1 -out annexin.blastp.detail.out
+ 1026  awk '{if ($6<0.00000000000001)print $1 }' annexin.blastp.detail.out > annexin.blastp.detail.filtered.out
+ 1027  wc -l annexin.blastp.detail.filtered.out
+ 1028  seqkit grep --pattern-file annexin.blastp.detail.filtered.out allprotein.fas > annexin.blastp.detail.filtered.fas
+ 1029  muscle -in annexin.blastp.detail.filtered.fas -out annexin.blastp.detail.filtered.aligned.fas
+ 1030  t_coffee -other_pg seq_reformat -in annexin.blastp.detail.filtered.aligned.fas -output sim
+ 1031  awk '{if ($6<0.0000000000001)print $1 }' annexin.blastp.detail.out > annexin.blastp.detail.filtered.out
+ 1032  wc -l annexin.blastp.detail.filtered.out
+ 1033  awk '{if ($6<0.00000000001)print $1 }' annexin.blastp.detail.out > annexin.blastp.detail.filtered.out
+ 1034  wc -l annexin.blastp.detail.filtered.out
+ 1035  awk '{if ($6<0.00000001)print $1 }' annexin.blastp.detail.out > annexin.blastp.detail.filtered.out
+ 1036  wc -l annexin.blastp.detail.filtered.out
+ 1037  t_coffee -other_pg seq_reformat -in annexin.blastp.detail.filtered.aligned.fas -output sim
+ 1038    history > lab5.commandhistory.txt
